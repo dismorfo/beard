@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  {{> head }}
+</head>
+<body class="html one-sidebar sidebar-first {{id}} page-{{id}} context-{{id}}">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <div id="page-wrapper">
+    <div id="page">
+      <div id="header" class="without-secondary-menu">
+        {{> header }}
+      </div>
+      <div id="main-wrapper" class="clearfix">
+        <div id="main" class="clearfix">
+          <div id="breadcrumb">
+            <div class="breadcrumb">
+              <a href="{{appUrl}}">Home</a>
+            </div>
+          </div>
+          <div id="sidebar-first" class="column sidebar">
+            {{> sidebar }}
+          </div>
+          <div id="content" class="column">
+            <div class="section">
+              {{> content }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer-wrapper">
+        {{> footer }}
+      </div>
+    </div>
+  </div>
+  {{{ closure }}}
+</body>
+</html>

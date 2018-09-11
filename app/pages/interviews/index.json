@@ -1,0 +1,17 @@
+{
+  "id" : "interviews",
+  "title" : "Interviews",
+  "route" : "/interviews/index.html",
+  "menu": [
+    {
+      "context": "navbar",
+      "label": "Interviews",
+      "weight": 3
+    }
+  ],
+  "content" : {},
+  "assets" : {
+    "js" : [
+    ]
+  }
+}

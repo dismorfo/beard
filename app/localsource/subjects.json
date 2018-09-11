@@ -1,0 +1,811 @@
+{
+  "response": {
+    "numFound": "27",
+    "start": 0,
+    "docs": [{
+      "bibliography": {
+        "filename": "Baum_Hilary-bibliography.docx",
+        "filemime": "application\/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Baum_Hilary-bibliography.docx",
+        "filesize": "10681"
+      },
+      "bio": "Hilary Baum is a pioneer in the movement to bring attention to problems and possibilities of the American food system, and New York in particular. She is the Director of the Baum Forum, a program that includes conferences and seminars focusing on food and agricultural issues, and the President of Public Market Partners.\r\n\r\nBaum is also the co-founder, with Fern Gail Estrow, of Food Systems Network NYC, a collaborative that brings together representatives from food-related non-profits, government agencies, and private citizens interested in the worlds of: food safety and food justice; farmers\u0027 markets; public markets; agricultural marketing programs; and community supported agriculture.\r\n\r\nHer childhood and early life, however, took place in a more rarified corner of the New York food world. Her father, the prescient Joe Baum, was the force behind The Four Seasons, Windows on the World, and The Rainbow Room\u00e2\u20ac\u201dplaces that redefined what restaurants and the restaurant experience could be. Through her parents, she met legendary figures in that world like James Beard, a family friend.",
+      "name": "Hilary Baum",
+      "sort": "Baum",
+      "handle": "http:\/\/hdl.handle.net\/2333.1\/sn02v7j0",
+      "interviews": [{
+        "transcript": {
+          "filename": "Baum_Hilary-2009_09_22-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Baum_Hilary-2009_09_22-transcript.doc",
+          "filesize": "97280"
+        },
+        "identifier": "Baum_Hilary-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/xd25482g",
+        "title": "Hilary Baum Interview 1"
+      }]
+    }, {
+      "bibliography": {
+        "filename": "Benepe_Barry-bibliography.doc",
+        "filemime": "application\/msword",
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Benepe_Barry-bibliography.doc",
+        "filesize": "27136"
+      },
+      "bio": "In 1976, the post-World War II habits of supermarket shopping still ruled American kitchens. Fresh fruits and vegetables were limited to summertime roadside stands. To most urban dwellers, farmers were distant exotic creatures. It would be decades before words like local, seasonal, and organic became commonplace.\r\n\r\nBrought to life by Architect Barry Benepe and urban planner Robert Lewis, the Greemarket movement was a major development that helped to change that way of thinking. This movement initiated consumer appreciation\u00e2\u20ac\u201dand eventually demand for\u00e2\u20ac\u201dfresh food.\r\n\r\nAt the time, Benepe was the director of his own small firm and therefore not bound by traditional notions of architectural practice, allowing him to expand into unorthodox areas such as open space protection and farmland preservation. Lewis applied for a job at his firm. Together they saw the disconnect between the food to which New Yorkers had access in standard supermarkets, and the much fresher, higher quality food produced by area farmers\u00e2\u20ac\u201dand the possibility of bringing the two together. When they located an unused and vacant city lot behind Bloomingdales on Manhattan\u0027s Upper East Side, they jumpstarted the New York City Greenmarket movement.",
+      "name": "Barry Benepe",
+      "sort": "benepe",
+      "handle": "http:\/\/hdl.handle.net\/2333.1\/dbrv161g",
+      "interviews": [{
+        "transcript": {
+          "filename": "Benepe_Barry-2009_06_25-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Benepe_Barry-2009_06_25-transcript.doc",
+          "filesize": "151552"
+        },
+        "identifier": "Benepe_Barry-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/nvx0k71s",
+        "title": "Barry Benepe Interview 1"
+      }, {
+        "transcript": {
+          "filename": "Benepe_Barry-2009_07_13-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Benepe_Barry-2009_07_13-transcript.doc",
+          "filesize": "105472"
+        },
+        "identifier": "Benepe_Barry-interview_2",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/j3tx96hc",
+        "title": "Barry Benepe Interview 2"
+      }]
+    }, {
+      "bibliography": {
+        "filename": "Ferrone_John-bibliography.doc",
+        "filemime": "application\/msword",
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Ferrone_John-bibliography.doc",
+        "filesize": "26624"
+      },
+      "bio": "John Ferrone was already a respected New York literary editor when he met James Beard and the two became lifelong friends. That friendship took Ferrone beyond his already illustrious list of authors: Anais Nin, Alice Walker, Eudora Welty, C.S. Lewis, Janet Flanner, into the world of food.\r\n\r\nWorking at night after he finished his day job, Ferrone began, out of a devotion to the friendship, editing scores of Beard\u0027s articles. Eventually he worked on some of Beard\u0027s books and continued to do so (as Beard\u0027s literary executor) after his death. The books include: the James Beard Cookbook, the Armchair James Beard, and several small format books, including: Soups and Stews and Poultry and Shellfish. Ferrone continues to steward Beard\u0027s books and attempt keep them in print.",
+      "name": "John Ferrone",
+      "sort": "Ferrone",
+      "handle": "http:\/\/hdl.handle.net\/2333.1\/cfxpnwh3",
+      "interviews": [{
+        "transcript": {
+          "filename": "Ferrone_John-2009_03_03-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Ferrone_John-2009_03_03-transcript.doc",
+          "filesize": "82432"
+        },
+        "identifier": "Ferrone_John-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/rn8pk1b6",
+        "title": "John Ferrone Interview 1"
+      }, {
+        "transcript": {
+          "filename": "Ferrone_John-2009_03_05-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Ferrone_John-2009_03_05-transcript.doc",
+          "filesize": "64000"
+        },
+        "identifier": "Ferrone_John-interview_2",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/mw6m90tv",
+        "title": "John Ferrone Interview 2"
+      }, {
+        "transcript": {
+          "filename": "Ferrone_John-2009_04_01-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Ferrone_John-2009_04_01-transcript.doc",
+          "filesize": "68096"
+        },
+        "identifier": "Ferrone_John-interview_3",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/h44j10b0",
+        "title": "John Ferrone Interview 3"
+      }]
+    }, {
+      "bibliography": {
+        "filename": "Fussell_Betty-bibliography.doc",
+        "filemime": "application\/msword",
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Fussell_Betty-bibliography.doc",
+        "filesize": "28160"
+      },
+      "bio": "The distinguished historian Betty Fussell was one of the first American writers to focus on food as a legitimate subject of scientific, social, and anthropological inquiry.\r\n\r\nIn her 1999, The Story of Corn: the Myths and History, the Culture and Agriculture, the Art and Science of America\u0027s Quintessential Crop, Fussel used the history of corn to tell a distinctly American story. She also created a genre, now much imitated by other writers, focused on a single foodstuff.\r\n\r\nBorn in 1927 in California and reared there, she has made her home in New York\u0027s Greenwich Village for decades. She lives around the corner from James Beard\u0027s cooking school run out of his home. Her only contact was a week\u0027s worth of classes there, but they share an abiding passion for American food.\r\n\r\nHer essays in literary journals, major newspapers, national magazines and encyclopedias are written with a grace few food writers can match. She also lectures at museums, universities, state fairs, corn festivals, historical societies and culinary groups. In 1999, her food memoir, My Kitchen Wars, traced her life from her childhoood through her marriage to a college sweetheart, her travails as an academic wife, her own academic career, the women\u0027s movement, and her wider success when she found her essential subject: food. ",
+      "name": "Betty Fussell",
+      "sort": "Fussell",
+      "handle": "http:\/\/hdl.handle.net\/2333.1\/vdncjtng",
+      "interviews": [{
+        "transcript": {
+          "filename": "Fussell_Betty-2009_03_18-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Fussell_Betty-2009_03_18-transcript.doc",
+          "filesize": "123392"
+        },
+        "identifier": "Fussell_Betty-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/7pvmcw16",
+        "title": "Betty Fussell Interview 1"
+      }, {
+        "transcript": {
+          "filename": "Fussell_Betty-2009_03_24-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Fussell_Betty-2009_03_24-transcript.doc",
+          "filesize": "122368"
+        },
+        "identifier": "Fussell_Betty-interview_2",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/3xsj3vhv",
+        "title": "Betty Fussell Interview 2"
+      }, {
+        "transcript": {
+          "filename": "Fussell_Betty-2009_05_20-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Fussell_Betty-2009_05_20-transcript.doc",
+          "filesize": "58368"
+        },
+        "identifier": "Fussell_Betty-interview_3",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/05qftv0m",
+        "title": "Betty Fussell Interview 3"
+      }]
+    }, {
+      "bibliography": {
+        "filename": "Greene_Gael-bibliography.doc",
+        "filemime": "application\/msword",
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Greene_Gael-bibliography.doc",
+        "filesize": "28160"
+      },
+      "bio": "Gael Greene, the New York Magazine restaurant critic, knew James Beard casually when an article in The New York Times brought them together. The piece described the plight of impoverished senior citizens who received food aid from the city during the week, but had no source of food on weekends and holidays.\r\n\r\nThe situation appalled her, and she was inspired to call everyone she could think of who might have money or goods to ameliorate the situation.\r\n\r\nJames Beard was one of those people. It was common knowledge that food companies often sent Beard samples of their products in the hope that he would try them, like them, and, with luck, promote them in his columns. Greene figured Beard might have some actual food to contribute on a more-or-less regular basis.\r\n\r\nJumping into action, she phoned him to enlist his support, and encouraged him to join her effort to remedy the situation. The result was CityMeals On Wheels, where he lent his name and enthusiasm to a project that still exists today.\r\n\r\nGreene left New York Magazine in 2008 and today has become an active free-lance writer, blogger, and tweeter.",
+      "name": "Gael Greene",
+      "sort": "Greene",
+      "handle": "http:\/\/hdl.handle.net\/2333.1\/kwh70sn7",
+      "interviews": [{
+        "transcript": {
+          "filename": "Greene_Gael-2009_06_19-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Greene_Gael-2009_06_19-transcript.doc",
+          "filesize": "64000"
+        },
+        "identifier": "Greene_Gael-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/qnk98t4b",
+        "title": "Gael Greene Interview 1"
+      }]
+    }, {
+      "bibliography": {
+        "filename": "Jones_Judith-bibliography.doc",
+        "filemime": "application\/msword",
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Jones_Judith-bibliography.doc",
+        "filesize": "44544"
+      },
+      "bio": "Judith Jones first made her mark in publishing as a young woman working in the Paris office of Doubleday, when she came upon a manuscript of The Diary of Anne Frank in a reject pile and enthusiastically recommended it for publication. That star turn gave her considerable credibility when, back in the United States working as an editor for Knopf, she urged the publishing house to pay attention to an unsolicited manuscript by Julia Child, Louisette Bertholle, and Simone Beck that would become Mastering the Art of French Cooking.\r\n\r\nA prominent fiction editor already, Jones went on to discover and edit not only the rest of Julia Child\u0027s books, but also books by some of the most successful cookbook authors in America, including Madhur Jaffrey, Marcella Hazan, Irene Kuo, Edna Lewis, and Joan Nathan. More than any other figure in publishing, she has helped to change the way America thinks about food. She has also authored books, both with her late husband Evan Jones and on her own. In 2006, she received a Lifetime Achievement Award from the James Beard Foundation.",
+      "name": "Judith Jones",
+      "sort": "Jones",
+      "handle": "http:\/\/hdl.handle.net\/2333.1\/z612jmxr",
+      "interviews": [{
+        "transcript": {
+          "filename": "Jones_Judith-2009_04_27-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Jones_Judith-2009_04_27-transcript.doc",
+          "filesize": "108032"
+        },
+        "identifier": "Jones_Judith-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/6q573ns4",
+        "title": "Judith Jones Interview 1"
+      }, {
+        "transcript": {
+          "filename": "Jones_Judith-2009_05_07-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Jones_Judith-2009_05_07-transcript.doc",
+          "filesize": "93184"
+        },
+        "identifier": "Jones_Judith-interview_2",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/2z34tn8v",
+        "title": "Judith Jones Interview 2"
+      }]
+    }, {
+      "bibliography": {
+        "filename": "Nestle_Marion-bibliography.doc",
+        "filemime": "application\/msword",
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Nestle_Marion-bibliography.doc",
+        "filesize": "28160"
+      },
+      "bio": "Marion Nestle is the premiere food studies professional in the United States. She unequivocally transformed the field when, in 1988, she took over the Department of Home Economics and Nutrition at New York University, and soon turned it into a ground-breaking academic program in nutrition, food studies, and public health.\r\n\r\nHer path traces a childhood without much parental encouragement, academic successes and multiple degrees, a pre-second wave feminism early career filled with the common restrictions and frustrations women then faced, and an adulthood at the highest rank of academic and personal achievement.\r\n\r\nA much sought-after speaker with particular interests in food politics, food marketing, and nutrition, she has written five books, and balances a schedule that includes teaching; research and writing; speaking; and an active highly-read blog (www.foodpolitics.com). ",
+      "name": "Marion Nestle",
+      "sort": "Nestle",
+      "handle": "http:\/\/hdl.handle.net\/2333.1\/1zcrjf1t",
+      "interviews": [{
+        "transcript": {
+          "filename": "Nestle_Marion-2009_05_19-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Nestle_Marion-2009_05_19-transcript.doc",
+          "filesize": "135680"
+        },
+        "identifier": "Nestle_Marion-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/f7m0cgkp",
+        "title": "Marion Nestle Interview 1"
+      }, {
+        "transcript": {
+          "filename": "Nestle_Marion-2009_05_26-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Nestle_Marion-2009_05_26-transcript.doc",
+          "filesize": "68608"
+        },
+        "identifier": "Nestle_Marion-interview_2",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/9ghx3g16",
+        "title": "Marion Nestle Interview 2"
+      }, {
+        "transcript": {
+          "filename": "Nestle_Marion-2009_06_29-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Nestle_Marion-2009_06_29-transcript.doc",
+          "filesize": "81408"
+        },
+        "identifier": "Nestle_Marion-interview_3",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/5qfttfhq",
+        "title": "Marion Nestle Interview 3"
+      }]
+    }, {
+      "bibliography": {
+        "filename": "Pepin_Jacques-bibliography.doc",
+        "filemime": "application\/msword",
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Pepin_Jacques-bibliography.doc",
+        "filesize": "28672"
+      },
+      "bio": "Long before cable reality programs brought chefs into American homes, Jacques Pepin was already there, starring in his own multiple cooking series on public television.\r\n\r\nPepin\u0027s father was a cabinetmaker and his mother ran a restaurant. When his family sent him out as a restaurant apprentice, their goal was both to feed him and to teach him a trade. He discovered a passion for the work and his talent soon propelled him from the provinces, to the kitchens of French presidents, to one of New York\u0027s best restaurants. When a serious automobile accident made long hours in a restaurant impossible, he turned to teaching and then television.\r\n\r\nAlong the way he became a husband and father, an American citizen, a bestselling writer, and one of the guiding spirits of both the prestigious French Culinary Institute in Manhattan and the culinary program at Boston University.\r\n\r\nIncluded among his more than 20 books are arguably two of the most influential on cooking techniques ever written in this country, La Technique and La Methode. His eleven television series, with more on the way, have reflected both his years in America and a wide range of culinary possibilities, from cooking for celebrations to cooking with Julia Child.",
+      "name": "Jacques Pepin",
+      "sort": "Pepin",
+      "handle": "http:\/\/hdl.handle.net\/2333.1\/sf7m0d5k",
+      "interviews": [{
+        "transcript": {
+          "filename": "Pepin_Jacques-2009_11_10-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Pepin_Jacques-2009_11_10-transcript.doc",
+          "filesize": "154112"
+        },
+        "identifier": "Pepin_Jacques-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/x69p8dpq",
+        "title": "Jacques Pepin Interview 1"
+      }]
+    }, {
+      "bibliography": {
+        "filename": "Sax_Irene-bibliography.docx",
+        "filemime": "application\/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Sax_Irene-bibliography.docx",
+        "filesize": "12998"
+      },
+      "bio": "A journalist and food writer, Irene Sax co-wrote Beard on Pasta and helped him prepare magazine articles. She became the food editor of New York Newsday, which closed in 1995, and now teaches food writing at New York University, while maintaining an active career as a freelance food writer and occasional restaurant critic.\r\n\r\n",
+      "name": "Irene Sax",
+      "sort": "Sax",
+      "handle": "http:\/\/hdl.handle.net\/2333.1\/j0zpc8w1",
+      "interviews": [{
+        "transcript": {
+          "filename": "Sax_Irene-2009_04_29-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Sax_Irene-2009_04_29-transcript.doc",
+          "filesize": "54272"
+        },
+        "identifier": "Sax_Irene-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/ns1rn9c5",
+        "title": "Irene Sax Interview 1"
+      }]
+    }, {
+      "bibliography": {
+        "filename": "Sheraton_Mimi-bibliography.doc",
+        "filemime": "application\/msword",
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Sheraton_Mimi-bibliography.doc",
+        "filesize": "31232"
+      },
+      "bio": "Mimi Sheraton is a writer, critic, and cookbook author perhaps best known for her transformational work as a restaurant critic at The New York Times from 1975 to 1984. She has worked at Good Housekeeping, Seventeen, House Beautiful, and Time and written for The New Yorker, Vogue, Smithsonian Magazine, and Smart Money.",
+      "name": "Mimi Sheraton",
+      "sort": "Sheraton",
+      "handle": "http:\/\/hdl.handle.net\/2333.1\/msbcc35g",
+      "interviews": [{
+        "transcript": {
+          "filename": "Sheraton_Mimi-2009_07_02-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Sheraton_Mimi-2009_07_02-transcript.doc",
+          "filesize": "102912"
+        },
+        "identifier": "Sheraton_Mimi-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/w6m906fs",
+        "title": "Mimi Sheraton Interview 1"
+      }, {
+        "transcript": {
+          "filename": "Sheraton_Mimi-2009_07_20-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Sheraton_Mimi-2009_07_20-transcript.doc",
+          "filesize": "111104"
+        },
+        "identifier": "Sheraton_Mimi-interview_2",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/rjdfn3nc",
+        "title": "Mimi Sheraton Interview 2"
+      }]
+    }, {
+      "bibliography": {
+        "filename": "Wolf_Clark-bibliography.doc",
+        "filemime": "application\/msword",
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Wolf_Clark-bibliography.doc",
+        "filesize": "26624"
+      },
+      "bio": "A food and hospitality consultant, Clark Wolf has advised a wide range of clients including restaurants, hotels, casinos, public institutions, and specialty food companies. Wolf was a far-sighted cheese purveyor in San Francisco when James Beard walked into his cheese shop one day. The meeting launched a friendship that lasted from the early 1980s until Beard\u0027s death in 1985. Encouraged by Beard to come to New York, Wolf made the move in 1982 when Barbara Kafka invited him to open her specialty shop, Star Spangled Foods. Although he kept a home in Northern California, Wolf has maintained a New York presence ever since. An enthusiastic supporter of and fundraiser for New York University\u0027s Food Studies program, Wolf created the popular Critical Topics series on food studies for the Fales Library. He is the author of the 2008 American Cheeses.",
+      "name": "Clark Wolf",
+      "sort": "Wolf",
+      "handle": "http:\/\/hdl.handle.net\/2333.1\/v9s4mwxd",
+      "interviews": [{
+        "transcript": {
+          "filename": "Wolf_Clark-2009_06_15-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Wolf_Clark-2009_06_15-transcript.doc",
+          "filesize": "132608"
+        },
+        "identifier": "Wolf_Clark-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/3r228125",
+        "title": "Clark Wolf Interview 1"
+      }, {
+        "transcript": {
+          "filename": "Wolf_Clark-2009_07_07-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Wolf_Clark-2009_07_07-transcript.doc",
+          "filesize": "142848"
+        },
+        "identifier": "Wolf_Clark-interview_2",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/000000hm",
+        "title": "Clark Wolf Interview 2"
+      }]
+    }, {
+      "bibliography": {
+        "filename": null,
+        "filemime": null,
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/",
+        "filesize": null
+      },
+      "bio": "The youngest person to be interviewed for this project (a 1992 graduate of Tufts University), Dan Barber is nevertheless a celebrity chef with multiple James Beard Foundation awards to his credit. He is well-known, not only for his restaurants: Blue Hill in New York\u0027s Greenwich Village and Blue Hill at Stones Barns in Westchester County on the Rockefeller family estate in Pocantico Hills about an hour\u0027s drive from Manhattan, but also for his role as an advocate for a sustainable approach to cooking and a healthier food system.\r\n\r\nA popular speaker and frequent writer on these issues, in 2009 Barber was included in Time Magazine\u0027s annual list of the world\u0027s most influential people. Barber is a member of President Barack Obama\u0027s Council on Physical Fitness, Sports and Nutrition as well as the Advisory Board to the Harvard Medical School Center for Health and The Global Environment. ",
+      "name": "Dan Barber",
+      "sort": "Barber",
+      "handle": null,
+      "interviews": [{
+        "transcript": {
+          "filename": "Barber_Dan-2011_02_15-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Barber_Dan-2011_02_15-transcript.doc",
+          "filesize": "76288"
+        },
+        "identifier": "Barber_Dan-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/k3j9kdrd",
+        "title": "Dan Barber Interview 1"
+      }, {
+        "transcript": {
+          "filename": "Barber_Dan-2011_03_08-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Barber_Dan-2011_03_08-transcript.doc",
+          "filesize": "74752"
+        },
+        "identifier": "Barber_Dan-interview_2",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/6m905rkw",
+        "title": "Dan Barber Interview 2"
+      }, {
+        "transcript": {
+          "filename": "Barber_Dan-2011_03_15-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Barber_Dan-2011_03_15-transcript.doc",
+          "filesize": "81408"
+        },
+        "identifier": "Barber_Dan-interview_3",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/pnvx0mgd",
+        "title": "Dan Barber Interview 3"
+      }]
+    }, {
+      "bibliography": {
+        "filename": null,
+        "filemime": null,
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/",
+        "filesize": null
+      },
+      "bio": "The acclaimed cookbook author, television personality, restaurateur, chef and businesswoman Lidia Bastianich was a little girl when the Catholic Charities rescued her family from a Displaced Persons camp in Italy and brought them to the United States after their native Istria was was absorbed by Yugoslavia and communism.\r\n\r\nGrowing up in Queens, Bastianich originally hoped to become a pediatrician. But years helping to cook for her family, a part-time job in a local bakery while she was still in school and marriage to an Italian man working in the restaurant business reoriented her life.\r\n\r\nToday she is one of the best-known chefs in the United States, thanks to her ongoing popular cooking programs on PBS and her many cookbooks. With her son Joseph Bastianich and chef Mario Batali, she is also a partner in a mini-empire of Italian restaurants in New York, Kansas City and Pittsburgh.\r\n",
+      "name": "Lidia Bastianich",
+      "sort": "Bastianich",
+      "handle": null,
+      "interviews": [{
+        "transcript": {
+          "filename": "Bastianich_Lidia-2011_03_24-transcript.docx",
+          "filemime": "application\/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Bastianich_Lidia-2011_03_24-transcript.docx",
+          "filesize": "20027"
+        },
+        "identifier": "Bastianich_Lidia-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/fbg79d78",
+        "title": "Lidia Bastianich Interview 1"
+      }, {
+        "transcript": {
+          "filename": "Bastianich_Lidia-2011_03_24-transcript.docx",
+          "filemime": "application\/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Bastianich_Lidia-2011_03_24-transcript.docx",
+          "filesize": "20027"
+        },
+        "identifier": "Bastianich_Lidia-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/fbg79d78",
+        "title": "Lidia Bastianich Interview 1"
+      }]
+    }, {
+      "bibliography": {
+        "filename": null,
+        "filemime": null,
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/",
+        "filesize": null
+      },
+      "bio": "Michael and Ariane Batterberry worked together in publishing from the late 1960s until 2010. Michael Batterberry died of cancer on July 28, 2010 in Manhattan at the age of 78.\r\n\r\nInitially, the couple wrote on the history of art and culture. The switch to food began with On The Town in New York, A History of Restaurants from 1776-1976, and generated two ground-breaking magazines: Food and Wine and Food Arts. Together, they helped change the way people think about food.\r\n\r\nIn the early 1960s, the Batterberrys met and became friends with James Beard and subsequently became frequent dinner guests at each other\u0027s homes. Beard particularly liked Michael Batterberry\u0027s cooking--so much so that Beard invited him to teach a class as part of his Great Cooks series.\r\n\r\nIn recent years, Michael Batterberry took an active role in educating Americans about problems with the American food system. He was an articulate advocate for small farmers, especially immigrant farmers, and a founding director of Wholesome Wave Foundation, which works to bring fresh, locally grown, affordable food to underserved communities.",
+      "name": "Ariane Batterberry",
+      "sort": "Batterberry",
+      "handle": null,
+      "interviews": [{
+        "transcript": {
+          "filename": "Batterberry_Ariane-2009_05_27-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Batterberry_Ariane-2009_05_27-transcript.doc",
+          "filesize": "81408"
+        },
+        "identifier": "Batterberry_Ariane-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/9kd51cr5",
+        "title": "Ariane Batterberry Interview 1"
+      }]
+    }, {
+      "bibliography": {
+        "filename": null,
+        "filemime": null,
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/",
+        "filesize": null
+      },
+      "bio": "Michael and Ariane Batterberry worked together in publishing from the late 1960s until 2010. Michael Batterberry died of cancer on July 28, 2010 in Manhattan at the age of 78.\r\n\r\nInitially, the couple wrote on the history of art and culture. The switch to food began with On The Town in New York, A History of Restaurants from 1776-1976, and generated two ground-breaking magazines: Food and Wine and Food Arts. Together, they helped change the way people think about food.\r\n\r\nIn the early 1960s, the Batterberrys met and became friends with James Beard and subsequently became frequent dinner guests at each other\u0027s homes. Beard particularly liked Michael Batterberry\u0027s cooking--so much so that Beard invited him to teach a class as part of his Great Cooks series.\r\n\r\nIn recent years, Michael Batterberry took an active role in educating Americans about problems with the American food system. He was an articulate advocate for small farmers, especially immigrant farmers, and a founding director of Wholesome Wave Foundation, which works to bring fresh, locally grown, affordable food to underserved communities.",
+      "name": "Michael Batterberry",
+      "sort": "Batterberry",
+      "handle": null,
+      "interviews": [{
+        "transcript": {
+          "filename": "Batterberry_Michael-2009_05_08-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Batterberry_Michael-2009_05_08-transcript.doc",
+          "filesize": "105472"
+        },
+        "identifier": "Batterberry_Michael-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/5tb2rc7w",
+        "title": "Michael Batterberry Interview 1"
+      }, {
+        "transcript": {
+          "filename": "Batterberry_Michael-2009_05_27-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Batterberry_Michael-2009_05_27-transcript.doc",
+          "filesize": "83968"
+        },
+        "identifier": "Batterberry_Michael-interview_2",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/2547d8dd",
+        "title": "Michael Batterberry Interview 2"
+      }]
+    }, {
+      "bibliography": {
+        "filename": null,
+        "filemime": null,
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/",
+        "filesize": null
+      },
+      "bio": "Food scholar Dalia Carmel has been called \u0022the angel of American food writers\u0022 because she made her 11,000-volume personal library of cookbooks available to all who asked. Assembled over 40 years, the library covers nearly every geographical area, ethnicity, and ingredient.\r\n\r\nBorn in Israel, Carmel came to the United States in 1960. She had been inadvertently caught up in Operation Suzannah, a 1954 plot to undermine international support for Egypt as a reliable administrator of the Suez Canal. When the operation failed, it morphed into a political quagmire known as the Lavon Affair. Because Carmel, then a young soldier working in the Finance Ministry, had, under orders, altered a document related to the affair, she unhappily became a public figure. ",
+      "name": "Dalia Carmel",
+      "sort": "Carmel",
+      "handle": null,
+      "interviews": [{
+        "transcript": {
+          "filename": "Carmel_Dalia-2009_09_24-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Carmel_Dalia-2009_09_24-transcript.doc",
+          "filesize": "94720"
+        },
+        "identifier": "Carmel_Dalia-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/8kprr5h0",
+        "title": "Dalia Carmel Interview 1"
+      }, {
+        "transcript": {
+          "filename": "Carmel_Dalia-2009_10_01-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Carmel_Dalia-2009_10_01-transcript.doc",
+          "filesize": "82944"
+        },
+        "identifier": "Carmel_Dalia-interview_2",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/4xgxd2qq",
+        "title": "Dalia Carmel Interview 2"
+      }]
+    }, {
+      "bibliography": {
+        "filename": null,
+        "filemime": null,
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/",
+        "filesize": null
+      },
+      "bio": "One of the byproducts of the food revolution is the increasing respect for chefs. Along with that and the attention to the profession given by the media, a new category has emerged: the Celebrity Chef. No one of them is better-known than Tom Colicchio. Already a highly respected and well-reviewed chef and restaurateur when he became the head judge of the wildly popular television program Top Chef, Colicchio is probably the best-known chef in America.\r\n\r\nAs a young teenager, he started cooking at home, discovered he enjoyed it and worked his way through a swim club food concession, a Burger King, and increasingly more ambitious restaurants in his native New Jersey before heading to Manhattan. His teachers were his on-the-jobs training, the chefs he worked for there and in New York and books, especially Jacques Pepin\u0027s on method and technique.\r\n\r\nHe came to wide attention at the Gramercy Tavern in New York\u0027s Flatiron district, and then at Craft nearby.\r\n\r\nThe recipient of five James Beard Foundation awards, today Colichio and his cooking can be seen not only at the Craft restaurants (including Craftbar and Craftsteak) in New York, LA, Dallas, and Las Vegas), but also at Colicchio and Sons in Manhattan\u0027s Meatpacking District. In 2003, Colicchio and two partners founded the more affordable sandwich and salad outlets, \u0027wichcraft. In 2010 his work at Craft was honored when the Beard Foundation named him the country\u0027s Outstanding Chef.\r\n\r\nColicchio is married to his frequent writing partner, the documentary filmmaker Lori Silverbush.",
+      "name": "Tom Colicchio",
+      "sort": "Colicchio",
+      "handle": null,
+      "interviews": [{
+        "transcript": {
+          "filename": "Colicchio_Tom-2011_04_19-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Colicchio_Tom-2011_04_19-transcript.doc",
+          "filesize": "132608"
+        },
+        "identifier": "Colicchio_Tom-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/15dv426m",
+        "title": "Tom Colicchio Interview 1"
+      }, {
+        "transcript": {
+          "filename": "Colicchio_Tom-2011_05_12-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Colicchio_Tom-2011_05_12-transcript.doc",
+          "filesize": "97792"
+        },
+        "identifier": "Colicchio_Tom-interview_2",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/tdz08mzd",
+        "title": "Tom Colicchio Interview 2"
+      }]
+    }, {
+      "bibliography": {
+        "filename": null,
+        "filemime": null,
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/",
+        "filesize": null
+      },
+      "bio": "Mark Federman\u0027s family business is Russ \u0026 Daughters on the Lower East Side. ",
+      "name": "Mark Federman",
+      "sort": "Federman",
+      "handle": null,
+      "interviews": [{
+        "transcript": {
+          "filename": "Federman_Mark-2011_01_25-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Federman_Mark-2011_01_25-transcript.doc",
+          "filesize": "104960"
+        },
+        "identifier": "Federman_Mark-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/wdbrv1vb",
+        "title": "Mark Federman Interview 1"
+      }, {
+        "transcript": {
+          "filename": "Federman_Mark-2011_01_31-transcript.txt",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Federman_Mark-2011_01_31-transcript.txt",
+          "filesize": "129530"
+        },
+        "identifier": "Federman_Mark-interview_2",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/jwstqkxp",
+        "title": "Mark Federman Interview 2"
+      }]
+    }, {
+      "bibliography": {
+        "filename": null,
+        "filemime": null,
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/",
+        "filesize": null
+      },
+      "bio": "The first decade of the 21st century has been marked by an increasing concern about flaws and dangers in the American food system, a world dominated by the rules and regulations of the United States Farm Bills. Massive and abstruse pieces of federal legislation that are reworked every five years or so, the farm bills are little understood but enormously influential on food and farm related subjects from food stamps to commodity crops to conservation and trade.\r\n\r\nActivist speaker, writer and publisher Dan Imhoff illuminated that world for the lay public (and perhaps also for members of Congress) in his 2007 book, Food Fight: The Citizen\u0027s Guide to a Food and Farm Bill.\r\n\r\nThis Interview tracks over Imhoff\u0027s childhood in York PA, his education, his travels in Asia and Europe after college, some of important influences in his thinking about the environment (including a businessman who later became his father-in-law), his interest in a variety of environmental issues, and his life in Northern California, where he and his wife have a small farm that provides much of the food for their family.\r\n\r\nWith the recent publication of CAFO: The Tragedy of Industrial Animal Factories, Imhoff took on the increasingly contentious world of American meat production. He is currently at work on a revised edition of Food Fight.",
+      "name": "Dan Imhoff",
+      "sort": "Imhoff",
+      "handle": null,
+      "interviews": [{
+        "transcript": {
+          "filename": "Imhoff_Dan-2011_04_14-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Imhoff_Dan-2011_04_14-transcript.doc",
+          "filesize": "142848"
+        },
+        "identifier": "Imhoff_Dan-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/g79cnpsc",
+        "title": "Dan Imhoff Interview 1"
+      }]
+    }, {
+      "bibliography": {
+        "filename": null,
+        "filemime": null,
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/",
+        "filesize": null
+      },
+      "bio": "Few American cooks were able to produce authentic Indian food until Madhur Jaffrey\u0027s 1973 An Introduction to Indian Cooking. The book demystified Indian food and in a way, was a reflection of her own introduction to Indian cooking, once she left New Delhi to pursue an acting career in England and America. Like many upper class Indian women, Jaffrey hadn\u0027t learned to cook as a child. Once she left home, she longed for the food of her childhood. Letters from her mother as well as Jaffrey\u0027s own strong sense of taste set her on her way.\r\n\r\nA well-known Indian actress, Jaffrey was at home in front of cameras and. As her food writing career developed, that experience made her a natural for television. Since that first cookbook\u00e2\u20ac\u201dthen praised by New York Times food critic Craig Claiborne as \u0022perhaps the best Indian cookbook available in English\u0022\u00e2\u20ac\u201dshe has written 28 more, many of them in tandem with multiple television series both in the United States and the UK. She has also written countless newspaper and magazine articles, and continued a much-praised acting career.",
+      "name": "Madhur Jaffrey",
+      "sort": "Jaffrey",
+      "handle": null,
+      "interviews": [{
+        "transcript": {
+          "filename": "Jaffrey_Madhur-2010_12_02-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Jaffrey_Madhur-2010_12_02-transcript.doc",
+          "filesize": "109056"
+        },
+        "identifier": "Jaffrey_Madhur-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/bg79cp9g",
+        "title": "Madhur Jaffrey Interview 1"
+      }, {
+        "transcript": {
+          "filename": "Jaffrey_Madhur-2010_12_16-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Jaffrey_Madhur-2010_12_16-transcript.doc",
+          "filesize": "107520"
+        },
+        "identifier": "Jaffrey_Madhur-interview_2",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/2v6wwr3r",
+        "title": "Madhur Jaffrey Interview 2"
+      }]
+    }, {
+      "bibliography": {
+        "filename": null,
+        "filemime": null,
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/",
+        "filesize": null
+      },
+      "bio": "An acclaimed presence in the food world for decades, Barbara Kafka has been a cookbook author, food writer, and a food and restaurant consultant.\r\n\r\nNo other writer working today can claim as long a professional association with James Beard. Their association began when she was hired to supervise and write much of The Cook\u0027s Catalogue, a book edited by Beard with Milton Glaser and Burton Richard Wolf in 1975. She continued to work with him, teaching classes at his cooking schools in California and New York, and helping him with his writing. After Beard\u0027s death, she put together The James Beard\u0027s Celebration Cookbook in order to raise money for the James Beard Foundation. Kafka\u0027s own exhaustively-researched single-subject cookbooks ( Vegetables, Roasting, Microwave Cooking) have set a standard for excellence. In 2007, Kafka received a Lifetime Achievement Award from the James Beard Foundation.",
+      "name": "Barbara Kafka",
+      "sort": "Kafka",
+      "handle": null,
+      "interviews": [{
+        "transcript": {
+          "filename": "Kafka_Barbara-2009_04_03-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Kafka_Barbara-2009_04_03-transcript.doc",
+          "filesize": "123392"
+        },
+        "identifier": "Kafka_Barbara-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/tdz08mdj",
+        "title": "Barbara Kafka Interview 1"
+      }, {
+        "transcript": {
+          "filename": "Kafka_Barbara-2009_04_06-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Kafka_Barbara-2009_04_06-transcript.doc",
+          "filesize": "104960"
+        },
+        "identifier": "Kafka_Barbara-interview_2",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/pnvx0kxb",
+        "title": "Barbara Kafka Interview 2"
+      }, {
+        "transcript": {
+          "filename": "Kafka_Barbara-2009_04_13-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Kafka_Barbara-2009_04_13-transcript.doc",
+          "filesize": "50176"
+        },
+        "identifier": "Kafka_Barbara-interview_3",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/k0p2nh2s",
+        "title": "Barbara Kafka Interview 3"
+      }]
+    }, {
+      "bibliography": {
+        "filename": null,
+        "filemime": null,
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/",
+        "filesize": null
+      },
+      "bio": "The Food Network has arguably had the greatest impact on the way Americans think about food. The network was launched in November 1993 as TVFN with 6.8 million cable subscribers. Scripps, the Food Network\u0027s parent company, has started its own magazine based on the popularity of food programs and advertiser demand. In May 2010, Scripps initiated a second 24-hour network of food programming called The Cooking Channel.\r\n\r\nIt was Reese Schonfeld who got the Food Network going, developing the concept with a group put together by the Providence Journal Company\u0027s president Trygve Myhren. Schonfeld was a natural for the job. A longtime TV journalist and entrepreneur, he\u0027d been the first president and chief executive of another big television success story, CNN, which he co-founded with Ted Turner in 1979.",
+      "name": "Reese Schonfeld",
+      "sort": "Schonfeld",
+      "handle": null,
+      "interviews": [{
+        "transcript": {
+          "filename": "Schonfeld_Reese-2009_08_18-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Schonfeld_Reese-2009_08_18-transcript.doc",
+          "filesize": "138752"
+        },
+        "identifier": "Schonfeld_Reese-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/d7wm38bn",
+        "title": "Reese Schonfeld Interview 1"
+      }]
+    }, {
+      "bibliography": {
+        "filename": null,
+        "filemime": null,
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/",
+        "filesize": null
+      },
+      "bio": "High-level government employees are rarely known for sharing information with outsiders. It can be particularly difficult to get answers to questions about agricultural economics or the American food system. Yet Gus Schumacher, the only farmer in the Harvard class of 1961, has always considered educating the public (and the U.S. Congress) an essential and enjoyable part of his role.\r\n\r\nAs Commissioner of Agriculture of Massachusetts, Administrator of the Foreign Agriculture Service, and then Undersecretary of the Farm and Foreign Agriculture Service at the USDA in the Clinton administration, Schumacher consistently found ways to spread the word. He educated reporters; regularly spoke on the farm radio network; facilitated conversations between journalists, political officials, farmers, and agricultural economists; and was always available to explain a new law or regulation or Farm Bill.\r\n\r\nSince he left government in 2007, Schumacher has continued that pattern as a consultant. Assisting and enabling new farmers - immigrants, women, young people - is one of his passions. Currently Schumacher is also the president of Wholesome Wave, a Connecticut-based charitable foundation that has been particularly active in finding ways to help the needy purchase nutritionally-rich produce at farmers markets at discount rates.",
+      "name": "Gus Schumacher",
+      "sort": "Schumacher",
+      "handle": null,
+      "interviews": [{
+        "transcript": {
+          "filename": "Schumacher_Gus-2009_06_04-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Schumacher_Gus-2009_06_04-transcript.doc",
+          "filesize": "108544"
+        },
+        "identifier": "Schumacher_Gus-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/4qrfj791",
+        "title": "Gus Schumacher Interview 1"
+      }, {
+        "transcript": {
+          "filename": "Schumacher_Gus-2009_10_06-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Schumacher_Gus-2009_10_06-transcript.doc",
+          "filesize": "104960"
+        },
+        "identifier": "Schumacher_Gus-interview_2",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/0zpc86sp",
+        "title": "Gus Schumacher Interview 2"
+      }]
+    }, {
+      "bibliography": {
+        "filename": null,
+        "filemime": null,
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/",
+        "filesize": null
+      },
+      "bio": "One of the most ubiquitous eating venues today is the food court\u00e2\u20ac\u201dan essential component in suburban shopping malls, office complexes, railroad stations, and other public spaces. Upscale versions are currently very fashionable in New York City. We take them for granted.\r\n\r\nBut food courts run by a single operator didn\u0027t exist until the 1970s, when restaurant consultants Joe Baum and Michael Whiteman created The Big Kitchen, a 350-seat complex on the concourse level of the World Trade Center.\r\n\r\nBaum, who was the president of Restaurant Associates (RA) for many years, was a life force in the restaurant industry, a man full of innovative methods of preparing and serving food at places like The Four Seasons, The Forum of the Twelve Caesars, and Fonda del Sol. In 1970, Baum left RA to form his own consulting company. In that same year, he landed a big contract to create the master plan for restaurants in the World Trade Center, and he needed help.\r\n\r\nHis choice was the much younger Whiteman, then the Editor of Nation\u0027s Restaurant News, a biweekly trade magazine he had created. Eventually the two set up \u0022Baum + Whiteman - The World\u0027s Preeiminent Food + Restaurant Consulting Company.\u0022 After Baum\u0027s death in 1998, Whiteman and his wife, chef and cookbook author Rozanne Gold, carried on the business with Dennis Sweeney.\r\n\r\n",
+      "name": "Michael Whiteman",
+      "sort": "Whiteman",
+      "handle": null,
+      "interviews": [{
+        "transcript": {
+          "filename": "Whiteman_Michael-2009_09_21-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Whiteman_Michael-2009_09_21-transcript.doc",
+          "filesize": "105984"
+        },
+        "identifier": "Whiteman_Michael-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/7h44j1k9",
+        "title": "Michael Whiteman Interview 1"
+      }]
+    }, {
+      "bibliography": {
+        "filename": null,
+        "filemime": null,
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/",
+        "filesize": null
+      },
+      "bio": "An actress and cabaret performer in the late 1940s and 1950s, Jane White Viazzi was married to Alfredo Viazzi, owner of several Greenwich Village restaurants that featured Italian regional cooking before it was fashionable. The daughter of Walter White, the executive director of the NAACP from 1931-1955, and Gladys White, Viazzi grew up amid the optimism and pride of the Harlem Renaissance. ",
+      "name": "Jane White Viazzi",
+      "sort": "Viazzi",
+      "handle": null,
+      "interviews": [{
+        "transcript": {
+          "filename": "WhiteViazzi_Jane-2009_03_25-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/WhiteViazzi_Jane-2009_03_25-transcript.doc",
+          "filesize": "124928"
+        },
+        "identifier": "WhiteViazzi_Jane-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/h18932mx",
+        "title": "Jane White Viazzi Interview 1"
+      }]
+    }, {
+      "bibliography": {
+        "filename": null,
+        "filemime": null,
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/",
+        "filesize": null
+      },
+      "bio": "Nina Zagat is the co-founder and co-chair of the Zagat Survey. Along with her husband, she oversees the company\u0027s global operations and expansion, including its entry into new US and international markets, leisure categories and content platforms, and web and wireless ventures.\r\n\r\nNina earned an LLB from Yale Law School in 1966 and an AB from Vassar College in 1963. Following law school, she spent 24 years as an attorney at the Wall Street law firm of Shearman and Sterling. When their firms sent the couple to Paris, Nina Zagat attended Le Cordon Bleu cooking school. Nina Zagat was named one of the Leading Women Entrepreneurs of the World by the Star Group in 2001, one of Crain\u0027s Top Tech 100, which featured New York City\u0027s most influential people in technology in 2001, and one of Crain New York\u0027s 100 Most Influential Women in 2007.",
+      "name": "Nina Zagat",
+      "sort": "Zagat",
+      "handle": null,
+      "interviews": [{
+        "transcript": {
+          "filename": "Zagat_Nina-2009_12_23-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Zagat_Nina-2009_12_23-transcript.doc",
+          "filesize": "100352"
+        },
+        "identifier": "Zagat_Nina-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/qjq2bwd8",
+        "title": "Nina Zagat Interview 1"
+      }]
+    }, {
+      "bibliography": {
+        "filename": null,
+        "filemime": null,
+        "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/",
+        "filesize": null
+      },
+      "bio": "Born on the Upper West Side of Manhattan, where he and his wife Nina still live, Tim Zagat grew up in a home where food wasn\u0027t a particular focus. His mother\u0027s only food passion involved freezing foods\u00e2\u20ac\u201dboth before or after cooking. Her freezing habit was so strong that marked and dated packages retrieved from her freezer much later on could be identified as the 1955 Thanksgiving turkey or the 1957 Easter ham. The food Tim Zagat ate at school wasn\u0027t much better. \u0022Chicken a la King was a high point,\u0022 he recalls. But his father and grandfather, who liked fine dining, set the stage for the future by taking the young man to some of the best restaurants of the 50s.\r\n\r\nAfter a few post-college years when he considered a life of politics and public service, Tim Zagat went to Yale Law School. There his home-cooked culinary world opened up when he met and married classmate, and good cook, Nina Safronoff.",
+      "name": "Tim Zagat",
+      "sort": "Zagat",
+      "handle": null,
+      "interviews": [{
+        "transcript": {
+          "filename": "Zagat_Tim-2009_12_03-transcript.doc",
+          "filemime": "application\/msword",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Zagat_Tim-2009_12_03-transcript.doc",
+          "filesize": "112640"
+        },
+        "identifier": "Zagat_Tim-interview_1",
+        "handle": "http:\/\/hdl.handle.net\/2333.1\/ksn02vvp",
+        "title": "Tim Zagat Interview 1"
+      }]
+    }]
+  }
+}

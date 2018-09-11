@@ -1,0 +1,11 @@
+{
+  "id" : "interview",
+  "title" : "Interviews",
+  "route" : "/interviews/*",
+  "menu": [],
+  "content" : {},
+  "assets" : {
+    "js" : [
+    ]
+  }
+}

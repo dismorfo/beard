@@ -1,0 +1,8 @@
+# Logs
+logs
+
+# dotenv environment variables file
+.env
+
+# Build directory
+build

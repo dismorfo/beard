@@ -1,0 +1,20 @@
+{{#content}}
+  {{#main}}
+    <a id="main-content"></a>
+    <div class="view-content">
+      <h1 class="title" id="page-title">{{title}}</h1>  
+      <div class="view">
+        <div class="view-content">
+          {{#interviewee}}
+            <div class="views-row">
+              <h1><a href="{{url}}">{{name}}</a></span></h1>
+              <div class="views-field views-field-field-bio">
+              <div class="field-content">{{{description}}}</div>
+            </div>
+          </div>    
+          {{/interviewee}}
+        </div>
+      </div>
+    </div>
+  {{/main}}
+{{/content}}
