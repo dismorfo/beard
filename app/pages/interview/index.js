@@ -2,7 +2,6 @@ function interview (data) {
   'use strict'
   const agartha = process.agartha
   const datasource = agartha.path.join(agartha.appDir(), 'app/localsource/subjects.json')
-  // const videosMap = agartha.path.join(agartha.appDir(), 'app/localsource/video_links.json')
   agartha.copy(
     agartha.path.join(agartha.appDir(), 'app/pages/interview/transcripts'), 
     agartha.path.join(agartha.appBuildDir(), 'transcripts'),
@@ -11,13 +10,25 @@ function interview (data) {
         return console.error(err)
       }
   })
-  //if (agartha.exists(datasource) && agartha.exists(videosMap)) {
+
+  const defaultData = {
+    id: 'interview',
+    title: 'Interviews',
+    route: '/interviews/*',
+    menu: [],
+    content: {},
+    assets: {
+      js: []
+    }
+  }
+
+  agartha._.extend(data, defaultData)  
+
   if (agartha.exists(datasource)) {
     const source = agartha.read.json(datasource)
     const docs = agartha._.sortBy(source.response.docs, 'sort')
     agartha._.each(docs, (document) => {
       let _route = 'interviews/' + document.name.toLowerCase().toLowerCase().replace(/ /g, '-')
-      data.content = {}
       data.content.main = {}
       data.content.main.interviews = []
       data.route = _route +  '/index.html'
