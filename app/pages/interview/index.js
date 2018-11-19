@@ -10,7 +10,6 @@ function interview (data) {
         return console.error(err)
       }
   })
-
   const defaultData = {
     id: 'interview',
     title: 'Interviews',
@@ -21,9 +20,7 @@ function interview (data) {
       js: []
     }
   }
-
   agartha._.extend(data, defaultData)  
-
   if (agartha.exists(datasource)) {
     const source = agartha.read.json(datasource)
     const docs = agartha._.sortBy(source.response.docs, 'sort')
@@ -47,4 +44,5 @@ function interview (data) {
   }
 }
 
-exports.interview = interview
+module.exports = exports = interview
+

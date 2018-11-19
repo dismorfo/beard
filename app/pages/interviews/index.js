@@ -36,4 +36,4 @@ function interviews (data) {
   }
 }
 
-exports.interviews = interviews
+module.exports = exports = interviews
