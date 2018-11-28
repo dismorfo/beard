@@ -1,8 +1,27 @@
+.DS_Store
+
 # Logs
 logs
+*.log
+*.out
+
+# Runtime data
+*.pid
+*.seed
+
+.sass-cache
+lib/.sass-cache
+backups
+node_modules
 
 # dotenv environment variables file
 .env
 
 # Build directory
 build
+
+# Ignore Eclipse files
+.project
+.buildpath
+.settings/*
+
