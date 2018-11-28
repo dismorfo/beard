@@ -13,6 +13,7 @@ logs
 lib/.sass-cache
 backups
 ./node_modules
+node_modules
 .vscode
 
 # dotenv environment variables file
