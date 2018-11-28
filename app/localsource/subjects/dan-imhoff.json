@@ -1,0 +1,27 @@
+{
+  "bibliography": {
+    "filename": null,
+    "filemime": null,
+    "uri": "http://sites.dlib.nyu.edu/beard/",
+    "filesize": null
+  },
+  "bio": "The first decade of the 21st century has been marked by an increasing concern about flaws and dangers in the American food system, a world dominated by the rules and regulations of the United States Farm Bills. Massive and abstruse pieces of federal legislation that are reworked every five years or so, the farm bills are little understood but enormously influential on food and farm related subjects from food stamps to commodity crops to conservation and trade.\r\n\r\nActivist speaker, writer and publisher Dan Imhoff illuminated that world for the lay public (and perhaps also for members of Congress) in his 2007 book, Food Fight: The Citizen's Guide to a Food and Farm Bill.\r\n\r\nThis Interview tracks over Imhoff's childhood in York PA, his education, his travels in Asia and Europe after college, some of important influences in his thinking about the environment (including a businessman who later became his father-in-law), his interest in a variety of environmental issues, and his life in Northern California, where he and his wife have a small farm that provides much of the food for their family.\r\n\r\nWith the recent publication of CAFO: The Tragedy of Industrial Animal Factories, Imhoff took on the increasingly contentious world of American meat production. He is currently at work on a revised edition of Food Fight.",
+  "name": "Dan Imhoff",
+  "sort": "Imhoff",
+  "handle": null,
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Imhoff_Dan-2011_04_14-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Imhoff_Dan-2011_04_14-transcript.doc",
+        "filesize": "142848"
+      },
+      "identifier": "Imhoff_Dan-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/g79cnpsc",
+      "title": "Dan Imhoff Interview 1",
+      "date": "Thursday, April 14, 2011 - 00:00",
+      "noid": "g79cnpsc"
+    }
+  ]
+}

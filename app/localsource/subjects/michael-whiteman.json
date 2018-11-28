@@ -1,0 +1,27 @@
+{
+  "bibliography": {
+    "filename": null,
+    "filemime": null,
+    "uri": "http://sites.dlib.nyu.edu/beard/",
+    "filesize": null
+  },
+  "bio": "One of the most ubiquitous eating venues today is the food courtâ€”an essential component in suburban shopping malls, office complexes, railroad stations, and other public spaces. Upscale versions are currently very fashionable in New York City. We take them for granted.\r\n\r\nBut food courts run by a single operator didn't exist until the 1970s, when restaurant consultants Joe Baum and Michael Whiteman created The Big Kitchen, a 350-seat complex on the concourse level of the World Trade Center.\r\n\r\nBaum, who was the president of Restaurant Associates (RA) for many years, was a life force in the restaurant industry, a man full of innovative methods of preparing and serving food at places like The Four Seasons, The Forum of the Twelve Caesars, and Fonda del Sol. In 1970, Baum left RA to form his own consulting company. In that same year, he landed a big contract to create the master plan for restaurants in the World Trade Center, and he needed help.\r\n\r\nHis choice was the much younger Whiteman, then the Editor of Nation's Restaurant News, a biweekly trade magazine he had created. Eventually the two set up \"Baum + Whiteman - The World's Preeiminent Food + Restaurant Consulting Company.\" After Baum's death in 1998, Whiteman and his wife, chef and cookbook author Rozanne Gold, carried on the business with Dennis Sweeney.\r\n\r\n",
+  "name": "Michael Whiteman",
+  "sort": "Whiteman",
+  "handle": null,
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Whiteman_Michael-2009_09_21-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Whiteman_Michael-2009_09_21-transcript.doc",
+        "filesize": "105984"
+      },
+      "identifier": "Whiteman_Michael-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/7h44j1k9",
+      "title": "Michael Whiteman Interview 1",
+      "date": "Monday, September 21, 2009 - 00:00",
+      "noid": "7h44j1k9"
+    }
+  ]
+}

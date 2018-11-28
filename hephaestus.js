@@ -1,10 +1,8 @@
-'use strict'
+'use strict';
 
-const agartha = process.agartha
-
-const appUrl = agartha.get('BEARD_APP_URL')
-const appRoot = agartha.get('BEARD_APP_ROOT')
-const provider = agartha.get('BEARD_PROVIDER')
+const { agartha } = require('hephaestus');
+const appUrl = agartha.get('BEARD_APP_URL');
+const appRoot = agartha.get('BEARD_APP_ROOT');
 
 module.exports = exports = {
   appName: 'Voices from the Food Revolution: People Who Changed The Way Americans Eat',
@@ -14,6 +12,5 @@ module.exports = exports = {
   appRoot:  (appRoot) ? appRoot : 'http://127.0.0.1:8080',
   relic: 'scaffold',
   version: '0.0.1',
-  hephaestus: '2.0.0',
-  provider: provider
-}
+  hephaestus: '2.0.0'
+};

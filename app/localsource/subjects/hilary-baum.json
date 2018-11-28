@@ -1,0 +1,27 @@
+{
+  "bibliography": {
+    "filename": "Baum_Hilary-bibliography.docx",
+    "filemime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Baum_Hilary-bibliography.docx",
+    "filesize": "10681"
+  },
+  "bio": "Hilary Baum is a pioneer in the movement to bring attention to problems and possibilities of the American food system, and New York in particular. She is the Director of the Baum Forum, a program that includes conferences and seminars focusing on food and agricultural issues, and the President of Public Market Partners.\r\n\r\nBaum is also the co-founder, with Fern Gail Estrow, of Food Systems Network NYC, a collaborative that brings together representatives from food-related non-profits, government agencies, and private citizens interested in the worlds of: food safety and food justice; farmers' markets; public markets; agricultural marketing programs; and community supported agriculture.\r\n\r\nHer childhood and early life, however, took place in a more rarified corner of the New York food world. Her father, the prescient Joe Baum, was the force behind The Four Seasons, Windows on the World, and The Rainbow Roomâ€”places that redefined what restaurants and the restaurant experience could be. Through her parents, she met legendary figures in that world like James Beard, a family friend.",
+  "name": "Hilary Baum",
+  "sort": "Baum",
+  "handle": "http://hdl.handle.net/2333.1/sn02v7j0",
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Baum_Hilary-2009_09_22-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Baum_Hilary-2009_09_22-transcript.doc",
+        "filesize": "97280"
+      },
+      "identifier": "Baum_Hilary-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/xd25482g",
+      "title": "Hilary Baum Interview 1",
+      "date": "Tuesday, September 212, 2009 - 00:00",
+      "noid": "xd25482g"
+    }
+  ]
+}

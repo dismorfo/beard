@@ -1,0 +1,27 @@
+{
+  "bibliography": {
+    "filename": null,
+    "filemime": null,
+    "uri": "http://sites.dlib.nyu.edu/beard/",
+    "filesize": null
+  },
+  "bio": "Michael and Ariane Batterberry worked together in publishing from the late 1960s until 2010. Michael Batterberry died of cancer on July 28, 2010 in Manhattan at the age of 78.\r\n\r\nInitially, the couple wrote on the history of art and culture. The switch to food began with On The Town in New York, A History of Restaurants from 1776-1976, and generated two ground-breaking magazines: Food and Wine and Food Arts. Together, they helped change the way people think about food.\r\n\r\nIn the early 1960s, the Batterberrys met and became friends with James Beard and subsequently became frequent dinner guests at each other's homes. Beard particularly liked Michael Batterberry's cooking--so much so that Beard invited him to teach a class as part of his Great Cooks series.\r\n\r\nIn recent years, Michael Batterberry took an active role in educating Americans about problems with the American food system. He was an articulate advocate for small farmers, especially immigrant farmers, and a founding director of Wholesome Wave Foundation, which works to bring fresh, locally grown, affordable food to underserved communities.",
+  "name": "Ariane Batterberry",
+  "sort": "Batterberry",
+  "handle": null,
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Batterberry_Ariane-2009_05_27-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Batterberry_Ariane-2009_05_27-transcript.doc",
+        "filesize": "81408"
+      },
+      "identifier": "Batterberry_Ariane-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/9kd51cr5",
+      "title": "Ariane Batterberry Interview 1",
+      "date": "Wednesday, May 27, 2009 - 00:00",
+      "noid": "9kd51cr5"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "bibliography": {
+    "filename": "Jones_Judith-bibliography.doc",
+    "filemime": "application/msword",
+    "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Jones_Judith-bibliography.doc",
+    "filesize": "44544"
+  },
+  "bio": "Judith Jones first made her mark in publishing as a young woman working in the Paris office of Doubleday, when she came upon a manuscript of The Diary of Anne Frank in a reject pile and enthusiastically recommended it for publication. That star turn gave her considerable credibility when, back in the United States working as an editor for Knopf, she urged the publishing house to pay attention to an unsolicited manuscript by Julia Child, Louisette Bertholle, and Simone Beck that would become Mastering the Art of French Cooking.\r\n\r\nA prominent fiction editor already, Jones went on to discover and edit not only the rest of Julia Child's books, but also books by some of the most successful cookbook authors in America, including Madhur Jaffrey, Marcella Hazan, Irene Kuo, Edna Lewis, and Joan Nathan. More than any other figure in publishing, she has helped to change the way America thinks about food. She has also authored books, both with her late husband Evan Jones and on her own. In 2006, she received a Lifetime Achievement Award from the James Beard Foundation.",
+  "name": "Judith Jones",
+  "sort": "Jones",
+  "handle": "http://hdl.handle.net/2333.1/z612jmxr",
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Jones_Judith-2009_04_27-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Jones_Judith-2009_04_27-transcript.doc",
+        "filesize": "108032"
+      },
+      "identifier": "Jones_Judith-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/6q573ns4",
+      "title": "Judith Jones Interview 1",
+      "date": "Monday, April 27, 2009 - 00:00",
+      "noid": "6q573ns4"
+    },
+    {
+      "transcript": {
+        "filename": "Jones_Judith-2009_05_07-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Jones_Judith-2009_05_07-transcript.doc",
+        "filesize": "93184"
+      },
+      "identifier": "Jones_Judith-interview_2",
+      "handle": "http://hdl.handle.net/2333.1/2z34tn8v",
+      "title": "Judith Jones Interview 2",
+      "date": "Thursday, May 7, 2009 - 00:00",
+      "noid": "2z34tn8v"
+    }
+  ]
+}

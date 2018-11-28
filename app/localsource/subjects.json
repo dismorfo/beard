@@ -22,7 +22,8 @@
         },
         "identifier": "Baum_Hilary-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/xd25482g",
-        "title": "Hilary Baum Interview 1"
+        "title": "Hilary Baum Interview 1",
+        "date": "Tuesday, September 212, 2009 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -44,7 +45,8 @@
         },
         "identifier": "Benepe_Barry-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/nvx0k71s",
-        "title": "Barry Benepe Interview 1"
+        "title": "Barry Benepe Interview 1",
+        "date": null
       }, {
         "transcript": {
           "filename": "Benepe_Barry-2009_07_13-transcript.doc",
@@ -54,7 +56,8 @@
         },
         "identifier": "Benepe_Barry-interview_2",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/j3tx96hc",
-        "title": "Barry Benepe Interview 2"
+        "title": "Barry Benepe Interview 2",
+        "date": "Monday, July 13, 2009 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -76,7 +79,8 @@
         },
         "identifier": "Ferrone_John-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/rn8pk1b6",
-        "title": "John Ferrone Interview 1"
+        "title": "John Ferrone Interview 1",
+        "date": "Thursday, March 3, 2011 - 00:00"
       }, {
         "transcript": {
           "filename": "Ferrone_John-2009_03_05-transcript.doc",
@@ -86,7 +90,8 @@
         },
         "identifier": "Ferrone_John-interview_2",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/mw6m90tv",
-        "title": "John Ferrone Interview 2"
+        "title": "John Ferrone Interview 2",
+        "date": "Thursday, March 5, 2009 - 00:00"
       }, {
         "transcript": {
           "filename": "Ferrone_John-2009_04_01-transcript.doc",
@@ -96,7 +101,8 @@
         },
         "identifier": "Ferrone_John-interview_3",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/h44j10b0",
-        "title": "John Ferrone Interview 3"
+        "title": "John Ferrone Interview 3",
+        "date": "Wednesday, April 1, 2009 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -118,7 +124,8 @@
         },
         "identifier": "Fussell_Betty-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/7pvmcw16",
-        "title": "Betty Fussell Interview 1"
+        "title": "Betty Fussell Interview 1",
+        "date": "Wednesday, March 18, 2009 - 00:00"
       }, {
         "transcript": {
           "filename": "Fussell_Betty-2009_03_24-transcript.doc",
@@ -128,7 +135,8 @@
         },
         "identifier": "Fussell_Betty-interview_2",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/3xsj3vhv",
-        "title": "Betty Fussell Interview 2"
+        "title": "Betty Fussell Interview 2",
+        "date": "Tuesday, March 24, 2009 - 00:00"
       }, {
         "transcript": {
           "filename": "Fussell_Betty-2009_05_20-transcript.doc",
@@ -138,7 +146,8 @@
         },
         "identifier": "Fussell_Betty-interview_3",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/05qftv0m",
-        "title": "Betty Fussell Interview 3"
+        "title": "Betty Fussell Interview 3",
+        "date": "Wednesday, May 20, 2009 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -160,7 +169,8 @@
         },
         "identifier": "Greene_Gael-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/qnk98t4b",
-        "title": "Gael Greene Interview 1"
+        "title": "Gael Greene Interview 1",
+        "date": "Friday, June 19, 2009 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -182,7 +192,8 @@
         },
         "identifier": "Jones_Judith-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/6q573ns4",
-        "title": "Judith Jones Interview 1"
+        "title": "Judith Jones Interview 1",
+        "date": "Monday, April 27, 2009 - 00:00"
       }, {
         "transcript": {
           "filename": "Jones_Judith-2009_05_07-transcript.doc",
@@ -192,7 +203,8 @@
         },
         "identifier": "Jones_Judith-interview_2",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/2z34tn8v",
-        "title": "Judith Jones Interview 2"
+        "title": "Judith Jones Interview 2",
+        "date": "Thursday, May 7, 2009 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -214,7 +226,8 @@
         },
         "identifier": "Nestle_Marion-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/f7m0cgkp",
-        "title": "Marion Nestle Interview 1"
+        "title": "Marion Nestle Interview 1",
+        "date": "Tuesday, May 19, 2009 - 00:00"
       }, {
         "transcript": {
           "filename": "Nestle_Marion-2009_05_26-transcript.doc",
@@ -224,7 +237,8 @@
         },
         "identifier": "Nestle_Marion-interview_2",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/9ghx3g16",
-        "title": "Marion Nestle Interview 2"
+        "title": "Marion Nestle Interview 2",
+        "date": "Tuesday, May 26, 2009 - 00:00"
       }, {
         "transcript": {
           "filename": "Nestle_Marion-2009_06_29-transcript.doc",
@@ -234,7 +248,8 @@
         },
         "identifier": "Nestle_Marion-interview_3",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/5qfttfhq",
-        "title": "Marion Nestle Interview 3"
+        "title": "Marion Nestle Interview 3",
+        "date": "Monday, June 29, 2009 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -256,7 +271,8 @@
         },
         "identifier": "Pepin_Jacques-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/x69p8dpq",
-        "title": "Jacques Pepin Interview 1"
+        "title": "Jacques Pepin Interview 1",
+        "date": "Tuesday, November 10, 2009 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -278,7 +294,8 @@
         },
         "identifier": "Sax_Irene-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/ns1rn9c5",
-        "title": "Irene Sax Interview 1"
+        "title": "Irene Sax Interview 1",
+        "date": "Wednesday, April 29, 2009 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -300,7 +317,8 @@
         },
         "identifier": "Sheraton_Mimi-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/w6m906fs",
-        "title": "Mimi Sheraton Interview 1"
+        "title": "Mimi Sheraton Interview 1",
+        "date": "Thursday, July 2, 2009 - 00:00"
       }, {
         "transcript": {
           "filename": "Sheraton_Mimi-2009_07_20-transcript.doc",
@@ -310,7 +328,8 @@
         },
         "identifier": "Sheraton_Mimi-interview_2",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/rjdfn3nc",
-        "title": "Mimi Sheraton Interview 2"
+        "title": "Mimi Sheraton Interview 2",
+        "date": "Monday, July 20, 2009 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -332,7 +351,8 @@
         },
         "identifier": "Wolf_Clark-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/3r228125",
-        "title": "Clark Wolf Interview 1"
+        "title": "Clark Wolf Interview 1",
+        "date": "Monday, June 15, 2009 - 00:00"
       }, {
         "transcript": {
           "filename": "Wolf_Clark-2009_07_07-transcript.doc",
@@ -342,7 +362,8 @@
         },
         "identifier": "Wolf_Clark-interview_2",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/000000hm",
-        "title": "Clark Wolf Interview 2"
+        "title": "Clark Wolf Interview 2",
+        "date": "Tuesday, July 7, 2009 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -364,7 +385,8 @@
         },
         "identifier": "Barber_Dan-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/k3j9kdrd",
-        "title": "Dan Barber Interview 1"
+        "title": "Dan Barber Interview 1",
+        "date": "Tuesday, February 15, 2011 - 00:00"
       }, {
         "transcript": {
           "filename": "Barber_Dan-2011_03_08-transcript.doc",
@@ -374,7 +396,8 @@
         },
         "identifier": "Barber_Dan-interview_2",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/6m905rkw",
-        "title": "Dan Barber Interview 2"
+        "title": "Dan Barber Interview 2",
+        "date": "Tuesday, March 8, 2011 - 00:00"
       }, {
         "transcript": {
           "filename": "Barber_Dan-2011_03_15-transcript.doc",
@@ -384,7 +407,8 @@
         },
         "identifier": "Barber_Dan-interview_3",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/pnvx0mgd",
-        "title": "Dan Barber Interview 3"
+        "title": "Dan Barber Interview 3",
+        "date": "Tuesday, March 15, 2011 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -406,7 +430,8 @@
         },
         "identifier": "Bastianich_Lidia-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/fbg79d78",
-        "title": "Lidia Bastianich Interview 1"
+        "title": "Lidia Bastianich Interview 1",
+        "date": "Thursday, March 24, 2011 - 00:00"
       }, {
         "transcript": {
           "filename": "Bastianich_Lidia-2011_03_24-transcript.docx",
@@ -416,7 +441,8 @@
         },
         "identifier": "Bastianich_Lidia-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/fbg79d78",
-        "title": "Lidia Bastianich Interview 1"
+        "title": "Lidia Bastianich Interview 1",
+        "date": "Thursday, March 24, 2011 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -438,7 +464,8 @@
         },
         "identifier": "Batterberry_Ariane-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/9kd51cr5",
-        "title": "Ariane Batterberry Interview 1"
+        "title": "Ariane Batterberry Interview 1",
+        "date": "Wednesday, May 27, 2009 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -460,7 +487,8 @@
         },
         "identifier": "Batterberry_Michael-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/5tb2rc7w",
-        "title": "Michael Batterberry Interview 1"
+        "title": "Michael Batterberry Interview 1",
+        "date": "Friday, May 8, 2009 - 00:00"
       }, {
         "transcript": {
           "filename": "Batterberry_Michael-2009_05_27-transcript.doc",
@@ -470,7 +498,8 @@
         },
         "identifier": "Batterberry_Michael-interview_2",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/2547d8dd",
-        "title": "Michael Batterberry Interview 2"
+        "title": "Michael Batterberry Interview 2",
+        "date": "Wednesday, May 27, 2009 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -492,7 +521,8 @@
         },
         "identifier": "Carmel_Dalia-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/8kprr5h0",
-        "title": "Dalia Carmel Interview 1"
+        "title": "Dalia Carmel Interview 1",
+        "date": "Thursday, September 24, 2009 - 00:00"
       }, {
         "transcript": {
           "filename": "Carmel_Dalia-2009_10_01-transcript.doc",
@@ -502,7 +532,8 @@
         },
         "identifier": "Carmel_Dalia-interview_2",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/4xgxd2qq",
-        "title": "Dalia Carmel Interview 2"
+        "title": "Dalia Carmel Interview 2",
+        "date": "Thursday, October 1, 2009 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -524,7 +555,8 @@
         },
         "identifier": "Colicchio_Tom-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/15dv426m",
-        "title": "Tom Colicchio Interview 1"
+        "title": "Tom Colicchio Interview 1",
+        "date": "Tuesday, April 19, 2011 - 00:00"
       }, {
         "transcript": {
           "filename": "Colicchio_Tom-2011_05_12-transcript.doc",
@@ -534,7 +566,8 @@
         },
         "identifier": "Colicchio_Tom-interview_2",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/tdz08mzd",
-        "title": "Tom Colicchio Interview 2"
+        "title": "Tom Colicchio Interview 2",
+        "date": "Thursday, May 12, 2011 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -556,17 +589,19 @@
         },
         "identifier": "Federman_Mark-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/wdbrv1vb",
-        "title": "Mark Federman Interview 1"
+        "title": "Mark Federman Interview 1",
+        "date": "Tuesday, January 25, 2011 - 00:00"
       }, {
         "transcript": {
-          "filename": "Federman_Mark-2011_01_31-transcript.txt",
+          "filename": "Federman_Mark-2011_01_31-transcript.doc",
           "filemime": "application\/msword",
-          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Federman_Mark-2011_01_31-transcript.txt",
+          "uri": "http:\/\/sites.dlib.nyu.edu\/beard\/sites\/default\/files\/Federman_Mark-2011_01_31-transcript.doc",
           "filesize": "129530"
         },
         "identifier": "Federman_Mark-interview_2",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/jwstqkxp",
-        "title": "Mark Federman Interview 2"
+        "title": "Mark Federman Interview 2",
+        "date": "Monday, January 31, 2011 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -588,7 +623,8 @@
         },
         "identifier": "Imhoff_Dan-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/g79cnpsc",
-        "title": "Dan Imhoff Interview 1"
+        "title": "Dan Imhoff Interview 1",
+        "date": "Thursday, April 14, 2011 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -610,7 +646,8 @@
         },
         "identifier": "Jaffrey_Madhur-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/bg79cp9g",
-        "title": "Madhur Jaffrey Interview 1"
+        "title": "Madhur Jaffrey Interview 1",
+        "date": "Thursday, December 2, 2010 - 00:00"
       }, {
         "transcript": {
           "filename": "Jaffrey_Madhur-2010_12_16-transcript.doc",
@@ -620,7 +657,8 @@
         },
         "identifier": "Jaffrey_Madhur-interview_2",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/2v6wwr3r",
-        "title": "Madhur Jaffrey Interview 2"
+        "title": "Madhur Jaffrey Interview 2",
+        "date": "Thursday, December 16, 2010 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -642,7 +680,8 @@
         },
         "identifier": "Kafka_Barbara-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/tdz08mdj",
-        "title": "Barbara Kafka Interview 1"
+        "title": "Barbara Kafka Interview 1",
+        "date": "Friday, April 3, 2009 - 00:00"
       }, {
         "transcript": {
           "filename": "Kafka_Barbara-2009_04_06-transcript.doc",
@@ -652,7 +691,8 @@
         },
         "identifier": "Kafka_Barbara-interview_2",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/pnvx0kxb",
-        "title": "Barbara Kafka Interview 2"
+        "title": "Barbara Kafka Interview 2",
+        "date": "Monday, April 6, 2009 - 00:00"
       }, {
         "transcript": {
           "filename": "Kafka_Barbara-2009_04_13-transcript.doc",
@@ -662,7 +702,8 @@
         },
         "identifier": "Kafka_Barbara-interview_3",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/k0p2nh2s",
-        "title": "Barbara Kafka Interview 3"
+        "title": "Barbara Kafka Interview 3",
+        "date": "Monday, April 13, 2009 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -684,7 +725,8 @@
         },
         "identifier": "Schonfeld_Reese-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/d7wm38bn",
-        "title": "Reese Schonfeld Interview 1"
+        "title": "Reese Schonfeld Interview 1",
+        "date": "Tuesday, August 18, 2009 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -706,7 +748,8 @@
         },
         "identifier": "Schumacher_Gus-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/4qrfj791",
-        "title": "Gus Schumacher Interview 1"
+        "title": "Gus Schumacher Interview 1",
+        "date": "Thursday, June 4, 2009 - 00:00"
       }, {
         "transcript": {
           "filename": "Schumacher_Gus-2009_10_06-transcript.doc",
@@ -716,7 +759,8 @@
         },
         "identifier": "Schumacher_Gus-interview_2",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/0zpc86sp",
-        "title": "Gus Schumacher Interview 2"
+        "title": "Gus Schumacher Interview 2",
+        "date": "Thursday, October 6, 2011 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -738,7 +782,8 @@
         },
         "identifier": "Whiteman_Michael-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/7h44j1k9",
-        "title": "Michael Whiteman Interview 1"
+        "title": "Michael Whiteman Interview 1",
+        "date": "Monday, September 21, 2009 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -760,7 +805,8 @@
         },
         "identifier": "WhiteViazzi_Jane-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/h18932mx",
-        "title": "Jane White Viazzi Interview 1"
+        "title": "Jane White Viazzi Interview 1",
+        "date": "Wednesday, March 25, 2009 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -782,7 +828,8 @@
         },
         "identifier": "Zagat_Nina-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/qjq2bwd8",
-        "title": "Nina Zagat Interview 1"
+        "title": "Nina Zagat Interview 1",
+        "date": "Wednesday, December 23, 2009 - 00:00"
       }]
     }, {
       "bibliography": {
@@ -804,7 +851,8 @@
         },
         "identifier": "Zagat_Tim-interview_1",
         "handle": "http:\/\/hdl.handle.net\/2333.1\/ksn02vvp",
-        "title": "Tim Zagat Interview 1"
+        "title": "Tim Zagat Interview 1",
+        "date": "Thursday, December 3, 2009 - 00:00"
       }]
     }]
   }

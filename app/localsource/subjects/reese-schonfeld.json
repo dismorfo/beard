@@ -1,0 +1,27 @@
+{
+  "bibliography": {
+    "filename": null,
+    "filemime": null,
+    "uri": "http://sites.dlib.nyu.edu/beard/",
+    "filesize": null
+  },
+  "bio": "The Food Network has arguably had the greatest impact on the way Americans think about food. The network was launched in November 1993 as TVFN with 6.8 million cable subscribers. Scripps, the Food Network's parent company, has started its own magazine based on the popularity of food programs and advertiser demand. In May 2010, Scripps initiated a second 24-hour network of food programming called The Cooking Channel.\r\n\r\nIt was Reese Schonfeld who got the Food Network going, developing the concept with a group put together by the Providence Journal Company's president Trygve Myhren. Schonfeld was a natural for the job. A longtime TV journalist and entrepreneur, he'd been the first president and chief executive of another big television success story, CNN, which he co-founded with Ted Turner in 1979.",
+  "name": "Reese Schonfeld",
+  "sort": "Schonfeld",
+  "handle": null,
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Schonfeld_Reese-2009_08_18-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Schonfeld_Reese-2009_08_18-transcript.doc",
+        "filesize": "138752"
+      },
+      "identifier": "Schonfeld_Reese-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/d7wm38bn",
+      "title": "Reese Schonfeld Interview 1",
+      "date": "Tuesday, August 18, 2009 - 00:00",
+      "noid": "d7wm38bn"
+    }
+  ]
+}

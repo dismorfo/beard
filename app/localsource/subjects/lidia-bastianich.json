@@ -1,0 +1,40 @@
+{
+  "bibliography": {
+    "filename": null,
+    "filemime": null,
+    "uri": "http://sites.dlib.nyu.edu/beard/",
+    "filesize": null
+  },
+  "bio": "The acclaimed cookbook author, television personality, restaurateur, chef and businesswoman Lidia Bastianich was a little girl when the Catholic Charities rescued her family from a Displaced Persons camp in Italy and brought them to the United States after their native Istria was was absorbed by Yugoslavia and communism.\r\n\r\nGrowing up in Queens, Bastianich originally hoped to become a pediatrician. But years helping to cook for her family, a part-time job in a local bakery while she was still in school and marriage to an Italian man working in the restaurant business reoriented her life.\r\n\r\nToday she is one of the best-known chefs in the United States, thanks to her ongoing popular cooking programs on PBS and her many cookbooks. With her son Joseph Bastianich and chef Mario Batali, she is also a partner in a mini-empire of Italian restaurants in New York, Kansas City and Pittsburgh.\r\n",
+  "name": "Lidia Bastianich",
+  "sort": "Bastianich",
+  "handle": null,
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Bastianich_Lidia-2011_03_24-transcript.docx",
+        "filemime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Bastianich_Lidia-2011_03_24-transcript.docx",
+        "filesize": "20027"
+      },
+      "identifier": "Bastianich_Lidia-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/fbg79d78",
+      "title": "Lidia Bastianich Interview 1",
+      "date": "Thursday, March 24, 2011 - 00:00",
+      "noid": "fbg79d78"
+    },
+    {
+      "transcript": {
+        "filename": "Bastianich_Lidia-2011_03_24-transcript.docx",
+        "filemime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Bastianich_Lidia-2011_03_24-transcript.docx",
+        "filesize": "20027"
+      },
+      "identifier": "Bastianich_Lidia-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/fbg79d78",
+      "title": "Lidia Bastianich Interview 1",
+      "date": "Thursday, March 24, 2011 - 00:00",
+      "noid": "fbg79d78"
+    }
+  ]
+}

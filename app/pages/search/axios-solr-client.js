@@ -222,7 +222,7 @@ Query.prototype.q = function(q){
    if ( typeof(q) === 'string' ){
       parameter += encodeURIComponent(q);
    }else{
-      parameter += querystring.stringify(q, '%20AND%20',':');
+      parameter += stringify(q, '%20AND%20',':');
    }
    this.parameters.push(parameter);
    return self;
@@ -321,7 +321,7 @@ Query.prototype.cursorMark = function(mark){
 Query.prototype.sort = function(options){
    var self = this;
    var parameter = 'sort=';
-   parameter += querystring.stringify(options, ',' , '%20');
+   parameter += stringify(options, ',' , '%20');
    this.parameters.push(parameter);
    return self;
 }
@@ -640,7 +640,7 @@ Query.prototype.mlt = function(options){
   }
   if(options.qf){
     if( typeof options.qf === 'object'){
-      var parameter = querystring.stringify(options.qf, '%20' , '^');;
+      var parameter = stringify(options.qf, '%20' , '^');;
     }else{
       var parameter = encodeURIComponent(options.qf);
     }
@@ -718,7 +718,7 @@ Query.prototype.ps = function(){}
 Query.prototype.qf = function(options){
    var self = this;
    var parameter = 'qf=' ;
-   parameter += querystring.stringify(options, '%20' , '^');
+   parameter += stringify(options, '%20' , '^');
    this.parameters.push(parameter);
    return self;
 }
@@ -757,7 +757,7 @@ Query.prototype.mm = function(minimum){
 Query.prototype.pf = function(options){
    var self = this;
    var parameter = 'pf=' ;
-   parameter += querystring.stringify(options, '%20' , '^');
+   parameter += stringify(options, '%20' , '^');
    this.parameters.push(parameter);
    return self;
 }
@@ -822,7 +822,7 @@ Query.prototype.tie = function(tiebreaker){
 Query.prototype.bq = function(options){
    var self = this;
    var parameter = 'bq=' ;
-   parameter += querystring.stringify(options, '%20' , '^');
+   parameter += stringify(options, '%20' , '^');
    this.parameters.push(parameter);
    return self;
 }
@@ -913,7 +913,7 @@ Query.prototype.hl = function(options){
       if ( typeof(options.q) === 'string' ){
          this.parameters.push('hl.q=' + encodeURIComponent(options.q));
       }else{
-         this.parameters.push('hl.q=' + querystring.stringify(options.q, '%20AND%20',':'));
+         this.parameters.push('hl.q=' + stringify(options.q, '%20AND%20',':'));
       }
    }
    if(options.qparser !== undefined){
@@ -1156,7 +1156,7 @@ function Client(options){
  */
 
 Client.prototype.search = function(query,callback){
-   return this.get(this.SELECT_HANDLER, query, callback);
+  return this.get(this.SELECT_HANDLER, query, callback);
 }
 
 /**
@@ -1193,12 +1193,12 @@ Client.prototype.createQuery = function(){
  * @api public
  */
 
-Client.prototype.ping = function(callback){
+Client.prototype.ping = function(callback) {
   return this.get(this.ADMIN_PING_HANDLER, callback);
 }
 
 Client.prototype.url = function(options) {
-  return options.protocol + '://' + options.host + ':' + options.port + options.fullPath;
+  return options.protocol + '://' + options.host + ':' + options.port + '/' + options.fullPath;
 }
 
 /**
@@ -1213,7 +1213,6 @@ Client.prototype.url = function(options) {
  * @return {http.ClientRequest}
  * @api public
  */
-
 Client.prototype.get = function(handler, query, callback) {
   var parameters = '';
   if (typeof query === 'function') {
@@ -1223,7 +1222,7 @@ Client.prototype.get = function(handler, query, callback) {
      parameters += query.build();
   }
   else if (typeof query === 'object') {
-     parameters += querystring.stringify(query);
+     parameters += stringify(query);
   }
   else if (typeof query === 'string') {
      parameters += query;
@@ -1231,7 +1230,7 @@ Client.prototype.get = function(handler, query, callback) {
 
   var pathArray = [this.options.path,this.options.core,handler + '?' + parameters + '&wt=json'];
 
-  var fullPath = pathArray.filter(function(element){
+  var fullPath = pathArray.filter(function(element) {
                 return element;
              }).join('/');
 
@@ -1240,13 +1239,14 @@ Client.prototype.get = function(handler, query, callback) {
     port: this.options.port,
     fullPath: fullPath,
     protocol: this.options.protocol
-  };
+  }
 
   axios.get(this.url(params))
     .then(callback)
-    .catch((error) => {
-      console.log('Error! Could not reach the API. ' + error)
-    });
+    .catch(function (error) {
+      callback(null, new Error(`Could not reach the API. ${error}`))
+  });
+
 }
 
 Client.prototype.getParameterByName = function (name, url) {

@@ -1,10 +1,10 @@
-'use strict'
+'use strict';
 
-const agartha = process.agartha
-const host = agartha.get('BEARD_HOST')
-const port = agartha.get('BEARD_PORT')
-const protocol = agartha.get('BEARD_PROTOCOL')
-const solrPath = agartha.get('BEARD_SOLR_PATH')
+const { agartha } = require('hephaestus');
+const host = agartha.get('ROSIE_HOST');
+const port = agartha.get('ROSIE_PORT');
+const protocol = agartha.get('ROSIE_PROTOCOL');
+const solrPath = agartha.get('ROSIE_SOLR_PATH');
 
 module.exports = exports = {
   id : 'search',
@@ -13,7 +13,7 @@ module.exports = exports = {
   host : (host) ? host : 'media.local',
   port : (port) ? port : 8983,
   protocol : (protocol) ? protocol : 'http',
-  path : (solrPath) ? solrPath : 'solr/beard',
+  path : (solrPath) ? solrPath : 'solr/rosie',
   rows : 100,
   start : 0,
   assets : {
@@ -24,4 +24,4 @@ module.exports = exports = {
       'ui.js'
     ]
   }
-}
+};

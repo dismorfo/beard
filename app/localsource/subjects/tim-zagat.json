@@ -1,0 +1,27 @@
+{
+  "bibliography": {
+    "filename": null,
+    "filemime": null,
+    "uri": "http://sites.dlib.nyu.edu/beard/",
+    "filesize": null
+  },
+  "bio": "Born on the Upper West Side of Manhattan, where he and his wife Nina still live, Tim Zagat grew up in a home where food wasn't a particular focus. His mother's only food passion involved freezing foodsâ€”both before or after cooking. Her freezing habit was so strong that marked and dated packages retrieved from her freezer much later on could be identified as the 1955 Thanksgiving turkey or the 1957 Easter ham. The food Tim Zagat ate at school wasn't much better. \"Chicken a la King was a high point,\" he recalls. But his father and grandfather, who liked fine dining, set the stage for the future by taking the young man to some of the best restaurants of the 50s.\r\n\r\nAfter a few post-college years when he considered a life of politics and public service, Tim Zagat went to Yale Law School. There his home-cooked culinary world opened up when he met and married classmate, and good cook, Nina Safronoff.",
+  "name": "Tim Zagat",
+  "sort": "Zagat",
+  "handle": null,
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Zagat_Tim-2009_12_03-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Zagat_Tim-2009_12_03-transcript.doc",
+        "filesize": "112640"
+      },
+      "identifier": "Zagat_Tim-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/ksn02vvp",
+      "title": "Tim Zagat Interview 1",
+      "date": "Thursday, December 3, 2009 - 00:00",
+      "noid": "ksn02vvp"
+    }
+  ]
+}

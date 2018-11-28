@@ -1,0 +1,40 @@
+{
+  "bibliography": {
+    "filename": null,
+    "filemime": null,
+    "uri": "http://sites.dlib.nyu.edu/beard/",
+    "filesize": null
+  },
+  "bio": "High-level government employees are rarely known for sharing information with outsiders. It can be particularly difficult to get answers to questions about agricultural economics or the American food system. Yet Gus Schumacher, the only farmer in the Harvard class of 1961, has always considered educating the public (and the U.S. Congress) an essential and enjoyable part of his role.\r\n\r\nAs Commissioner of Agriculture of Massachusetts, Administrator of the Foreign Agriculture Service, and then Undersecretary of the Farm and Foreign Agriculture Service at the USDA in the Clinton administration, Schumacher consistently found ways to spread the word. He educated reporters; regularly spoke on the farm radio network; facilitated conversations between journalists, political officials, farmers, and agricultural economists; and was always available to explain a new law or regulation or Farm Bill.\r\n\r\nSince he left government in 2007, Schumacher has continued that pattern as a consultant. Assisting and enabling new farmers - immigrants, women, young people - is one of his passions. Currently Schumacher is also the president of Wholesome Wave, a Connecticut-based charitable foundation that has been particularly active in finding ways to help the needy purchase nutritionally-rich produce at farmers markets at discount rates.",
+  "name": "Gus Schumacher",
+  "sort": "Schumacher",
+  "handle": null,
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Schumacher_Gus-2009_06_04-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Schumacher_Gus-2009_06_04-transcript.doc",
+        "filesize": "108544"
+      },
+      "identifier": "Schumacher_Gus-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/4qrfj791",
+      "title": "Gus Schumacher Interview 1",
+      "date": "Thursday, June 4, 2009 - 00:00",
+      "noid": "4qrfj791"
+    },
+    {
+      "transcript": {
+        "filename": "Schumacher_Gus-2009_10_06-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Schumacher_Gus-2009_10_06-transcript.doc",
+        "filesize": "104960"
+      },
+      "identifier": "Schumacher_Gus-interview_2",
+      "handle": "http://hdl.handle.net/2333.1/0zpc86sp",
+      "title": "Gus Schumacher Interview 2",
+      "date": "Thursday, October 6, 2011 - 00:00",
+      "noid": "0zpc86sp"
+    }
+  ]
+}

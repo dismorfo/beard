@@ -1,0 +1,40 @@
+{
+  "bibliography": {
+    "filename": "Sheraton_Mimi-bibliography.doc",
+    "filemime": "application/msword",
+    "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Sheraton_Mimi-bibliography.doc",
+    "filesize": "31232"
+  },
+  "bio": "Mimi Sheraton is a writer, critic, and cookbook author perhaps best known for her transformational work as a restaurant critic at The New York Times from 1975 to 1984. She has worked at Good Housekeeping, Seventeen, House Beautiful, and Time and written for The New Yorker, Vogue, Smithsonian Magazine, and Smart Money.",
+  "name": "Mimi Sheraton",
+  "sort": "Sheraton",
+  "handle": "http://hdl.handle.net/2333.1/msbcc35g",
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Sheraton_Mimi-2009_07_02-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Sheraton_Mimi-2009_07_02-transcript.doc",
+        "filesize": "102912"
+      },
+      "identifier": "Sheraton_Mimi-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/w6m906fs",
+      "title": "Mimi Sheraton Interview 1",
+      "date": "Thursday, July 2, 2009 - 00:00",
+      "noid": "w6m906fs"
+    },
+    {
+      "transcript": {
+        "filename": "Sheraton_Mimi-2009_07_20-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Sheraton_Mimi-2009_07_20-transcript.doc",
+        "filesize": "111104"
+      },
+      "identifier": "Sheraton_Mimi-interview_2",
+      "handle": "http://hdl.handle.net/2333.1/rjdfn3nc",
+      "title": "Mimi Sheraton Interview 2",
+      "date": "Monday, July 20, 2009 - 00:00",
+      "noid": "rjdfn3nc"
+    }
+  ]
+}

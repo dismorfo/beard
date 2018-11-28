@@ -1,0 +1,53 @@
+{
+  "bibliography": {
+    "filename": "Nestle_Marion-bibliography.doc",
+    "filemime": "application/msword",
+    "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Nestle_Marion-bibliography.doc",
+    "filesize": "28160"
+  },
+  "bio": "Marion Nestle is the premiere food studies professional in the United States. She unequivocally transformed the field when, in 1988, she took over the Department of Home Economics and Nutrition at New York University, and soon turned it into a ground-breaking academic program in nutrition, food studies, and public health.\r\n\r\nHer path traces a childhood without much parental encouragement, academic successes and multiple degrees, a pre-second wave feminism early career filled with the common restrictions and frustrations women then faced, and an adulthood at the highest rank of academic and personal achievement.\r\n\r\nA much sought-after speaker with particular interests in food politics, food marketing, and nutrition, she has written five books, and balances a schedule that includes teaching; research and writing; speaking; and an active highly-read blog (www.foodpolitics.com). ",
+  "name": "Marion Nestle",
+  "sort": "Nestle",
+  "handle": "http://hdl.handle.net/2333.1/1zcrjf1t",
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Nestle_Marion-2009_05_19-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Nestle_Marion-2009_05_19-transcript.doc",
+        "filesize": "135680"
+      },
+      "identifier": "Nestle_Marion-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/f7m0cgkp",
+      "title": "Marion Nestle Interview 1",
+      "date": "Tuesday, May 19, 2009 - 00:00",
+      "noid": "f7m0cgkp"
+    },
+    {
+      "transcript": {
+        "filename": "Nestle_Marion-2009_05_26-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Nestle_Marion-2009_05_26-transcript.doc",
+        "filesize": "68608"
+      },
+      "identifier": "Nestle_Marion-interview_2",
+      "handle": "http://hdl.handle.net/2333.1/9ghx3g16",
+      "title": "Marion Nestle Interview 2",
+      "date": "Tuesday, May 26, 2009 - 00:00",
+      "noid": "9ghx3g16"
+    },
+    {
+      "transcript": {
+        "filename": "Nestle_Marion-2009_06_29-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Nestle_Marion-2009_06_29-transcript.doc",
+        "filesize": "81408"
+      },
+      "identifier": "Nestle_Marion-interview_3",
+      "handle": "http://hdl.handle.net/2333.1/5qfttfhq",
+      "title": "Marion Nestle Interview 3",
+      "date": "Monday, June 29, 2009 - 00:00",
+      "noid": "5qfttfhq"
+    }
+  ]
+}

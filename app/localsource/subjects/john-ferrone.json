@@ -1,0 +1,53 @@
+{
+  "bibliography": {
+    "filename": "Ferrone_John-bibliography.doc",
+    "filemime": "application/msword",
+    "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Ferrone_John-bibliography.doc",
+    "filesize": "26624"
+  },
+  "bio": "John Ferrone was already a respected New York literary editor when he met James Beard and the two became lifelong friends. That friendship took Ferrone beyond his already illustrious list of authors: Anais Nin, Alice Walker, Eudora Welty, C.S. Lewis, Janet Flanner, into the world of food.\r\n\r\nWorking at night after he finished his day job, Ferrone began, out of a devotion to the friendship, editing scores of Beard's articles. Eventually he worked on some of Beard's books and continued to do so (as Beard's literary executor) after his death. The books include: the James Beard Cookbook, the Armchair James Beard, and several small format books, including: Soups and Stews and Poultry and Shellfish. Ferrone continues to steward Beard's books and attempt keep them in print.",
+  "name": "John Ferrone",
+  "sort": "Ferrone",
+  "handle": "http://hdl.handle.net/2333.1/cfxpnwh3",
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Ferrone_John-2009_03_03-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Ferrone_John-2009_03_03-transcript.doc",
+        "filesize": "82432"
+      },
+      "identifier": "Ferrone_John-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/rn8pk1b6",
+      "title": "John Ferrone Interview 1",
+      "date": "Thursday, March 3, 2011 - 00:00",
+      "noid": "rn8pk1b6"
+    },
+    {
+      "transcript": {
+        "filename": "Ferrone_John-2009_03_05-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Ferrone_John-2009_03_05-transcript.doc",
+        "filesize": "64000"
+      },
+      "identifier": "Ferrone_John-interview_2",
+      "handle": "http://hdl.handle.net/2333.1/mw6m90tv",
+      "title": "John Ferrone Interview 2",
+      "date": "Thursday, March 5, 2009 - 00:00",
+      "noid": "mw6m90tv"
+    },
+    {
+      "transcript": {
+        "filename": "Ferrone_John-2009_04_01-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Ferrone_John-2009_04_01-transcript.doc",
+        "filesize": "68096"
+      },
+      "identifier": "Ferrone_John-interview_3",
+      "handle": "http://hdl.handle.net/2333.1/h44j10b0",
+      "title": "John Ferrone Interview 3",
+      "date": "Wednesday, April 1, 2009 - 00:00",
+      "noid": "h44j10b0"
+    }
+  ]
+}

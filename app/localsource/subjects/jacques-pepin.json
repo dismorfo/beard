@@ -1,0 +1,27 @@
+{
+  "bibliography": {
+    "filename": "Pepin_Jacques-bibliography.doc",
+    "filemime": "application/msword",
+    "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Pepin_Jacques-bibliography.doc",
+    "filesize": "28672"
+  },
+  "bio": "Long before cable reality programs brought chefs into American homes, Jacques Pepin was already there, starring in his own multiple cooking series on public television.\r\n\r\nPepin's father was a cabinetmaker and his mother ran a restaurant. When his family sent him out as a restaurant apprentice, their goal was both to feed him and to teach him a trade. He discovered a passion for the work and his talent soon propelled him from the provinces, to the kitchens of French presidents, to one of New York's best restaurants. When a serious automobile accident made long hours in a restaurant impossible, he turned to teaching and then television.\r\n\r\nAlong the way he became a husband and father, an American citizen, a bestselling writer, and one of the guiding spirits of both the prestigious French Culinary Institute in Manhattan and the culinary program at Boston University.\r\n\r\nIncluded among his more than 20 books are arguably two of the most influential on cooking techniques ever written in this country, La Technique and La Methode. His eleven television series, with more on the way, have reflected both his years in America and a wide range of culinary possibilities, from cooking for celebrations to cooking with Julia Child.",
+  "name": "Jacques Pepin",
+  "sort": "Pepin",
+  "handle": "http://hdl.handle.net/2333.1/sf7m0d5k",
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Pepin_Jacques-2009_11_10-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Pepin_Jacques-2009_11_10-transcript.doc",
+        "filesize": "154112"
+      },
+      "identifier": "Pepin_Jacques-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/x69p8dpq",
+      "title": "Jacques Pepin Interview 1",
+      "date": "Tuesday, November 10, 2009 - 00:00",
+      "noid": "x69p8dpq"
+    }
+  ]
+}

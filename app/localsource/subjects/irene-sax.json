@@ -1,0 +1,27 @@
+{
+  "bibliography": {
+    "filename": "Sax_Irene-bibliography.docx",
+    "filemime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Sax_Irene-bibliography.docx",
+    "filesize": "12998"
+  },
+  "bio": "A journalist and food writer, Irene Sax co-wrote Beard on Pasta and helped him prepare magazine articles. She became the food editor of New York Newsday, which closed in 1995, and now teaches food writing at New York University, while maintaining an active career as a freelance food writer and occasional restaurant critic.\r\n\r\n",
+  "name": "Irene Sax",
+  "sort": "Sax",
+  "handle": "http://hdl.handle.net/2333.1/j0zpc8w1",
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Sax_Irene-2009_04_29-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Sax_Irene-2009_04_29-transcript.doc",
+        "filesize": "54272"
+      },
+      "identifier": "Sax_Irene-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/ns1rn9c5",
+      "title": "Irene Sax Interview 1",
+      "date": "Wednesday, April 29, 2009 - 00:00",
+      "noid": "ns1rn9c5"
+    }
+  ]
+}

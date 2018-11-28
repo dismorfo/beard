@@ -1,0 +1,53 @@
+{
+  "bibliography": {
+    "filename": null,
+    "filemime": null,
+    "uri": "http://sites.dlib.nyu.edu/beard/",
+    "filesize": null
+  },
+  "bio": "An acclaimed presence in the food world for decades, Barbara Kafka has been a cookbook author, food writer, and a food and restaurant consultant.\r\n\r\nNo other writer working today can claim as long a professional association with James Beard. Their association began when she was hired to supervise and write much of The Cook's Catalogue, a book edited by Beard with Milton Glaser and Burton Richard Wolf in 1975. She continued to work with him, teaching classes at his cooking schools in California and New York, and helping him with his writing. After Beard's death, she put together The James Beard's Celebration Cookbook in order to raise money for the James Beard Foundation. Kafka's own exhaustively-researched single-subject cookbooks ( Vegetables, Roasting, Microwave Cooking) have set a standard for excellence. In 2007, Kafka received a Lifetime Achievement Award from the James Beard Foundation.",
+  "name": "Barbara Kafka",
+  "sort": "Kafka",
+  "handle": null,
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Kafka_Barbara-2009_04_03-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Kafka_Barbara-2009_04_03-transcript.doc",
+        "filesize": "123392"
+      },
+      "identifier": "Kafka_Barbara-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/tdz08mdj",
+      "title": "Barbara Kafka Interview 1",
+      "date": "Friday, April 3, 2009 - 00:00",
+      "noid": "tdz08mdj"
+    },
+    {
+      "transcript": {
+        "filename": "Kafka_Barbara-2009_04_06-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Kafka_Barbara-2009_04_06-transcript.doc",
+        "filesize": "104960"
+      },
+      "identifier": "Kafka_Barbara-interview_2",
+      "handle": "http://hdl.handle.net/2333.1/pnvx0kxb",
+      "title": "Barbara Kafka Interview 2",
+      "date": "Monday, April 6, 2009 - 00:00",
+      "noid": "pnvx0kxb"
+    },
+    {
+      "transcript": {
+        "filename": "Kafka_Barbara-2009_04_13-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Kafka_Barbara-2009_04_13-transcript.doc",
+        "filesize": "50176"
+      },
+      "identifier": "Kafka_Barbara-interview_3",
+      "handle": "http://hdl.handle.net/2333.1/k0p2nh2s",
+      "title": "Barbara Kafka Interview 3",
+      "date": "Monday, April 13, 2009 - 00:00",
+      "noid": "k0p2nh2s"
+    }
+  ]
+}

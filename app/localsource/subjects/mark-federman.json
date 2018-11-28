@@ -1,0 +1,40 @@
+{
+  "bibliography": {
+    "filename": null,
+    "filemime": null,
+    "uri": "http://sites.dlib.nyu.edu/beard/",
+    "filesize": null
+  },
+  "bio": "Mark Federman's family business is Russ & Daughters on the Lower East Side. ",
+  "name": "Mark Federman",
+  "sort": "Federman",
+  "handle": null,
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Federman_Mark-2011_01_25-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Federman_Mark-2011_01_25-transcript.doc",
+        "filesize": "104960"
+      },
+      "identifier": "Federman_Mark-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/wdbrv1vb",
+      "title": "Mark Federman Interview 1",
+      "date": "Tuesday, January 25, 2011 - 00:00",
+      "noid": "wdbrv1vb"
+    },
+    {
+      "transcript": {
+        "filename": "Federman_Mark-2011_01_31-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Federman_Mark-2011_01_31-transcript.doc",
+        "filesize": "129530"
+      },
+      "identifier": "Federman_Mark-interview_2",
+      "handle": "http://hdl.handle.net/2333.1/jwstqkxp",
+      "title": "Mark Federman Interview 2",
+      "date": "Monday, January 31, 2011 - 00:00",
+      "noid": "jwstqkxp"
+    }
+  ]
+}

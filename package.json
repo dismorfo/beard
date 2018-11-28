@@ -1,0 +1,32 @@
+{
+  "name": "beard",
+  "description": "Voices from the Food Revolution: People Who Changed The Way Americans Eat",
+  "version": "2.0.0",
+  "author": "Alberto Ortiz Flores <dismorfo@gmail.com>",
+  "contributors": [
+    "Alberto Ortiz Flores <dismorfo@gmail.com>"
+  ],
+  "keywords": [
+    "hephaestus"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dismorfo/beard"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "hephaestus-cli": "https://github.com/dismorfo/hephaestus-cli/archive/1.0.2.tar.gz"
+  },
+  "preferGlobal": false,
+  "engines": {
+    "node": ">= 8.0"
+  },
+  "scripts": {
+    "forge": "./node_modules/hephaestus-cli/index.js fg",
+    "test-server": "./node_modules/hephaestus-cli/index.js fg && ./node_modules/http-server/bin/http-server build"
+  },
+  "devDependencies": {
+    "fast-csv": "^2.4.1",
+    "http-server": "^0.11.1"
+  }
+}

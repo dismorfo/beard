@@ -1,0 +1,53 @@
+{
+  "bibliography": {
+    "filename": null,
+    "filemime": null,
+    "uri": "http://sites.dlib.nyu.edu/beard/",
+    "filesize": null
+  },
+  "bio": "The youngest person to be interviewed for this project (a 1992 graduate of Tufts University), Dan Barber is nevertheless a celebrity chef with multiple James Beard Foundation awards to his credit. He is well-known, not only for his restaurants: Blue Hill in New York's Greenwich Village and Blue Hill at Stones Barns in Westchester County on the Rockefeller family estate in Pocantico Hills about an hour's drive from Manhattan, but also for his role as an advocate for a sustainable approach to cooking and a healthier food system.\r\n\r\nA popular speaker and frequent writer on these issues, in 2009 Barber was included in Time Magazine's annual list of the world's most influential people. Barber is a member of President Barack Obama's Council on Physical Fitness, Sports and Nutrition as well as the Advisory Board to the Harvard Medical School Center for Health and The Global Environment. ",
+  "name": "Dan Barber",
+  "sort": "Barber",
+  "handle": null,
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Barber_Dan-2011_02_15-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Barber_Dan-2011_02_15-transcript.doc",
+        "filesize": "76288"
+      },
+      "identifier": "Barber_Dan-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/k3j9kdrd",
+      "title": "Dan Barber Interview 1",
+      "date": "Tuesday, February 15, 2011 - 00:00",
+      "noid": "k3j9kdrd"
+    },
+    {
+      "transcript": {
+        "filename": "Barber_Dan-2011_03_08-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Barber_Dan-2011_03_08-transcript.doc",
+        "filesize": "74752"
+      },
+      "identifier": "Barber_Dan-interview_2",
+      "handle": "http://hdl.handle.net/2333.1/6m905rkw",
+      "title": "Dan Barber Interview 2",
+      "date": "Tuesday, March 8, 2011 - 00:00",
+      "noid": "6m905rkw"
+    },
+    {
+      "transcript": {
+        "filename": "Barber_Dan-2011_03_15-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Barber_Dan-2011_03_15-transcript.doc",
+        "filesize": "81408"
+      },
+      "identifier": "Barber_Dan-interview_3",
+      "handle": "http://hdl.handle.net/2333.1/pnvx0mgd",
+      "title": "Dan Barber Interview 3",
+      "date": "Tuesday, March 15, 2011 - 00:00",
+      "noid": "pnvx0mgd"
+    }
+  ]
+}

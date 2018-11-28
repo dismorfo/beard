@@ -1,0 +1,27 @@
+{
+  "bibliography": {
+    "filename": "Greene_Gael-bibliography.doc",
+    "filemime": "application/msword",
+    "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Greene_Gael-bibliography.doc",
+    "filesize": "28160"
+  },
+  "bio": "Gael Greene, the New York Magazine restaurant critic, knew James Beard casually when an article in The New York Times brought them together. The piece described the plight of impoverished senior citizens who received food aid from the city during the week, but had no source of food on weekends and holidays.\r\n\r\nThe situation appalled her, and she was inspired to call everyone she could think of who might have money or goods to ameliorate the situation.\r\n\r\nJames Beard was one of those people. It was common knowledge that food companies often sent Beard samples of their products in the hope that he would try them, like them, and, with luck, promote them in his columns. Greene figured Beard might have some actual food to contribute on a more-or-less regular basis.\r\n\r\nJumping into action, she phoned him to enlist his support, and encouraged him to join her effort to remedy the situation. The result was CityMeals On Wheels, where he lent his name and enthusiasm to a project that still exists today.\r\n\r\nGreene left New York Magazine in 2008 and today has become an active free-lance writer, blogger, and tweeter.",
+  "name": "Gael Greene",
+  "sort": "Greene",
+  "handle": "http://hdl.handle.net/2333.1/kwh70sn7",
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Greene_Gael-2009_06_19-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Greene_Gael-2009_06_19-transcript.doc",
+        "filesize": "64000"
+      },
+      "identifier": "Greene_Gael-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/qnk98t4b",
+      "title": "Gael Greene Interview 1",
+      "date": "Friday, June 19, 2009 - 00:00",
+      "noid": "qnk98t4b"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "bibliography": {
+    "filename": null,
+    "filemime": null,
+    "uri": "http://sites.dlib.nyu.edu/beard/",
+    "filesize": null
+  },
+  "bio": "Food scholar Dalia Carmel has been called \"the angel of American food writers\" because she made her 11,000-volume personal library of cookbooks available to all who asked. Assembled over 40 years, the library covers nearly every geographical area, ethnicity, and ingredient.\r\n\r\nBorn in Israel, Carmel came to the United States in 1960. She had been inadvertently caught up in Operation Suzannah, a 1954 plot to undermine international support for Egypt as a reliable administrator of the Suez Canal. When the operation failed, it morphed into a political quagmire known as the Lavon Affair. Because Carmel, then a young soldier working in the Finance Ministry, had, under orders, altered a document related to the affair, she unhappily became a public figure. ",
+  "name": "Dalia Carmel",
+  "sort": "Carmel",
+  "handle": null,
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Carmel_Dalia-2009_09_24-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Carmel_Dalia-2009_09_24-transcript.doc",
+        "filesize": "94720"
+      },
+      "identifier": "Carmel_Dalia-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/8kprr5h0",
+      "title": "Dalia Carmel Interview 1",
+      "date": "Thursday, September 24, 2009 - 00:00",
+      "noid": "8kprr5h0"
+    },
+    {
+      "transcript": {
+        "filename": "Carmel_Dalia-2009_10_01-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Carmel_Dalia-2009_10_01-transcript.doc",
+        "filesize": "82944"
+      },
+      "identifier": "Carmel_Dalia-interview_2",
+      "handle": "http://hdl.handle.net/2333.1/4xgxd2qq",
+      "title": "Dalia Carmel Interview 2",
+      "date": "Thursday, October 1, 2009 - 00:00",
+      "noid": "4xgxd2qq"
+    }
+  ]
+}

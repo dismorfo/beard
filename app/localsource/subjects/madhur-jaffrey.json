@@ -1,0 +1,40 @@
+{
+  "bibliography": {
+    "filename": null,
+    "filemime": null,
+    "uri": "http://sites.dlib.nyu.edu/beard/",
+    "filesize": null
+  },
+  "bio": "Few American cooks were able to produce authentic Indian food until Madhur Jaffrey's 1973 An Introduction to Indian Cooking. The book demystified Indian food and in a way, was a reflection of her own introduction to Indian cooking, once she left New Delhi to pursue an acting career in England and America. Like many upper class Indian women, Jaffrey hadn't learned to cook as a child. Once she left home, she longed for the food of her childhood. Letters from her mother as well as Jaffrey's own strong sense of taste set her on her way.\r\n\r\nA well-known Indian actress, Jaffrey was at home in front of cameras and. As her food writing career developed, that experience made her a natural for television. Since that first cookbookâ€”then praised by New York Times food critic Craig Claiborne as \"perhaps the best Indian cookbook available in English\"â€”she has written 28 more, many of them in tandem with multiple television series both in the United States and the UK. She has also written countless newspaper and magazine articles, and continued a much-praised acting career.",
+  "name": "Madhur Jaffrey",
+  "sort": "Jaffrey",
+  "handle": null,
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Jaffrey_Madhur-2010_12_02-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Jaffrey_Madhur-2010_12_02-transcript.doc",
+        "filesize": "109056"
+      },
+      "identifier": "Jaffrey_Madhur-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/bg79cp9g",
+      "title": "Madhur Jaffrey Interview 1",
+      "date": "Thursday, December 2, 2010 - 00:00",
+      "noid": "bg79cp9g"
+    },
+    {
+      "transcript": {
+        "filename": "Jaffrey_Madhur-2010_12_16-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Jaffrey_Madhur-2010_12_16-transcript.doc",
+        "filesize": "107520"
+      },
+      "identifier": "Jaffrey_Madhur-interview_2",
+      "handle": "http://hdl.handle.net/2333.1/2v6wwr3r",
+      "title": "Madhur Jaffrey Interview 2",
+      "date": "Thursday, December 16, 2010 - 00:00",
+      "noid": "2v6wwr3r"
+    }
+  ]
+}

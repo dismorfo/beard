@@ -1,0 +1,27 @@
+{
+  "bibliography": {
+    "filename": null,
+    "filemime": null,
+    "uri": "http://sites.dlib.nyu.edu/beard/",
+    "filesize": null
+  },
+  "bio": "An actress and cabaret performer in the late 1940s and 1950s, Jane White Viazzi was married to Alfredo Viazzi, owner of several Greenwich Village restaurants that featured Italian regional cooking before it was fashionable. The daughter of Walter White, the executive director of the NAACP from 1931-1955, and Gladys White, Viazzi grew up amid the optimism and pride of the Harlem Renaissance. ",
+  "name": "Jane White Viazzi",
+  "sort": "Viazzi",
+  "handle": null,
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "WhiteViazzi_Jane-2009_03_25-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/WhiteViazzi_Jane-2009_03_25-transcript.doc",
+        "filesize": "124928"
+      },
+      "identifier": "WhiteViazzi_Jane-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/h18932mx",
+      "title": "Jane White Viazzi Interview 1",
+      "date": "Wednesday, March 25, 2009 - 00:00",
+      "noid": "h18932mx"
+    }
+  ]
+}

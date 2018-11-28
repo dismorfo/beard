@@ -1,0 +1,53 @@
+{
+  "bibliography": {
+    "filename": "Fussell_Betty-bibliography.doc",
+    "filemime": "application/msword",
+    "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Fussell_Betty-bibliography.doc",
+    "filesize": "28160"
+  },
+  "bio": "The distinguished historian Betty Fussell was one of the first American writers to focus on food as a legitimate subject of scientific, social, and anthropological inquiry.\r\n\r\nIn her 1999, The Story of Corn: the Myths and History, the Culture and Agriculture, the Art and Science of America's Quintessential Crop, Fussel used the history of corn to tell a distinctly American story. She also created a genre, now much imitated by other writers, focused on a single foodstuff.\r\n\r\nBorn in 1927 in California and reared there, she has made her home in New York's Greenwich Village for decades. She lives around the corner from James Beard's cooking school run out of his home. Her only contact was a week's worth of classes there, but they share an abiding passion for American food.\r\n\r\nHer essays in literary journals, major newspapers, national magazines and encyclopedias are written with a grace few food writers can match. She also lectures at museums, universities, state fairs, corn festivals, historical societies and culinary groups. In 1999, her food memoir, My Kitchen Wars, traced her life from her childhoood through her marriage to a college sweetheart, her travails as an academic wife, her own academic career, the women's movement, and her wider success when she found her essential subject: food. ",
+  "name": "Betty Fussell",
+  "sort": "Fussell",
+  "handle": "http://hdl.handle.net/2333.1/vdncjtng",
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Fussell_Betty-2009_03_18-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Fussell_Betty-2009_03_18-transcript.doc",
+        "filesize": "123392"
+      },
+      "identifier": "Fussell_Betty-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/7pvmcw16",
+      "title": "Betty Fussell Interview 1",
+      "date": "Wednesday, March 18, 2009 - 00:00",
+      "noid": "7pvmcw16"
+    },
+    {
+      "transcript": {
+        "filename": "Fussell_Betty-2009_03_24-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Fussell_Betty-2009_03_24-transcript.doc",
+        "filesize": "122368"
+      },
+      "identifier": "Fussell_Betty-interview_2",
+      "handle": "http://hdl.handle.net/2333.1/3xsj3vhv",
+      "title": "Betty Fussell Interview 2",
+      "date": "Tuesday, March 24, 2009 - 00:00",
+      "noid": "3xsj3vhv"
+    },
+    {
+      "transcript": {
+        "filename": "Fussell_Betty-2009_05_20-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Fussell_Betty-2009_05_20-transcript.doc",
+        "filesize": "58368"
+      },
+      "identifier": "Fussell_Betty-interview_3",
+      "handle": "http://hdl.handle.net/2333.1/05qftv0m",
+      "title": "Betty Fussell Interview 3",
+      "date": "Wednesday, May 20, 2009 - 00:00",
+      "noid": "05qftv0m"
+    }
+  ]
+}

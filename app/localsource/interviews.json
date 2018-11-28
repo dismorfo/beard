@@ -698,6 +698,7 @@
       }
     }, {
       "entity_title": "Hilary Baum Interview 1",
+      "sort": "Baum",
       "identifier": "Baum_Hilary-interview_1",
       "entity_path": "http:\/\/sites.dlib.nyu.edu\/beard\/interviews\/hilary-baum-interview-1",
       "base_url": "http:\/\/sites.dlib.nyu.edu\/beard\/",
@@ -904,8 +905,10 @@
           }
         }
       }
-    }, {
+    }, 
+    {
       "entity_title": "Barry Benepe Interview 1",
+      "sort": "benepe",
       "identifier": "Benepe_Barry-interview_1",
       "entity_path": "http:\/\/sites.dlib.nyu.edu\/beard\/interviews\/barry-benepe-interview-1",
       "base_url": "http:\/\/sites.dlib.nyu.edu\/beard\/",
@@ -1862,8 +1865,10 @@
           "value": []
         }
       }
-    }, {
+    }, 
+    {
       "entity_title": "John Ferrone Interview 1",
+      "sort": "Ferrone",
       "identifier": "Ferrone_John-interview_1",
       "entity_path": "http:\/\/sites.dlib.nyu.edu\/beard\/interviews\/john-ferrone-interview-1",
       "base_url": "http:\/\/sites.dlib.nyu.edu\/beard\/",

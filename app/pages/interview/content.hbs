@@ -7,14 +7,14 @@
       <h2>Interviews:</h2>
       <div class="field-items">
         {{#interviews}}    
-          <div class="field-item">
+          <div class="field-item interview">
             <h3>{{title}}</h3>
-            <iframe style="width: 85%; height: 40px; border: 0;" src="http://sites.dlib.nyu.edu/media/playlists/zs7h4bv4/mode/embed"></iframe>
+            <iframe src="{{embed}}"></iframe>
             <ul>
-              <li>Date</li>
-              <li>Citation URL</li>
-              <li>Transcript</li>
-            </ul>
+              <li>Date: {{date}}</li>
+              <li>Citation URL: <a href="{{handle}}">{{handle}}</a></li>
+              <li>Download the transcript: <a href="{{transcript}}">{{title}}</a></li>
+            </ul>            
           </div>
         {{/interviews}}
       </div>

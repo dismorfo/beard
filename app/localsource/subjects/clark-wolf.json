@@ -1,0 +1,40 @@
+{
+  "bibliography": {
+    "filename": "Wolf_Clark-bibliography.doc",
+    "filemime": "application/msword",
+    "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Wolf_Clark-bibliography.doc",
+    "filesize": "26624"
+  },
+  "bio": "A food and hospitality consultant, Clark Wolf has advised a wide range of clients including restaurants, hotels, casinos, public institutions, and specialty food companies. Wolf was a far-sighted cheese purveyor in San Francisco when James Beard walked into his cheese shop one day. The meeting launched a friendship that lasted from the early 1980s until Beard's death in 1985. Encouraged by Beard to come to New York, Wolf made the move in 1982 when Barbara Kafka invited him to open her specialty shop, Star Spangled Foods. Although he kept a home in Northern California, Wolf has maintained a New York presence ever since. An enthusiastic supporter of and fundraiser for New York University's Food Studies program, Wolf created the popular Critical Topics series on food studies for the Fales Library. He is the author of the 2008 American Cheeses.",
+  "name": "Clark Wolf",
+  "sort": "Wolf",
+  "handle": "http://hdl.handle.net/2333.1/v9s4mwxd",
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Wolf_Clark-2009_06_15-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Wolf_Clark-2009_06_15-transcript.doc",
+        "filesize": "132608"
+      },
+      "identifier": "Wolf_Clark-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/3r228125",
+      "title": "Clark Wolf Interview 1",
+      "date": "Monday, June 15, 2009 - 00:00",
+      "noid": "3r228125"
+    },
+    {
+      "transcript": {
+        "filename": "Wolf_Clark-2009_07_07-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Wolf_Clark-2009_07_07-transcript.doc",
+        "filesize": "142848"
+      },
+      "identifier": "Wolf_Clark-interview_2",
+      "handle": "http://hdl.handle.net/2333.1/000000hm",
+      "title": "Clark Wolf Interview 2",
+      "date": "Tuesday, July 7, 2009 - 00:00",
+      "noid": "000000hm"
+    }
+  ]
+}

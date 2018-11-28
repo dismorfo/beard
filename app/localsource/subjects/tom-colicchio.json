@@ -1,0 +1,40 @@
+{
+  "bibliography": {
+    "filename": null,
+    "filemime": null,
+    "uri": "http://sites.dlib.nyu.edu/beard/",
+    "filesize": null
+  },
+  "bio": "One of the byproducts of the food revolution is the increasing respect for chefs. Along with that and the attention to the profession given by the media, a new category has emerged: the Celebrity Chef. No one of them is better-known than Tom Colicchio. Already a highly respected and well-reviewed chef and restaurateur when he became the head judge of the wildly popular television program Top Chef, Colicchio is probably the best-known chef in America.\r\n\r\nAs a young teenager, he started cooking at home, discovered he enjoyed it and worked his way through a swim club food concession, a Burger King, and increasingly more ambitious restaurants in his native New Jersey before heading to Manhattan. His teachers were his on-the-jobs training, the chefs he worked for there and in New York and books, especially Jacques Pepin's on method and technique.\r\n\r\nHe came to wide attention at the Gramercy Tavern in New York's Flatiron district, and then at Craft nearby.\r\n\r\nThe recipient of five James Beard Foundation awards, today Colichio and his cooking can be seen not only at the Craft restaurants (including Craftbar and Craftsteak) in New York, LA, Dallas, and Las Vegas), but also at Colicchio and Sons in Manhattan's Meatpacking District. In 2003, Colicchio and two partners founded the more affordable sandwich and salad outlets, 'wichcraft. In 2010 his work at Craft was honored when the Beard Foundation named him the country's Outstanding Chef.\r\n\r\nColicchio is married to his frequent writing partner, the documentary filmmaker Lori Silverbush.",
+  "name": "Tom Colicchio",
+  "sort": "Colicchio",
+  "handle": null,
+  "interviews": [
+    {
+      "transcript": {
+        "filename": "Colicchio_Tom-2011_04_19-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Colicchio_Tom-2011_04_19-transcript.doc",
+        "filesize": "132608"
+      },
+      "identifier": "Colicchio_Tom-interview_1",
+      "handle": "http://hdl.handle.net/2333.1/15dv426m",
+      "title": "Tom Colicchio Interview 1",
+      "date": "Tuesday, April 19, 2011 - 00:00",
+      "noid": "15dv426m"
+    },
+    {
+      "transcript": {
+        "filename": "Colicchio_Tom-2011_05_12-transcript.doc",
+        "filemime": "application/msword",
+        "uri": "http://sites.dlib.nyu.edu/beard/sites/default/files/Colicchio_Tom-2011_05_12-transcript.doc",
+        "filesize": "97792"
+      },
+      "identifier": "Colicchio_Tom-interview_2",
+      "handle": "http://hdl.handle.net/2333.1/tdz08mzd",
+      "title": "Tom Colicchio Interview 2",
+      "date": "Thursday, May 12, 2011 - 00:00",
+      "noid": "tdz08mzd"
+    }
+  ]
+}
