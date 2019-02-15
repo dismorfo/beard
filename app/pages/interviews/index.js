@@ -1,15 +1,13 @@
-'use strict'
+'use strict';
 
-const { agartha } = require('hephaestus');
+const { appDir, exists, get, Page, read } = require('hephaestus');
+const _ = require('underscore');
+const { resolve } = require('path');
 
-module.exports = exports = class Interview extends agartha.Page {
+module.exports = class Interview extends Page {
   init () {
-    /**
-     * Hephaestus it's already present
-     */
-    const he = this.hephaestus;
-    const datasource = he.path.join(he.appDir(), 'app/localsource/subjects.json');
-    const appUrl = he.get('appUrl');
+    const datasource = resolve(appDir(), 'app/localsource/subjects.json');
+    const appUrl = get('appUrl');
     const id = 'interviews';
     const title = 'Interviews';
     const route = '/interviews/index.html';  
@@ -19,25 +17,17 @@ module.exports = exports = class Interview extends agartha.Page {
         interviewee: []
       }
     };
-    if (he.exists(datasource)) {
-      const source = he.read.json(datasource);
-      he._.each(source.response.docs, (document) => {
+    if (exists(datasource)) {
+      const source = read.json(datasource);
+      _.each(source.response.docs, document => {
         let name = document.name.replace(' ', '-')
         content.main.interviewee.push({
-          url: appUrl + '/interviews/' + name.toLowerCase() + '/index.html',
+          url: `${appUrl}/interviews/${name.toLowerCase()}/index.html`,
           name: document.name,
           description: document.bio
         });
-      });      
-      /**
-       * Pages need 'id' and 'route' properties
-       */
-      this.render({
-        id: id,
-        title: 'Browse all interviews',
-        route: route,
-        content: content
       });
+      this.render({ id: id, title: 'Browse all interviews', route: route, content: content });
     }
   }  
 };

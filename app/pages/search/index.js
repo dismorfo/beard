@@ -1,12 +1,12 @@
 'use strict';
 
-const { agartha } = require('hephaestus');
-const host = agartha.get('ROSIE_HOST');
-const port = agartha.get('ROSIE_PORT');
-const protocol = agartha.get('ROSIE_PROTOCOL');
-const solrPath = agartha.get('ROSIE_SOLR_PATH');
+const { get } = require('hephaestus');
+const host = get('ROSIE_HOST');
+const port = get('ROSIE_PORT');
+const protocol = get('ROSIE_PROTOCOL');
+const solrPath = get('ROSIE_SOLR_PATH');
 
-module.exports = exports = {
+module.exports = {
   id : 'search',
   title : 'Search results',
   route : '/search/index.html',
