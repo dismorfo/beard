@@ -7,9 +7,9 @@
  * The purpose of those helpers is to centralize and standardize the work on detecting current running Solr Version
  */
 
-const Solr3_2 = 302;
-const Solr4_0 = 400;
-const Solr5_0 = 500;
+// const Solr3_2 = 302;
+// const Solr4_0 = 400;
+// const Solr5_0 = 500;
 const Solr5_1 = 501;
 
 /**
@@ -20,6 +20,7 @@ const Solr5_1 = 501;
  */
 function toArray(value, defaultIfNull) {
   defaultIfNull = defaultIfNull || '';
+
   function defaultValue(value) {
     return (value === null || value === undefined) ? defaultIfNull : value;
   }
@@ -35,96 +36,96 @@ function toArray(value, defaultIfNull) {
  * @api private
  */
 
-function dateISOify(obj){
-  if( obj instanceof Array ){
-     for(var i = 0; i < obj.length; i++){
-        obj[i] = dateISOify(obj[i]);
-     }
-  }else if(obj instanceof Object && !(obj instanceof Date) ){
-     for(var key in obj){
-        if( obj[key] instanceof Date ) obj[key] = toISOString(obj[key]);
-     }
-  }else{
-     if( obj instanceof Date ) obj = toISOString(obj);
+function dateISOify(obj) {
+  if (obj instanceof Array) {
+    for (var i = 0; i < obj.length; i++) {
+      obj[i] = dateISOify(obj[i]);
+    }
+  } else if (obj instanceof Object && !(obj instanceof Date)) {
+    for (var key in obj) {
+      if (obj[key] instanceof Date) obj[key] = toISOString(obj[key]);
+    }
+  } else {
+    if (obj instanceof Date) obj = toISOString(obj);
   }
   return obj;
 };
 
 /**
-* ISOify a single `Date` object
-* Sidesteps `Invalid Date` objects by returning `null` instead
-*
-* @param {Date}
-*
-* @return {null|String}
-* @api private
-*/
+ * ISOify a single `Date` object
+ * Sidesteps `Invalid Date` objects by returning `null` instead
+ *
+ * @param {Date}
+ *
+ * @return {null|String}
+ * @api private
+ */
 function toISOString(date) {
   return (date && !isNaN(date.getTime())) ? date.toISOString() : null;
-};
+}
 
 /**
-* Serialize an object to a string. Optionally override the default separator ('&') and assignment ('=') characters.
-*
-* @param {Object} obj - object to serialiaze
-* @param {String} [sep] - separator character
-* @param {String} [eq] - assignment character
-* @param {String} [name] -
-*
-* @return {String}
-* @api private
-*/
+ * Serialize an object to a string. Optionally override the default separator ('&') and assignment ('=') characters.
+ *
+ * @param {Object} obj - object to serialiaze
+ * @param {String} [sep] - separator character
+ * @param {String} [eq] - assignment character
+ * @param {String} [name] -
+ *
+ * @return {String}
+ * @api private
+ */
 
 function stringify(obj, sep, eq, name) {
- sep = sep || '&';
- eq = eq || '=';
- obj = (obj === null) ? undefined : obj;
+  sep = sep || '&';
+  eq = eq || '=';
+  obj = (obj === null) ? undefined : obj;
 
- switch (typeof obj) {
-   case 'object':
-     return Object.keys(obj).map(function(k) {
-       if (Array.isArray(obj[k])) {
-         return obj[k].map(function(v) {
-           return stringifyPrimitive(k) +
-                  eq +
-                  stringifyPrimitive(v);
-         }).join(sep);
-       } else {
-         return stringifyPrimitive(k) +
-                eq +
-                stringifyPrimitive(obj[k]);
-       }
-     }).join(sep);
+  switch (typeof obj) {
+    case 'object':
+      return Object.keys(obj).map(function (k) {
+        if (Array.isArray(obj[k])) {
+          return obj[k].map(function (v) {
+            return stringifyPrimitive(k) +
+              eq +
+              stringifyPrimitive(v);
+          }).join(sep);
+        } else {
+          return stringifyPrimitive(k) +
+            eq +
+            stringifyPrimitive(obj[k]);
+        }
+      }).join(sep);
 
-   default:
-     if (!name) return '';
-     return stringifyPrimitive(name) + eq +
-            stringifyPrimitive(obj);
- }
+    default:
+      if (!name) return '';
+      return stringifyPrimitive(name) + eq +
+        stringifyPrimitive(obj);
+  }
 };
 
 /**
-* Stringify a primitive
-*
-* @param {String|Boolean|Number} v - primitive value
-*
-* @return {String}
-* @api private
-*/
+ * Stringify a primitive
+ *
+ * @param {String|Boolean|Number} v - primitive value
+ *
+ * @return {String}
+ * @api private
+ */
 function stringifyPrimitive(v) {
- switch (typeof v) {
-   case 'string':
-     return v;
+  switch (typeof v) {
+    case 'string':
+      return v;
 
-   case 'boolean':
-     return v ? 'true' : 'false';
+    case 'boolean':
+      return v ? 'true' : 'false';
 
-   case 'number':
-     return isFinite(v) ? v : '';
+    case 'number':
+      return isFinite(v) ? v : '';
 
-   default:
-     return '';
- }
+    default:
+      return '';
+  }
 };
 
 /**
@@ -136,12 +137,12 @@ function stringifyPrimitive(v) {
  * @api public
  */
 
-function escapeSpecialChars(s){
- return s.replace(/([\+\-!\(\)\{\}\[\]\^"~\*\?:\\])/g, function(match) {
-   return '\\' + match;
- })
- .replace(/&&/g, '\\&\\&')
- .replace(/\|\|/g, '\\|\\|');
+function escapeSpecialChars(s) {
+  return s.replace(/([\+\-!\(\)\{\}\[\]\^"~\*\?:\\])/g, function (match) {
+      return '\\' + match;
+    })
+    .replace(/&&/g, '\\&\\&')
+    .replace(/\|\|/g, '\\|\\|');
 }
 
 
@@ -153,9 +154,9 @@ function escapeSpecialChars(s){
  * @api private
  */
 
-function Query(options){
-   this.solrVersion = (options && options.solrVersion) || undefined;
-   this.parameters = [];
+function Query(options) {
+  this.solrVersion = (options && options.solrVersion) || undefined;
+  this.parameters = [];
 }
 
 /**
@@ -167,11 +168,11 @@ function Query(options){
  * @return {Query} - allow chaining
  * @api public
  */
-Query.prototype.set = function(parameter){
-   var self = this;
-   this.parameters.push(parameter);
-   return self;
-}
+Query.prototype.set = function (parameter) {
+  var self = this;
+  this.parameters.push(parameter);
+  return self;
+};
 
 /**
  * Set the query parser to use with this request.
@@ -182,12 +183,12 @@ Query.prototype.set = function(parameter){
  * @api public
  */
 
-Query.prototype.defType = function(type){
-   var self = this;
-   var parameter = 'defType=' + type;
-   this.parameters.push(parameter);
-   return self;
-}
+Query.prototype.defType = function (type) {
+  var self = this;
+  var parameter = 'defType=' + type;
+  this.parameters.push(parameter);
+  return self;
+};
 
 /**
  * Set the Request Handler used to process the request based on its `name`.
@@ -199,13 +200,12 @@ Query.prototype.defType = function(type){
  * @api public
  */
 
-Query.prototype.requestHandler =
-Query.prototype.qt = function(name){
+Query.prototype.requestHandler = Query.prototype.qt = function (name) {
   var self = this;
   var parameter = 'qt=' + name;
   this.parameters.push(parameter);
   return self;
-}
+};
 
 /**
  *  Set the main query
@@ -216,17 +216,17 @@ Query.prototype.qt = function(name){
  * @api public
  */
 
-Query.prototype.q = function(q){
-   var self = this;
-   var parameter ='q=';
-   if ( typeof(q) === 'string' ){
-      parameter += encodeURIComponent(q);
-   }else{
-      parameter += stringify(q, '%20AND%20',':');
-   }
-   this.parameters.push(parameter);
-   return self;
-}
+Query.prototype.q = function (q) {
+  var self = this;
+  var parameter = 'q=';
+  if (typeof (q) === 'string') {
+    parameter += encodeURIComponent(q);
+  } else {
+    parameter += stringify(q, '%20AND%20', ':');
+  }
+  this.parameters.push(parameter);
+  return self;
+};
 
 /**
  *  Set the default query operator
@@ -237,12 +237,12 @@ Query.prototype.q = function(q){
  * @api public
  */
 
-Query.prototype.qop = function(op){
-    var self = this;
-    var parameter ='q.op=';
-    parameter += op;
-    this.parameters.push(parameter);
-    return self;
+Query.prototype.qop = function (op) {
+  var self = this;
+  var parameter = 'q.op=';
+  parameter += op;
+  this.parameters.push(parameter);
+  return self;
 };
 
 /**
@@ -254,11 +254,11 @@ Query.prototype.qop = function(op){
  * @api public
  */
 Query.prototype.df = function (df) {
-    var self = this;
-    var parameter = 'df=';
-    parameter += df;
-    this.parameters.push(parameter);
-    return self;
+  var self = this;
+  var parameter = 'df=';
+  parameter += df;
+  this.parameters.push(parameter);
+  return self;
 };
 
 /**
@@ -270,12 +270,12 @@ Query.prototype.df = function (df) {
  * @api public
  */
 
-Query.prototype.start = function(start){
-   var self = this;
-   var parameter = 'start=' + start ;
-   this.parameters.push(parameter);
-   return self;
-}
+Query.prototype.start = function (start) {
+  var self = this;
+  var parameter = 'start=' + start;
+  this.parameters.push(parameter);
+  return self;
+};
 
 /**
  * Set the maximum number of documents returned
@@ -285,12 +285,12 @@ Query.prototype.start = function(start){
  * @return {Query}
  * @api public
  */
-Query.prototype.rows = function(rows){
-   var self = this;
-   var parameter = 'rows=' + rows ;
-   this.parameters.push(parameter);
-   return self;
-}
+Query.prototype.rows = function (rows) {
+  var self = this;
+  var parameter = 'rows=' + rows;
+  this.parameters.push(parameter);
+  return self;
+};
 
 /**
  * Request to use cursorMarks for deep-paging as explained in http://heliosearch.org/solr/paging-and-deep-paging/
@@ -301,13 +301,13 @@ Query.prototype.rows = function(rows){
  * @return {Query}
  * @api public
  */
-Query.prototype.cursorMark = function(mark){
-   var self = this;
-   mark = mark || "*";
-   var parameter = 'cursorMark=' + encodeURIComponent(mark);
-   this.parameters.push(parameter);
-   return self;
-}
+Query.prototype.cursorMark = function (mark) {
+  var self = this;
+  mark = mark || '*';
+  var parameter = 'cursorMark=' + encodeURIComponent(mark);
+  this.parameters.push(parameter);
+  return self;
+};
 
 /**
  * Sort a result in descending or ascending order based on one or more fields.
@@ -318,13 +318,13 @@ Query.prototype.cursorMark = function(mark){
  * @api public
  */
 
-Query.prototype.sort = function(options){
-   var self = this;
-   var parameter = 'sort=';
-   parameter += stringify(options, ',' , '%20');
-   this.parameters.push(parameter);
-   return self;
-}
+Query.prototype.sort = function (options) {
+  var self = this;
+  var parameter = 'sort=';
+  parameter += stringify(options, ',', '%20');
+  this.parameters.push(parameter);
+  return self;
+};
 
 /**
  * Filter the set of documents found before to return the result with the given range determined by `field`, `start` and `end`.
@@ -344,28 +344,28 @@ Query.prototype.sort = function(options){
  * query.q({ '*' : '*' }).rangeFilter([{ field : 'id', start : 100, end : 200},{ field : 'date', start : new Date(), end : new Date() - 3600}]);
  */
 
-Query.prototype.rangeFilter = function(options){
-   var self = this;
-   options = dateISOify(options);
-   var parameter = 'fq=';
-   if(Array.isArray(options)){
-     parameter += "(";
-      var filters = options.map(function(option){
-         var key = option.field;
-         var filter = {};
-         filter[key] = '[' + encodeURIComponent(option.start) + '%20TO%20' + encodeURIComponent(option.end) + ']';
-         return stringify(filter, '',':');
-      });
-      parameter += filters.join('%20AND%20');
-      parameter += ")";
-   }else{
-      var key = options.field;
+Query.prototype.rangeFilter = function (options) {
+  var self = this;
+  options = dateISOify(options);
+  var parameter = 'fq=';
+  if (Array.isArray(options)) {
+    parameter += '(';
+    var filters = options.map(function (option) {
+      var key = option.field;
       var filter = {};
-      filter[key] = '[' + encodeURIComponent(options.start) + '%20TO%20' + encodeURIComponent(options.end) + ']';
-      parameter += stringify(filter, '',':');
-   }
-   this.parameters.push(parameter);
-   return self;
+      filter[key] = '[' + encodeURIComponent(option.start) + '%20TO%20' + encodeURIComponent(option.end) + ']';
+      return stringify(filter, '', ':');
+    });
+    parameter += filters.join('%20AND%20');
+    parameter += ')';
+  } else {
+    var key = options.field;
+    var filter = {};
+    filter[key] = '[' + encodeURIComponent(options.start) + '%20TO%20' + encodeURIComponent(options.end) + ']';
+    parameter += stringify(filter, '', ':');
+  }
+  this.parameters.push(parameter);
+  return self;
 }
 
 /**
@@ -382,14 +382,14 @@ Query.prototype.rangeFilter = function(options){
  * query.q({ '*' : '*' }).matchFilter('id', 100)
  */
 
-Query.prototype.matchFilter = function(field,value){
-   var self = this;
-   value = dateISOify(value);
-   var parameter = 'fq=';
-   parameter += field + ':' + encodeURIComponent(value);
-   this.parameters.push(parameter);
-   return self;
-}
+Query.prototype.matchFilter = function (field, value) {
+  var self = this;
+  value = dateISOify(value);
+  var parameter = 'fq=';
+  parameter += field + ':' + encodeURIComponent(value);
+  this.parameters.push(parameter);
+  return self;
+};
 
 /**
  * Specify a set of fields to return.
@@ -401,17 +401,17 @@ Query.prototype.matchFilter = function(field,value){
  */
 
 Query.prototype.fl =
-Query.prototype.restrict = function(fields){
-   var self = this;
-   var parameter = 'fl=';
-   if(typeof(fields) === 'string'){
+  Query.prototype.restrict = function (fields) {
+    var self = this;
+    var parameter = 'fl=';
+    if (typeof (fields) === 'string') {
       parameter += encodeURIComponent(fields);
-   }else{
+    } else {
       parameter += encodeURIComponent(fields.join(','));
-   }
-   this.parameters.push(parameter);
-   return self;
-}
+    }
+    this.parameters.push(parameter);
+    return self;
+  }
 
 /**
  * Set the time allowed for a search to finish.
@@ -423,11 +423,11 @@ Query.prototype.restrict = function(fields){
  * @api public
  */
 
-Query.prototype.timeout = function(time){
-   var self = this;
-   var parameter = 'timeAllowed=' + time;
-   this.parameters.push(parameter);
-   return self;
+Query.prototype.timeout = function (time) {
+  var self = this;
+  var parameter = 'timeAllowed=' + time;
+  this.parameters.push(parameter);
+  return self;
 }
 
 /**
@@ -439,12 +439,12 @@ Query.prototype.timeout = function(time){
  * @api public
  */
 
-Query.prototype.groupBy = function(field){
-   var self = this;
-   this.group({
-      'field': field
-   });
-   return self;
+Query.prototype.groupBy = function (field) {
+  var self = this;
+  this.group({
+    'field': field
+  });
+  return self;
 }
 
 /**
@@ -468,44 +468,44 @@ Query.prototype.groupBy = function(field){
  * @api public
  */
 
-Query.prototype.group = function(options){
-   var self = this;
-   if(options.on === false){
-      this.parameters.push('group=false');
-   }else{
-      this.parameters.push('group=true');
-   }
-   if( options.field ){
-      options.field = toArray(options.field);
-      options.field.forEach(function(field){
-        self.parameters.push('group.field=' + field);
-      });
-   }
-   if( options.limit !== undefined){
-      this.parameters.push('group.limit=' + options.limit);
-   }
-   if( options.offset !== undefined){
-      this.parameters.push('group.offset=' + options.offset);
-   }
-   if( options.sort ){
-      this.parameters.push('group.sort=' + encodeURIComponent(options.sort));
-   }
-   if( options.format ){
-      this.parameters.push('group.format=' + encodeURIComponent(options.format));
-   }
-   if( options.main !== undefined){
-      this.parameters.push('group.main=' + options.main);
-   }
-   if( options.ngroups !== undefined){
-      this.parameters.push('group.ngroups=' + options.ngroups);
-   }
-   if( options.truncate !== undefined){
-      this.parameters.push('group.truncate=' + options.truncate);
-   }
-   if( options.cache !== undefined){
-      this.parameters.push('group.cache.percent=' + options.cache);
-   }
-   return self;
+Query.prototype.group = function (options) {
+  var self = this;
+  if (options.on === false) {
+    this.parameters.push('group=false');
+  } else {
+    this.parameters.push('group=true');
+  }
+  if (options.field) {
+    options.field = toArray(options.field);
+    options.field.forEach(function (field) {
+      self.parameters.push('group.field=' + field);
+    });
+  }
+  if (options.limit !== undefined) {
+    this.parameters.push('group.limit=' + options.limit);
+  }
+  if (options.offset !== undefined) {
+    this.parameters.push('group.offset=' + options.offset);
+  }
+  if (options.sort) {
+    this.parameters.push('group.sort=' + encodeURIComponent(options.sort));
+  }
+  if (options.format) {
+    this.parameters.push('group.format=' + encodeURIComponent(options.format));
+  }
+  if (options.main !== undefined) {
+    this.parameters.push('group.main=' + options.main);
+  }
+  if (options.ngroups !== undefined) {
+    this.parameters.push('group.ngroups=' + options.ngroups);
+  }
+  if (options.truncate !== undefined) {
+    this.parameters.push('group.truncate=' + options.truncate);
+  }
+  if (options.cache !== undefined) {
+    this.parameters.push('group.cache.percent=' + options.cache);
+  }
+  return self;
 }
 
 /**
@@ -528,59 +528,59 @@ Query.prototype.group = function(options){
  * @return {Query}
  * @api public
  */
-Query.prototype.facet = function(options){
-   var self = this;
-   if(options.on === false){
-      this.parameters.push('facet=false');
-   }else{
-      this.parameters.push('facet=true');
-   }
-   if(options.query){
-      this.parameters.push('facet.query=' + encodeURIComponent(options.query))
-   }
-   if(options.field){
-     options.field = toArray(options.field);
-     options.field.forEach(function(field) {
-       self.parameters.push('facet.field=' + field);
-     });
-   }
-   if(options.prefix){
-      this.parameters.push('facet.prefix=' + encodeURIComponent(options.prefix))
-   }
-   if(options.sort){
-      this.parameters.push('facet.sort=' + encodeURIComponent(options.sort))
-   }
-   if(options.limit !== undefined){
-      this.parameters.push('facet.limit=' + options.limit);
-   }
-   if(options.offset !== undefined){
-      this.parameters.push('facet.offset=' + options.offset);
-   }
-   if(options.mincount !== undefined){
-      this.parameters.push('facet.mincount=' + options.mincount);
-   }
-   if(options.missing !== undefined){
-      this.parameters.push('facet.missing=' + options.missing);
-   }
-   if(options.method){
-      this.parameters.push('facet.method=' + options.method);
-   }
+Query.prototype.facet = function (options) {
+  var self = this;
+  if (options.on === false) {
+    this.parameters.push('facet=false');
+  } else {
+    this.parameters.push('facet=true');
+  }
+  if (options.query) {
+    this.parameters.push('facet.query=' + encodeURIComponent(options.query))
+  }
+  if (options.field) {
+    options.field = toArray(options.field);
+    options.field.forEach(function (field) {
+      self.parameters.push('facet.field=' + field);
+    });
+  }
+  if (options.prefix) {
+    this.parameters.push('facet.prefix=' + encodeURIComponent(options.prefix))
+  }
+  if (options.sort) {
+    this.parameters.push('facet.sort=' + encodeURIComponent(options.sort))
+  }
+  if (options.limit !== undefined) {
+    this.parameters.push('facet.limit=' + options.limit);
+  }
+  if (options.offset !== undefined) {
+    this.parameters.push('facet.offset=' + options.offset);
+  }
+  if (options.mincount !== undefined) {
+    this.parameters.push('facet.mincount=' + options.mincount);
+  }
+  if (options.missing !== undefined) {
+    this.parameters.push('facet.missing=' + options.missing);
+  }
+  if (options.method) {
+    this.parameters.push('facet.method=' + options.method);
+  }
 
-   // Only supported with version 4.0 and above
-   // if(this.solrVersion && (version(this.solrVersion) >= Solr4_0)) {
-     if(options.pivot){
-       options.field = toArray(options.pivot.fields);
-       options.field.forEach(function(field) {
-         self.parameters.push('facet.pivot=' + field);
-       });
+  // Only supported with version 4.0 and above
+  // if(this.solrVersion && (version(this.solrVersion) >= Solr4_0)) {
+  if (options.pivot) {
+    options.field = toArray(options.pivot.fields);
+    options.field.forEach(function (field) {
+      self.parameters.push('facet.pivot=' + field);
+    });
 
-       if(options.pivot.mincount) {
-         this.parameters.push('facet.pivot.mincount=' + options.pivot.mincount);
-       }
-     }
-   // }
+    if (options.pivot.mincount) {
+      this.parameters.push('facet.pivot.mincount=' + options.pivot.mincount);
+    }
+  }
+  // }
 
-   return self;
+  return self;
 }
 
 /**
@@ -603,45 +603,45 @@ Query.prototype.facet = function(options){
  * @api public
  */
 
-Query.prototype.mlt = function(options){
+Query.prototype.mlt = function (options) {
   var self = this;
-  if(options.on === false){
+  if (options.on === false) {
     this.parameters.push('mlt=false');
-  }else{
+  } else {
     this.parameters.push('mlt=true');
   }
-  if(options.fl){
-    if(options.fl instanceof Array) options.fl = options.fl.join(',');
+  if (options.fl) {
+    if (options.fl instanceof Array) options.fl = options.fl.join(',');
     this.parameters.push('mlt.fl=' + encodeURIComponent(options.fl))
   }
-  if(options.count !== undefined){
+  if (options.count !== undefined) {
     this.parameters.push('mlt.count=' + options.count)
   }
-  if(options.mintf !== undefined){
+  if (options.mintf !== undefined) {
     this.parameters.push('mlt.mintf=' + options.mintf)
   }
-  if(options.mindf !== undefined){
+  if (options.mindf !== undefined) {
     this.parameters.push('mlt.mindf=' + options.mindf);
   }
-  if(options.minwl !== undefined){
+  if (options.minwl !== undefined) {
     this.parameters.push('mlt.minwl=' + options.minwl)
   }
-  if(options.maxwl !== undefined ){
+  if (options.maxwl !== undefined) {
     this.parameters.push('mlt.maxwl=' + options.maxwl)
   }
-  if(options.maxqt !== undefined){
+  if (options.maxqt !== undefined) {
     this.parameters.push('mlt.maxqt=' + options.maxqt)
   }
-  if(options.maxntp !== undefined){
+  if (options.maxntp !== undefined) {
     this.parameters.push('mlt.maxntp=' + options.maxntp);
   }
-  if(options.boost !== undefined){
+  if (options.boost !== undefined) {
     this.parameters.push('mlt.boost=' + options.boost);
   }
-  if(options.qf){
-    if( typeof options.qf === 'object'){
-      var parameter = stringify(options.qf, '%20' , '^');;
-    }else{
+  if (options.qf) {
+    if (typeof options.qf === 'object') {
+      var parameter = stringify(options.qf, '%20', '^');;
+    } else {
       var parameter = encodeURIComponent(options.qf);
     }
     this.parameters.push('mlt.qf=' + parameter);
@@ -661,10 +661,10 @@ Query.prototype.mlt = function(options){
  * @api public
  */
 
-Query.prototype.dismax = function(){
-   var self = this;
-   this.defType('dismax');
-   return self;
+Query.prototype.dismax = function () {
+  var self = this;
+  this.defType('dismax');
+  return self;
 }
 
 /*!
@@ -679,10 +679,10 @@ Query.prototype.dismax = function(){
  * @api public
  */
 
-Query.prototype.edismax = function(){
-   var self = this;
-   this.defType('edismax');
-   return self;
+Query.prototype.edismax = function () {
+  var self = this;
+  this.defType('edismax');
+  return self;
 }
 
 /**
@@ -693,14 +693,14 @@ Query.prototype.edismax = function(){
  * @api public
  */
 
-Query.prototype.debugQuery = function(){
-   var self = this;
-   this.parameters.push('debugQuery=true');
-   return self;
+Query.prototype.debugQuery = function () {
+  var self = this;
+  this.parameters.push('debugQuery=true');
+  return self;
 }
 
 //TODO
-Query.prototype.ps = function(){}
+Query.prototype.ps = function () {}
 
 /**
  * Set the "boosts" to associate with each fields
@@ -715,12 +715,12 @@ Query.prototype.ps = function(){}
  * query.qf({title : 2.2, description : 0.5 });
  */
 
-Query.prototype.qf = function(options){
-   var self = this;
-   var parameter = 'qf=' ;
-   parameter += stringify(options, '%20' , '^');
-   this.parameters.push(parameter);
-   return self;
+Query.prototype.qf = function (options) {
+  var self = this;
+  var parameter = 'qf=';
+  parameter += stringify(options, '%20', '^');
+  this.parameters.push(parameter);
+  return self;
 }
 
 /**
@@ -736,11 +736,11 @@ Query.prototype.qf = function(options){
  * query.mm(2); // or query.mm('75%');
  */
 
-Query.prototype.mm = function(minimum){
-   var self = this;
-   var parameter = 'mm=' + minimum;
-   this.parameters.push(parameter);
-   return self;
+Query.prototype.mm = function (minimum) {
+  var self = this;
+  var parameter = 'mm=' + minimum;
+  this.parameters.push(parameter);
+  return self;
 }
 
 /**
@@ -754,12 +754,12 @@ Query.prototype.mm = function(minimum){
  * @api public
  */
 
-Query.prototype.pf = function(options){
-   var self = this;
-   var parameter = 'pf=' ;
-   parameter += stringify(options, '%20' , '^');
-   this.parameters.push(parameter);
-   return self;
+Query.prototype.pf = function (options) {
+  var self = this;
+  var parameter = 'pf=';
+  parameter += stringify(options, '%20', '^');
+  this.parameters.push(parameter);
+  return self;
 }
 
 /**
@@ -771,11 +771,11 @@ Query.prototype.pf = function(options){
  * @api public
  */
 
-Query.prototype.ps = function(slop){
-   var self = this;
-   var parameter = 'ps=' + slop;
-   this.parameters.push(parameter);
-   return self;
+Query.prototype.ps = function (slop) {
+  var self = this;
+  var parameter = 'ps=' + slop;
+  this.parameters.push(parameter);
+  return self;
 };
 
 /**
@@ -786,11 +786,11 @@ Query.prototype.ps = function(slop){
  * @return {Query}
  * @api public
  */
-Query.prototype.qs = function(slop){
-   var self = this;
-   var parameter = 'qs=' + slop;
-   this.parameters.push(parameter);
-   return self;
+Query.prototype.qs = function (slop) {
+  var self = this;
+  var parameter = 'qs=' + slop;
+  this.parameters.push(parameter);
+  return self;
 };
 
 /**
@@ -802,11 +802,11 @@ Query.prototype.qs = function(slop){
  * @api public
  */
 
-Query.prototype.tie = function(tiebreaker){
-   var self = this;
-   var parameter = 'tie=' + tiebreaker;
-   this.parameters.push(parameter);
-   return self;
+Query.prototype.tie = function (tiebreaker) {
+  var self = this;
+  var parameter = 'tie=' + tiebreaker;
+  this.parameters.push(parameter);
+  return self;
 }
 
 /**
@@ -819,12 +819,12 @@ Query.prototype.tie = function(tiebreaker){
  * @api public
  */
 
-Query.prototype.bq = function(options){
-   var self = this;
-   var parameter = 'bq=' ;
-   parameter += stringify(options, '%20' , '^');
-   this.parameters.push(parameter);
-   return self;
+Query.prototype.bq = function (options) {
+  var self = this;
+  var parameter = 'bq=';
+  parameter += stringify(options, '%20', '^');
+  this.parameters.push(parameter);
+  return self;
 }
 
 
@@ -836,11 +836,11 @@ Query.prototype.bq = function(options){
  * @api public
  */
 
-Query.prototype.bf = function(functions){
-   var self = this;
-   var parameter = 'bf=' + functions;
-   this.parameters.push(parameter);
-   return self;
+Query.prototype.bf = function (functions) {
+  var self = this;
+  var parameter = 'bf=' + functions;
+  this.parameters.push(parameter);
+  return self;
 }
 
 /**
@@ -851,11 +851,11 @@ Query.prototype.bf = function(functions){
  * @api public
  */
 
-Query.prototype.boost = function(functions){
-   var self = this;
-   var parameter = 'boost=' + encodeURIComponent(functions);
-   this.parameters.push(parameter);
-   return self;
+Query.prototype.boost = function (functions) {
+  var self = this;
+  var parameter = 'boost=' + encodeURIComponent(functions);
+  this.parameters.push(parameter);
+  return self;
 }
 
 /**
@@ -864,8 +864,8 @@ Query.prototype.boost = function(functions){
  * @return {String}
  * @api private
  */
-Query.prototype.build = function(){
-   return this.parameters.join('&');
+Query.prototype.build = function () {
+  return this.parameters.join('&');
 }
 
 /**
@@ -902,96 +902,96 @@ Query.prototype.build = function(){
  * @api public
  */
 
-Query.prototype.hl = function(options){
-   var self = this;
-   if(options.on === false){
-      this.parameters.push('hl=false');
-   }else{
-      this.parameters.push('hl=true');
-   }
-   if(options.q !== undefined){
-      if ( typeof(options.q) === 'string' ){
-         this.parameters.push('hl.q=' + encodeURIComponent(options.q));
-      }else{
-         this.parameters.push('hl.q=' + stringify(options.q, '%20AND%20',':'));
-      }
-   }
-   if(options.qparser !== undefined){
-      this.parameters.push('hl.qparser=' + encodeURIComponent(options.qparser));
-   }
-   if(options.fl !== undefined){
-      if ( typeof(options.fl) === 'string' ){
-         this.parameters.push('hl.fl=' + encodeURIComponent(options.fl));
-      }else{
-         this.parameters.push('hl.fl=' + options.fl.join(','));
-      }
-   }
-   if(options.snippets !== undefined){
-      this.parameters.push('hl.snippets=' + encodeURIComponent(options.snippets));
-   }
-   if(options.fragsize !== undefined){
-      this.parameters.push('hl.fragsize=' + encodeURIComponent(options.fragsize));
-   }
-   if(options.mergeContiguous !== undefined){
-      this.parameters.push('hl.mergeContiguous=' + encodeURIComponent(options.mergeContiguous));
-   }
-   if(options.requireFieldMatch !== undefined){
-      this.parameters.push('hl.requireFieldMatch=' + encodeURIComponent(options.requireFieldMatch));
-   }
-   if(options.maxAnalyzedChars !== undefined){
-      this.parameters.push('hl.maxAnalyzedChars=' + encodeURIComponent(options.maxAnalyzedChars));
-   }
-   if(options.maxMultiValuedToExamine !== undefined){
-      this.parameters.push('hl.maxMultiValuedToExamine=' + encodeURIComponent(options.maxMultiValuedToExamine));
-   }
-   if(options.maxMultiValuedToMatch !== undefined){
-      this.parameters.push('hl.maxMultiValuedToMatch=' + encodeURIComponent(options.maxMultiValuedToMatch));
-   }
-   if(options.alternateField){
-      this.parameters.push('hl.alternateField=' + encodeURIComponent(options.alternateField));
-   }
-   if(options.maxAlternateFieldLength !== undefined){
-      this.parameters.push('hl.maxAlternateFieldLength=' + encodeURIComponent(options.maxAlternateFieldLength));
-   }
-   if(options.formatter){
-      this.parameters.push('hl.formatter=' + encodeURIComponent(options.formatter));
-   }
-   if(options.simplePre){
-      this.parameters.push('hl.simple.pre=' + encodeURIComponent(options.simplePre));
-   }else{
-      this.parameters.push('hl.simple.pre=<em>');
-   }
-   if(options.simplePost){
-      this.parameters.push('hl.simple.post=' + encodeURIComponent(options.simplePost));
-   }else{
-      this.parameters.push('hl.simple.post=<%2Fem>');
-   }
-   if(options.fragmenter){
-      this.parameters.push('hl.fragmenter=' + encodeURIComponent(options.fragmenter));
-   }
-   if(options.highlightMultiTerm !== undefined){
-      this.parameters.push('hl.highlightMultiTerm=' + encodeURIComponent(options.highlightMultiTerm));
-   }
-   if(options.usePhraseHighlighter !== undefined){
-      this.parameters.push('hl.usePhraseHighlighter=' + encodeURIComponent(options.usePhraseHighlighter));
-   }
-   if(options.regexSlop !== undefined){
-      this.parameters.push('hl.regex.slop=' + encodeURIComponent(options.regexSlop));
-   }
-   if(options.regexPattern){
-      this.parameters.push('hl.regex.pattern=' + encodeURIComponent(options.regexPattern));
-   }
-   if(options.regexMaxAnalyzedChars){
-      this.parameters.push('hl.regex.maxAnalyzedChars=' + encodeURIComponent(options.regexMaxAnalyzedChars));
-   }
-   if(options.preserveMulti !== undefined){
-      this.parameters.push('hl.preserveMulti=' + encodeURIComponent(options.preserveMulti));
-   }
-   if(options.payloads !== undefined){
-      this.parameters.push('hl.payloads=' + encodeURIComponent(options.payloads));
-   }
+Query.prototype.hl = function (options) {
+  var self = this;
+  if (options.on === false) {
+    this.parameters.push('hl=false');
+  } else {
+    this.parameters.push('hl=true');
+  }
+  if (options.q !== undefined) {
+    if (typeof (options.q) === 'string') {
+      this.parameters.push('hl.q=' + encodeURIComponent(options.q));
+    } else {
+      this.parameters.push('hl.q=' + stringify(options.q, '%20AND%20', ':'));
+    }
+  }
+  if (options.qparser !== undefined) {
+    this.parameters.push('hl.qparser=' + encodeURIComponent(options.qparser));
+  }
+  if (options.fl !== undefined) {
+    if (typeof (options.fl) === 'string') {
+      this.parameters.push('hl.fl=' + encodeURIComponent(options.fl));
+    } else {
+      this.parameters.push('hl.fl=' + options.fl.join(','));
+    }
+  }
+  if (options.snippets !== undefined) {
+    this.parameters.push('hl.snippets=' + encodeURIComponent(options.snippets));
+  }
+  if (options.fragsize !== undefined) {
+    this.parameters.push('hl.fragsize=' + encodeURIComponent(options.fragsize));
+  }
+  if (options.mergeContiguous !== undefined) {
+    this.parameters.push('hl.mergeContiguous=' + encodeURIComponent(options.mergeContiguous));
+  }
+  if (options.requireFieldMatch !== undefined) {
+    this.parameters.push('hl.requireFieldMatch=' + encodeURIComponent(options.requireFieldMatch));
+  }
+  if (options.maxAnalyzedChars !== undefined) {
+    this.parameters.push('hl.maxAnalyzedChars=' + encodeURIComponent(options.maxAnalyzedChars));
+  }
+  if (options.maxMultiValuedToExamine !== undefined) {
+    this.parameters.push('hl.maxMultiValuedToExamine=' + encodeURIComponent(options.maxMultiValuedToExamine));
+  }
+  if (options.maxMultiValuedToMatch !== undefined) {
+    this.parameters.push('hl.maxMultiValuedToMatch=' + encodeURIComponent(options.maxMultiValuedToMatch));
+  }
+  if (options.alternateField) {
+    this.parameters.push('hl.alternateField=' + encodeURIComponent(options.alternateField));
+  }
+  if (options.maxAlternateFieldLength !== undefined) {
+    this.parameters.push('hl.maxAlternateFieldLength=' + encodeURIComponent(options.maxAlternateFieldLength));
+  }
+  if (options.formatter) {
+    this.parameters.push('hl.formatter=' + encodeURIComponent(options.formatter));
+  }
+  if (options.simplePre) {
+    this.parameters.push('hl.simple.pre=' + encodeURIComponent(options.simplePre));
+  } else {
+    this.parameters.push('hl.simple.pre=<em>');
+  }
+  if (options.simplePost) {
+    this.parameters.push('hl.simple.post=' + encodeURIComponent(options.simplePost));
+  } else {
+    this.parameters.push('hl.simple.post=<%2Fem>');
+  }
+  if (options.fragmenter) {
+    this.parameters.push('hl.fragmenter=' + encodeURIComponent(options.fragmenter));
+  }
+  if (options.highlightMultiTerm !== undefined) {
+    this.parameters.push('hl.highlightMultiTerm=' + encodeURIComponent(options.highlightMultiTerm));
+  }
+  if (options.usePhraseHighlighter !== undefined) {
+    this.parameters.push('hl.usePhraseHighlighter=' + encodeURIComponent(options.usePhraseHighlighter));
+  }
+  if (options.regexSlop !== undefined) {
+    this.parameters.push('hl.regex.slop=' + encodeURIComponent(options.regexSlop));
+  }
+  if (options.regexPattern) {
+    this.parameters.push('hl.regex.pattern=' + encodeURIComponent(options.regexPattern));
+  }
+  if (options.regexMaxAnalyzedChars) {
+    this.parameters.push('hl.regex.maxAnalyzedChars=' + encodeURIComponent(options.regexMaxAnalyzedChars));
+  }
+  if (options.preserveMulti !== undefined) {
+    this.parameters.push('hl.preserveMulti=' + encodeURIComponent(options.preserveMulti));
+  }
+  if (options.payloads !== undefined) {
+    this.parameters.push('hl.payloads=' + encodeURIComponent(options.payloads));
+  }
 
-   return self;
+  return self;
 }
 
 /**
@@ -1017,50 +1017,50 @@ Query.prototype.hl = function(options){
  * @api public
  */
 
-Query.prototype.terms = function(options){
+Query.prototype.terms = function (options) {
   var self = this;
-  if(options.on === false){
+  if (options.on === false) {
     this.parameters.push('terms=false');
-  }else{
+  } else {
     this.parameters.push('terms=true');
   }
-  if(options.fl){
+  if (options.fl) {
     this.parameters.push('terms.fl=' + encodeURIComponent(options.fl))
   }
-  if(options.lower !== undefined){
+  if (options.lower !== undefined) {
     this.parameters.push('terms.lower=' + encodeURIComponent(options.lower));
   }
-  if(options.lowerIncl !== undefined){
+  if (options.lowerIncl !== undefined) {
     this.parameters.push('terms.lower.incl=' + encodeURIComponent(options.lowerIncl));
   }
-  if(options.mincount !== undefined){
+  if (options.mincount !== undefined) {
     this.parameters.push('terms.mincount=' + options.mincount);
   }
-  if(options.maxcount !== undefined){
+  if (options.maxcount !== undefined) {
     this.parameters.push('terms.maxcount=' + options.maxcount);
   }
-  if(options.prefix !== undefined){
+  if (options.prefix !== undefined) {
     this.parameters.push('terms.prefix=' + encodeURIComponent(options.prefix));
   }
-  if(options.regex !== undefined){
+  if (options.regex !== undefined) {
     this.parameters.push('terms.regex=' + encodeURIComponent(options.regex));
   }
-  if(options.regexFlag !== undefined){
+  if (options.regexFlag !== undefined) {
     this.parameters.push('terms.regexFlag=' + encodeURIComponent(options.regexFlag));
   }
-  if(options.limit !== undefined){
+  if (options.limit !== undefined) {
     this.parameters.push('terms.limit=' + options.limit);
   }
-  if(options.upper !== undefined){
+  if (options.upper !== undefined) {
     this.parameters.push('terms.upper=' + encodeURIComponent(options.upper));
   }
-  if(options.upperIncl !== undefined){
+  if (options.upperIncl !== undefined) {
     this.parameters.push('terms.upper.incl=' + encodeURIComponent(options.upperIncl));
   }
-  if(options.raw !== undefined){
+  if (options.raw !== undefined) {
     this.parameters.push('terms.raw=' + encodeURIComponent(options.raw));
   }
-  if(options.sort !== undefined){
+  if (options.sort !== undefined) {
     this.parameters.push('terms.sort=' + encodeURIComponent(options.sort));
   }
   return self;
@@ -1084,18 +1084,18 @@ Query.prototype.terms = function(options){
  * @api public
  */
 
-function createClient(host, port, core, path, agent, secure, bigint, solrVersion, ipVersion){
+function createClient(host, port, core, path, agent, secure, bigint, solrVersion, ipVersion) {
   var options = (typeof host === 'object') ? host : {
-      host : host,
-      port : port,
-      core : core,
-      path : path,
-      agent : agent,
-      secure : secure,
-      bigint : bigint,
-      solrVersion: solrVersion,
-      ipVersion: ipVersion == 6 ? 6 : 4
-   };
+    host: host,
+    port: port,
+    core: core,
+    path: path,
+    agent: agent,
+    secure: secure,
+    bigint: bigint,
+    solrVersion: solrVersion,
+    ipVersion: ipVersion == 6 ? 6 : 4
+  };
   return new Client(options);
 }
 
@@ -1118,17 +1118,17 @@ function createClient(host, port, core, path, agent, secure, bigint, solrVersion
  * @api private
  */
 
-function Client(options){
+function Client(options) {
   this.options = {
-     host : options.host || '127.0.0.1',
-     port : options.port || '8983',
-     core : options.core || '',
-     protocol : options.protocol || 'http',
-     path : options.path || '/solr',
-     agent : options.agent,
-     secure : options.secure || false,
-     solrVersion: options.solrVersion || Solr5_1,
-     ipVersion: options.ipVersion == 6 ? 6 : 4
+    host: options.host || '127.0.0.1',
+    port: options.port || '8983',
+    core: options.core || '',
+    protocol: options.protocol || 'http',
+    path: options.path || '/solr',
+    agent: options.agent,
+    secure: options.secure || false,
+    solrVersion: options.solrVersion || Solr5_1,
+    ipVersion: options.ipVersion == 6 ? 6 : 4
   };
 
   // Default paths of all request handlers
@@ -1155,7 +1155,7 @@ function Client(options){
  * @api public
  */
 
-Client.prototype.search = function(query,callback){
+Client.prototype.search = function (query, callback) {
   return this.get(this.SELECT_HANDLER, query, callback);
 }
 
@@ -1166,7 +1166,7 @@ Client.prototype.search = function(query,callback){
  * @api public
  */
 
-Client.prototype.query = function(){
+Client.prototype.query = function () {
   return new Query(this.options);
 }
 
@@ -1178,7 +1178,7 @@ Client.prototype.query = function(){
  * @api public
  */
 
-Client.prototype.createQuery = function(){
+Client.prototype.createQuery = function () {
   return new Query(this.options);
 }
 
@@ -1193,11 +1193,11 @@ Client.prototype.createQuery = function(){
  * @api public
  */
 
-Client.prototype.ping = function(callback) {
+Client.prototype.ping = function (callback) {
   return this.get(this.ADMIN_PING_HANDLER, callback);
 }
 
-Client.prototype.url = function(options) {
+Client.prototype.url = function (options) {
   return options.protocol + '://' + options.host + ':' + options.port + '/' + options.fullPath;
 }
 
@@ -1213,26 +1213,23 @@ Client.prototype.url = function(options) {
  * @return {http.ClientRequest}
  * @api public
  */
-Client.prototype.get = function(handler, query, callback) {
+Client.prototype.get = function (handler, query, callback) {
   var parameters = '';
   if (typeof query === 'function') {
-     callback = query;
-  }
-  else if ((query instanceof Query)) {
-     parameters += query.build();
-  }
-  else if (typeof query === 'object') {
-     parameters += stringify(query);
-  }
-  else if (typeof query === 'string') {
-     parameters += query;
+    callback = query;
+  } else if ((query instanceof Query)) {
+    parameters += query.build();
+  } else if (typeof query === 'object') {
+    parameters += stringify(query);
+  } else if (typeof query === 'string') {
+    parameters += query;
   }
 
-  var pathArray = [this.options.path,this.options.core,handler + '?' + parameters + '&wt=json'];
+  var pathArray = [this.options.path, this.options.core, handler + '?' + parameters + '&wt=json'];
 
-  var fullPath = pathArray.filter(function(element) {
-                return element;
-             }).join('/');
+  var fullPath = pathArray.filter(function (element) {
+    return element;
+  }).join('/');
 
   var params = {
     host: this.options.host,
@@ -1245,7 +1242,7 @@ Client.prototype.get = function(handler, query, callback) {
     .then(callback)
     .catch(function (error) {
       callback(null, new Error(`Could not reach the API. ${error}`))
-  });
+    });
 
 }
 
@@ -1253,7 +1250,7 @@ Client.prototype.getParameterByName = function (name, url) {
   if (!url) url = window.location.href;
   name = name.replace(/[\[\]]/g, '\\$&');
   var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-      results = regex.exec(url);
+    results = regex.exec(url);
   if (!results) return null;
   if (!results[2]) return '';
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
