@@ -39,17 +39,18 @@ class Interview extends Page {
           main: {
             title: document.name,
             description: document.bio,
-            interviews: []
+            interviews: [],
+            handle: document.interviews[0].handle
           }
         };
         _.each(document.interviews, interview => {
+          // interview.handle
           const identifier = interview.identifier.toLowerCase().replace(/_/g, '-');
           content.main.interviews.push({
             transcript: interview.transcript.uri,
             identifier: identifier,
             url: `${appUrl}/${route}/${identifier}/index.html`,
             title: interview.title,
-            handle: interview.handle,
             date: interview.date,
             embed: `${provider}/playlists/${interview.noid}/mode/embed`,
           });
