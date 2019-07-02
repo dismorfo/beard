@@ -1198,7 +1198,11 @@ Client.prototype.ping = function (callback) {
 }
 
 Client.prototype.url = function (options) {
-  return options.protocol + '://' + options.host + ':' + options.port + '/' + options.fullPath;
+  var host = options.host;
+  if (!options.secure) {
+    host = `${options.host}:${options.port}`
+  }
+  return `${options.protocol}://${options.host}/${options.fullPath}`;
 }
 
 /**
@@ -1235,14 +1239,17 @@ Client.prototype.get = function (handler, query, callback) {
     host: this.options.host,
     port: this.options.port,
     fullPath: fullPath,
-    protocol: this.options.protocol
+    protocol: this.options.protocol,
+    secure: this.options.secure
   };
 
-  axios.get(this.url(params))
+  var requestUrl = this.url(params);
+
+  axios.get(requestUrl)
     .then(callback)
     .catch(function (error) {
       callback(null, new Error(`Could not reach the API. ${error}`))
-    });
+  });
 
 }
 

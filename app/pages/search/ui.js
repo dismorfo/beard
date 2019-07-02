@@ -51,7 +51,6 @@ var app = new Vue({
     },
     fetchDocuments: function () {
       var vm = this;
-      console.log(vm)
       var client = new createClient({
         host: vm.host,
         port: vm.port,
