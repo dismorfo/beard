@@ -12,7 +12,8 @@ var app = new Vue({
       host: '127.0.0.1',
       port: '',
       protocol: 'https',
-      path: 'solr/rosie'
+      path: 'solr/rosie',
+      secure: false
     };
   },
   mounted: function () {
@@ -23,6 +24,9 @@ var app = new Vue({
     this.protocol = this.$el.getAttribute('data-protocol');
     this.path = this.$el.getAttribute('data-path');
     this.q = this.getParameterByName('q');
+    if (this.protocol === 'https') {
+      this.secure = true;
+    }
     if (this.q) {
       this.fetchDocuments();
     }
@@ -47,16 +51,13 @@ var app = new Vue({
     },
     fetchDocuments: function () {
       var vm = this;
-      var secure = false;
-      if (vm.protocol === 'https') {
-        secure = true;
-      }
+      console.log(vm)
       var client = new createClient({
         host: vm.host,
         port: vm.port,
         protocol: vm.protocol,
         path: vm.path,
-        secure: secure
+        secure: vm.secure
       });
 
       var query = client.createQuery()
