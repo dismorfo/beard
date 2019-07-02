@@ -1231,11 +1231,14 @@ Client.prototype.get = function (handler, query, callback) {
     return element;
   }).join('/');
 
+  console.log(this.options)
+
   var params = {
     host: this.options.host,
     port: this.options.port,
     fullPath: fullPath,
-    protocol: this.options.protocol
+    protocol: this.options.protocol,
+    secure: this.options.secure
   }
 
   axios.get(this.url(params))

@@ -46,13 +46,18 @@ var app = new Vue({
       return decodeURIComponent(results[2].replace(/\+/g, ' '));
     },
     fetchDocuments: function () {
+      var secure = false;
+      if (vm.protocol === 'https') {
+        secure = true;
+      }
+
       var vm = this;
       var client = new createClient({
         host: vm.host,
         port: vm.port,
         protocol: vm.protocol,
         path: vm.path,
-        secure: true
+        secure: secure
       });
       var query = client.createQuery()
                         .q(vm.q)
