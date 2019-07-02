@@ -5,13 +5,13 @@ var app = new Vue({
   data: function () {
     return {
       q: null,
-      label: `Searching term <span class="loading"><span>.</span><span>.</span><span>.</span></span>`,
+      label: 'Searching term <span class="loading"><span>.</span><span>.</span><span>.</span></span>',
       documents: [],
       rows: 10,
       start: 0,
       host: '127.0.0.1',
-      port: '8983',
-      protocol: 'http',
+      port: '',
+      protocol: 'https',
       path: 'solr/rosie'
     };
   },
@@ -27,7 +27,7 @@ var app = new Vue({
       this.fetchDocuments();
     }
     else {
-      this.label = `Please provide search term.`;
+      this.label = 'Please provide search term.';
     }
   },
   computed: {
@@ -53,7 +53,7 @@ var app = new Vue({
         protocol: vm.protocol,
         path: vm.path,
       });
-      var query = client.createQuery() 
+      var query = client.createQuery()
                         .q(vm.q)
                         .start(vm.start)
                         .rows(vm.rows);
