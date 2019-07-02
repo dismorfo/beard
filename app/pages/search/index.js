@@ -1,18 +1,18 @@
 'use strict';
 
 const { get } = require('hephaestus');
-const host = get('ROSIE_HOST');
-const port = get('ROSIE_PORT');
-const protocol = get('ROSIE_PROTOCOL');
-const solrPath = get('ROSIE_SOLR_PATH');
+const host = get('BEARD_DISCOVERY_HOST');
+const port = get('BEARD_DISCOVERY_PORT');
+const protocol = get('BEARD_DISCOVERY_PROTOCOL');
+const solrPath = get('BEARD_DISCOVERY_PATH');
 
 module.exports = {
   id : 'search',
   title : 'Search results',
   route : '/search/index.html',
-  host : (host) ? host : 'media.local',
-  port : (port) ? port : 8983,
-  protocol : (protocol) ? protocol : 'http',
+  host : (host) ? host : 'devdiscovery.dlib.nyu.edu',
+  port : (port) ? port : '8983',
+  protocol : (protocol) ? protocol : 'https',
   path : (solrPath) ? solrPath : 'solr/rosie',
   rows : 100,
   start : 0,
