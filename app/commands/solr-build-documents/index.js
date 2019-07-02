@@ -33,31 +33,19 @@ const SolrBuildDocuments = class {
   action () {
     const { resolve, parse } = require('path');
     const _ = require('underscore');
-    const WordExtractor = require('word-extractor');
     const { appDir, appUrl, get, exists, exit, log, mkdir, read, write } = require('hephaestus');
-
     try {
-
       const datasource = resolve(appDir(), 'app/localsource/subjects.json');
-
       if (exists(datasource)) {
-
         const source = read.json(datasource);
-
         const documentsPath = resolve(appDir(), 'app/localsource/solr-index-documents');
-
         const transcriptsDir = resolve(appDir(), 'app/pages/interview/transcripts');
-
         if (exists(documentsPath)) {
           mkdir(documentsPath);
         }
-
         _.each(_.sortBy(source.response.docs, 'sort'), async (document) => {
-
           const id = `${document.name.replace(/ /g, '-').toLowerCase()}`;
-
           let content = document.bio;
-
           await document.interviews.map( async (interview) => {
             // transcript where converted to TXT using textutil
             // See: $ textutil -convert txt *.doc*
