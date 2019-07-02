@@ -52,6 +52,7 @@ var app = new Vue({
         port: vm.port,
         protocol: vm.protocol,
         path: vm.path,
+        secure: true
       });
       var query = client.createQuery()
                         .q(vm.q)
