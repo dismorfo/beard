@@ -2,16 +2,22 @@
 
 const { get } = require('hephaestus');
 const host = get('BEARD_DISCOVERY_HOST');
-const port = get('BEARD_DISCOVERY_PORT');
+let port = get('BEARD_DISCOVERY_PORT');
 const protocol = get('BEARD_DISCOVERY_PROTOCOL');
 const solrPath = get('BEARD_DISCOVERY_PATH');
+
+port = (port) ? port : '8983';
+
+if (protocol === 'https') {
+  port = '';
+}
 
 module.exports = {
   id : 'search',
   title : 'Search results',
   route : '/search/index.html',
   host : (host) ? host : 'devdiscovery.dlib.nyu.edu',
-  port : (port) ? port : '8983',
+  port : port,
   protocol : (protocol) ? protocol : 'https',
   path : (solrPath) ? solrPath : 'solr/rosie',
   rows : 100,
