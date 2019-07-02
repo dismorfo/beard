@@ -55,13 +55,13 @@ const SolrBuildDocuments = class {
 
           let data = {
             id: id,
+            label: document.name,
             identifier: id,
             hash: get('shortName'),
             url: `${appUrl()}/interviews/${id}/index.html`,
             name: document.name,
             description: document.bio,
             sort: document.sort,
-            interviews: '',
             handle: document.handle,
             content: content
           };
