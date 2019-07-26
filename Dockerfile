@@ -11,11 +11,9 @@ COPY package*.json ./
 # Bundle app source
 COPY . .
 
-RUN npm install && npm rebuild node-sass
+RUN npm install && npm cache clean --force && npm rebuild node-sass
 
 ADD . .
-
-EXPOSE 8080
 
 CMD [ "npm", "start" ]
 
