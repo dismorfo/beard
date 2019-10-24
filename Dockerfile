@@ -1,6 +1,11 @@
-FROM node:8
+# Usage example
+#
+# 1) Build container image
+# $ docker build -t dismorfo/beard:latest .
+# 2) Run container
+# $ docker run -t --name=dismorfo-beard -p 8080:80 dismorfo/beard:latest
 
-RUN apt-get update -qq && apt-get install -y build-essential
+FROM node:8
 
 # Set the working directory to /app
 WORKDIR /app
