@@ -1,4 +1,4 @@
-var app = new Vue({
+new Vue({
   el: '#app',
   data: function () {
     return {
@@ -7,24 +7,15 @@ var app = new Vue({
       documents: [],
       rows: 10,
       start: 0,
-      host: '127.0.0.1',
-      port: '',
-      protocol: 'https',
-      path: 'solr/rosie',
-      secure: false
+      discovery: '',
+      isBusy: true,
     };
   },
   mounted: function () {
     this.rows = this.$el.getAttribute('data-rows');
     this.start = this.$el.getAttribute('data-start');
-    this.host = this.$el.getAttribute('data-host');
-    this.port = this.$el.getAttribute('data-port');
-    this.protocol = this.$el.getAttribute('data-protocol');
-    this.path = this.$el.getAttribute('data-path');
+    this.discovery = this.$el.getAttribute('data-discovery');
     this.q = this.getParameterByName('q');
-    if (this.protocol === 'https') {
-      this.secure = true;
-    }
     if (this.q) {
       this.fetchDocuments();
     }
@@ -41,42 +32,37 @@ var app = new Vue({
     getParameterByName: function (name, url) {
       if (!url) url = window.location.href;
       name = name.replace(/[\[\]]/g, '\\$&');
-      var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+      let regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
           results = regex.exec(url);
       if (!results) return null;
       if (!results[2]) return '';
       return decodeURIComponent(results[2].replace(/\+/g, ' '));
     },
     fetchDocuments: function () {
-      var vm = this;
-      var client = new createClient({
-        host: vm.host,
-        port: vm.port,
-        protocol: vm.protocol,
-        path: vm.path,
-        secure: vm.secure
-      });
-
-      var query = client.createQuery()
-                        .q(vm.q)
-                        .start(vm.start)
-                        .rows(vm.rows);
-      try {
-        client.search(query, function (response) {
-          var documents = response.data.response.docs;
+      const vm = this;
+        fetch(`${this.discovery}/${this.q}`)
+        .then(response => {
+          if (response.ok) {
+            return response.json();
+          }
+          throw new Error('Network response was not ok.');
+        })
+        .then((data) => {
+          const documents = data.response.docs;
           if (documents.length > 0) {
-            documents.map(function (document) {
+            documents.map(document => {
               vm.documents.push(document);
             });
-          }
-          else {
+          } else {
             vm.label = `Sorry, no results for "<em class="q">${vm.q}</em>"`;
           }
+        })
+        .finally(() => {
+          this.isBusy = false;
+        })
+        .catch((error) => {
+          console.log('Looks like there was a problem: \n', error);
         });
-      }
-      catch (error) {
-        console.error(error);
-      }
     }
   }
 });
