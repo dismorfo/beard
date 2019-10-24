@@ -22,8 +22,13 @@
     "node": ">= 8.0"
   },
   "scripts": {
+<<<<<<< HEAD
     "build": "./node_modules/hephaestus-cli/bin/hephaestus-cli forge",
     "developmnet": "BEARD_PROVIDER=http://sites.dlib.nyu.edu/media BEARD_DISCOVERY=https://devdiscovery.dlib.nyu.edu/solr/rosie/select BEARD_DISCOVERY_HOST=devdiscovery.dlib.nyu.edu BEARD_DISCOVERY_PROTOCOL=https BEARD_DISCOVERY_PATH=solr/rosie BEARD_APP_URL=http://devweb1.dlib.nyu.edu/beard ./node_modules/hephaestus-cli/bin/hephaestus-cli forge",
+=======
+    "build": "./node_modules/hephaestus-cli/index.js forge",
+    "developmnet": "BEARD_PROVIDER=http://sites.dlib.nyu.edu/media BEARD_DISCOVERY=https://devdiscovery.dlib.nyu.edu/solr/rosie/select BEARD_DISCOVERY_HOST=devdiscovery.dlib.nyu.edu BEARD_DISCOVERY_PROTOCOL=https BEARD_DISCOVERY_PATH=solr/rosie BEARD_APP_URL=/beard ./node_modules/hephaestus-cli/bin/hephaestus-cli forge",
+>>>>>>> 1030f5231108025d8c1e3792e8e29f543e7a0ee6
     "start": "./node_modules/hephaestus-cli/bin/hephaestus-cli fg && ./node_modules/http-server/bin/http-server build",
     "test": "./node_modules/hephaestus-cli/bin/hephaestus-cli forge && ./node_modules/nightwatch/bin/nightwatch --env default",
     "test-server": "./node_modules/hephaestus-cli/bin/hephaestus-cli forge && ./node_modules/http-server/bin/http-server build"

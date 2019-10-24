@@ -1,5 +1,3 @@
-'use strict';
-
 const { get } = require('hephaestus');
 const host = get('BEARD_DISCOVERY_HOST');
 let port = get('BEARD_DISCOVERY_PORT');

@@ -31,21 +31,30 @@ const SolrIndexdDocuments = class {
     try {
       const discoveryUrl = new URL(get('BEARD_DISCOVERY'));
       const discoveryHost = discoveryUrl.hostname;
-      const discoveryPort = discoveryUrl.port;
+      let discoveryPort = discoveryUrl.port;
       const discoveryProtocol = discoveryUrl.protocol.replace(':', '');
-      const discoveryCore = null;
-      const discoveryRootPath = null;
+      const discoveryCore = 'beard';
+      const discoveryRootPath = 'solr';
       const documentsPathEnv = get('BEARD_SOLR_DOCUMENTS_PATH');
       const documentsPath = (documentsPathEnv) ? documentsPathEnv : join(appDir(), 'app/localsource/solr-index-documents');
+      if (discoveryProtocol === 'https') {
+        discoveryPort = '443';
+      }
+      else {
+        discoveryPort = '8983';
+      }
       if (exists(documentsPath)) {
         const documents = readdirSync(documentsPath);
+
         const client = new SolrNode({
           host: (discoveryHost) ? discoveryHost : 'solr.local',
-          port: (discoveryPort) ? discoveryPort : 8983,
-          core: (discoveryCore) ? discoveryCore : 'rosie',
-          rootPath: (discoveryRootPath) ? discoveryRootPath : 'solr',
-          protocol: (discoveryProtocol) ? discoveryProtocol : 'http'
+          port: '8983',
+          core: (discoveryCore) ? discoveryCore : 'solr/beard',
+          protocol: (discoveryProtocol) ? discoveryProtocol : 'http',
         });
+
+        console.log(client)
+
         _.each(documents, document => {
           const doc = read.json(join(documentsPath, document));
           if (doc) {
@@ -63,7 +72,8 @@ const SolrIndexdDocuments = class {
                 log(error, 'error');
               }
               else {
-                log('Response:', result.responseHeader, 'error');
+                //log('Response:', result.responseHeader, 'error');
+                console.log(result);
               }
             });
           }

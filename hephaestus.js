@@ -1,5 +1,3 @@
-'use strict';
-
 const { get } = require('hephaestus');
 const appUrl = get('BEARD_APP_URL');
 

@@ -1,5 +1,3 @@
-'use strict';
-
 const {
   appBuildDir,
   appDir,
@@ -10,9 +8,11 @@ const {
   read,
   readdirSync
 } = require('hephaestus');
+
 const {
   resolve
 } = require('path');
+
 const _ = require('underscore');
 
 class Interview extends Page {
@@ -44,7 +44,6 @@ class Interview extends Page {
           }
         };
         _.each(document.interviews, interview => {
-          // interview.handle
           const identifier = interview.identifier.toLowerCase().replace(/_/g, '-');
           content.main.interviews.push({
             transcript: interview.transcript.uri,
