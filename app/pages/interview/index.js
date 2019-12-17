@@ -1,6 +1,7 @@
 const {
   appBuildDir,
   appDir,
+  appUrl,
   copy,
   exists,
   get,
@@ -10,14 +11,15 @@ const {
 } = require('hephaestus');
 
 const {
-  resolve
+  resolve, 
+  basename,
+  extname
 } = require('path');
 
 const _ = require('underscore');
 
 class Interview extends Page {
   init() {
-    const appUrl = get('appUrl');
     const provider = get('BEARD_PROVIDER');
     const subjectsPath = resolve(appDir(), 'app/localsource/subjects');
     copy(
@@ -45,10 +47,11 @@ class Interview extends Page {
         };
         _.each(document.interviews, interview => {
           const identifier = interview.identifier.toLowerCase().replace(/_/g, '-');
+          const transcript = `${appUrl()}/transcripts/${basename(interview.transcript.filename, extname(interview.transcript.filename))}.txt`;
           content.main.interviews.push({
-            transcript: interview.transcript.uri,
+            transcript: transcript,
             identifier: identifier,
-            url: `${appUrl}/${route}/${identifier}/index.html`,
+            url: `${appUrl()}/${route}/${identifier}/index.html`,
             title: interview.title,
             date: interview.date,
             embed: `${provider}/playlists/${interview.noid}/mode/embed`,

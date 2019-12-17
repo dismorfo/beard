@@ -29,7 +29,8 @@ const GetTranscript = class {
         agartha.mkdir(transcriptsDir)
         agartha._.each(source.response.docs, (document) => {
           agartha._.each(document.interviews, (interview) => {
-            agartha.request(interview.transcript.uri).pipe(agartha.fs.createWriteStream(agartha.path.join(transcriptsDir, agartha.path.basename(interview.transcript.uri))))
+            console.log(interview)
+            // agartha.request(interview.transcript.uri).pipe(agartha.fs.createWriteStream(agartha.path.join(transcriptsDir, agartha.path.basename(interview.transcript.uri))))
           })
         })  
       }

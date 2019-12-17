@@ -1,5 +1,6 @@
 const {
   appDir,
+  appUrl,
   exists,
   get,
   Page,
@@ -15,7 +16,6 @@ const {
 class Interview extends Page {
   init() {
     const datasource = resolve(appDir(), 'app/localsource/subjects.json');
-    const appUrl = get('appUrl');
     let content = {
       main: {
         title: 'Browse all interviews',
@@ -26,7 +26,7 @@ class Interview extends Page {
       const source = read.json(datasource);
       _.each(_.sortBy(source.response.docs, 'sort'), document => {
         content.main.interviewee.push({
-          url: `${appUrl}/interviews/${document.name.replace(/ /g, '-').toLowerCase()}/index.html`,
+          url: `${appUrl()}/interviews/${document.name.replace(/ /g, '-').toLowerCase()}/index.html`,
           name: document.name,
           description: document.bio
         });
