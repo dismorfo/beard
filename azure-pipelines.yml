@@ -19,3 +19,9 @@ steps:
     npm install
     npm run aws
   displayName: 'npm install and build'
+
+# Publish Artifacts
+- task: PublishBuildArtifacts@1
+  inputs:
+    artifactName: build
+    pathtoPublish: 'build'
