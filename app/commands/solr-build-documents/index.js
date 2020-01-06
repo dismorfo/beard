@@ -46,6 +46,7 @@ const SolrBuildDocuments = class {
         _.each(_.sortBy(source.response.docs, 'sort'), async (document) => {
           const id = `${document.name.replace(/ /g, '-').toLowerCase()}`;
           let content = document.bio;
+          
           await document.interviews.map( async (interview) => {
             // transcript where converted to TXT using textutil
             // See: $ textutil -convert txt *.doc*
@@ -54,14 +55,12 @@ const SolrBuildDocuments = class {
           });
 
           let data = {
-            id: id,
+            DocumentId: id,
             label: document.name,
-            identifier: id,
-            hash: get('shortName'),
-            url: `${appUrl()}/interviews/${id}/index.html`,
+            entityPath: `${appUrl()}/interviews/${id}/index.html`,
             name: document.name,
-            description: document.bio,
-            sort: document.sort,
+            body: document.bio,
+            sort: document.sort.toLowerCase(),
             handle: document.handle,
             content: content
           };
