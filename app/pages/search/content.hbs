@@ -4,8 +4,8 @@
     <h1 class="title">{{title}} for "<em class="q" v-html="q"></em>"</h1>
     <ol>
       <li v-for="document in documents" class="result">
-        <h4 class="title"><a v-bind:href="document.url" v-html="document.label"></a></h4>
-        <div class="content" v-html="document.ts_bio"></div>
+        <h4 class="title"><a v-bind:href="document.entityPath" v-html="document.label"></a></h4>
+        <div class="content" v-html="document.body"></div>
       </li>
     </ol>
   </div>

@@ -40,15 +40,26 @@ new Vue({
     },
     fetchDocuments: function () {
       const vm = this;
-        fetch(`${this.discovery}/select?q=${this.q}&rows=${this.rows}&start=${this.start}&wt=json`)
-        .then(response => {
+
+      const discovery = 'https://dlts-discovery.search.windows.net/indexes/beard-basic-search/docs'
+
+        fetch(
+          `${discovery}?search=${this.q}&api-version=2019-05-06&$count=true`,
+          {
+            method: 'GET',
+            headers: {
+              'Content-Type': 'application/json',
+              'api-key': '6034DAD74C87480901F555C8616499DF'
+            },            
+          }
+        ).then(response => {
           if (response.ok) {
             return response.json();
           }
           throw new Error('Network response was not ok.');
         })
         .then((data) => {
-          const documents = data.response.docs;
+          const documents = data.value;
           if (documents.length > 0) {
             documents.map(document => {
               vm.documents.push(document);
