@@ -44,7 +44,7 @@ new Vue({
       const discovery = 'https://dlts-discovery.search.windows.net/indexes/beard-basic-search/docs'
 
         fetch(
-          `${discovery}?search=${this.q}&api-version=2019-05-06&$count=true`,
+          `${discovery}?search="${this.q}"&api-version=2019-05-06&$count=true`,
           {
             method: 'GET',
             headers: {
