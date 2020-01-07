@@ -1,9 +1,9 @@
 'use strict';
 
-const SolrBuildDocuments = class {
+const DiscoveryBuildDocuments = class {
 
   get command () {
-    return 'solr-build-documents';
+    return 'discovery-build-documents';
   }
 
   get alias () {
@@ -11,7 +11,7 @@ const SolrBuildDocuments = class {
   }
 
   get description () {
-    return 'Build Solr documents';
+    return 'Build search documents';
   }
 
   get options () {
@@ -43,7 +43,7 @@ const SolrBuildDocuments = class {
       const datasource = resolve(appDir(), 'app/localsource/subjects.json');
       if (exists(datasource)) {
         const source = read.json(datasource);
-        const documentsPath = resolve(appDir(), 'app/localsource/solr-index-documents');
+        const documentsPath = resolve(appDir(), 'app/localsource/discovery-index-documents');
         const transcriptsDir = resolve(appDir(), 'app/pages/interview/transcripts');
         if (exists(documentsPath)) {
           mkdir(documentsPath);
@@ -63,7 +63,7 @@ const SolrBuildDocuments = class {
           let data = {
             value: [
               {
-                '@search.action': "upload",
+                '@search.action': 'upload',
                 DocumentId: id,
                 label: document.name,
                 entityPath: `${appUrl()}/interviews/${id}/index.html`,
@@ -91,7 +91,7 @@ const SolrBuildDocuments = class {
           await write(`${documentsPath}/${id}.json`, JSON.stringify(data));
 
           if (i === 26) {
-            await write(`${documentsPath}/all.json`, JSON.stringify(__documents));
+            await write(`${documentsPath}/discovery-index-documents.json`, JSON.stringify(__documents));
           }
 
         });
@@ -104,4 +104,4 @@ const SolrBuildDocuments = class {
   }
 };
 
-module.exports = exports = SolrBuildDocuments;
+module.exports = exports = DiscoveryBuildDocuments;

@@ -5,15 +5,15 @@ new Vue({
       q: null,
       label: 'Searching term <span class="loading"><span>.</span><span>.</span><span>.</span></span>',
       documents: [],
-      rows: 10,
-      start: 0,
+      apiversion: '2019-05-06',
       discovery: '',
       isBusy: true,
+      apikey: '',
     };
   },
   mounted: function () {
-    this.rows = this.$el.getAttribute('data-rows');
-    this.start = this.$el.getAttribute('data-start');
+    this.apiversion = this.$el.getAttribute('data-apiversion');
+    this.apikey = this.$el.getAttribute('data-apiversion');
     this.discovery = this.$el.getAttribute('data-discovery');
     this.q = this.getParameterByName('q');
     if (this.q) {
@@ -40,16 +40,13 @@ new Vue({
     },
     fetchDocuments: function () {
       const vm = this;
-
-      const discovery = 'https://dlts-discovery.search.windows.net/indexes/beard-basic-search/docs'
-
-        fetch(
-          `${discovery}?search="${this.q}"&api-version=2019-05-06&$count=true`,
+      fetch(
+          `${this.discovery}?search="${this.q}"&api-version=${this.apiversion}&$count=true`,
           {
             method: 'GET',
             headers: {
               'Content-Type': 'application/json',
-              'api-key': '6034DAD74C87480901F555C8616499DF'
+              'api-key': this.apikey
             },            
           }
         ).then(response => {

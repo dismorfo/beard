@@ -21,5 +21,5 @@ RUN npm install && npm cache clean --force && npm rebuild node-sass
 
 ADD . .
 
-CMD [ "npm", "start" ]
+CMD [ "npm", "build" ]
 

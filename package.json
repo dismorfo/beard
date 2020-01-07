@@ -23,11 +23,10 @@
     "node": ">= 8.0"
   },
   "scripts": {
-    "build": "./node_modules/hephaestus-cli/bin/hephaestus-cli fg",
-    "developmnet": "BEARD_PROVIDER=http://sites.dlib.nyu.edu/media BEARD_DISCOVERY=https://devdiscovery.dlib.nyu.edu/solr/rosie/select BEARD_DISCOVERY_HOST=devdiscovery.dlib.nyu.edu BEARD_DISCOVERY_PROTOCOL=https BEARD_DISCOVERY_PATH=solr/beard BEARD_APP_URL=/beard ./node_modules/hephaestus-cli/bin/hephaestus-cli forge",
-    "test": "./node_modules/hephaestus-cli/bin/hephaestus-cli forge && ./node_modules/nightwatch/bin/nightwatch --env default",
-    "aws": "BEARD_PROVIDER=https://sites.dlib.nyu.edu/media BEARD_DISCOVERY=https://stagediscovery.dlib.nyu.edu/solr/beard/select BEARD_DISCOVERY_HOST=stagediscovery.dlib.nyu.edu BEARD_DISCOVERY_PROTOCOL=https BEARD_DISCOVERY_PATH=solr/beard ./node_modules/hephaestus-cli/bin/hephaestus-cli forge",
-    "azure": "BEARD_PROVIDER=https://sites.dlib.nyu.edu/media BEARD_DISCOVERY=https://stagediscovery.dlib.nyu.edu/solr/beard/select BEARD_DISCOVERY_HOST=stagediscovery.dlib.nyu.edu BEARD_DISCOVERY_PROTOCOL=https BEARD_DISCOVERY_PATH=solr/beard ./node_modules/hephaestus-cli/bin/hephaestus-cli forge"    
+    "forge": "./node_modules/hephaestus-cli/bin/hephaestus-cli fg",
+    "build": "BEARD_PROVIDER=https://sites.dlib.nyu.edu/media DISCOVERY_VERSION=2019-05-06 DISCOVERY_APIKEY=6034DAD74C87480901F555C8616499DF DISCOVERY_ENDPOINT=https://dlts-discovery.search.windows.net/indexes/beard-basic-search/docs ./node_modules/hephaestus-cli/bin/hephaestus-cli forge",
+    "aws": "BEARD_PROVIDER=https://sites.dlib.nyu.edu/media DISCOVERY_VERSION=2019-05-06 DISCOVERY_APIKEY=6034DAD74C87480901F555C8616499DF DISCOVERY_ENDPOINT=https://dlts-discovery.search.windows.net/indexes/beard-basic-search/docs ./node_modules/hephaestus-cli/bin/hephaestus-cli forge",
+    "test": "./node_modules/hephaestus-cli/bin/hephaestus-cli forge && ./node_modules/nightwatch/bin/nightwatch --env default"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.3.1",
