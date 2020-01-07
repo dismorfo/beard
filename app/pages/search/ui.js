@@ -13,7 +13,7 @@ new Vue({
   },
   mounted: function () {
     this.apiversion = this.$el.getAttribute('data-apiversion');
-    this.apikey = this.$el.getAttribute('data-apiversion');
+    this.apikey = this.$el.getAttribute('data-apikey');
     this.discovery = this.$el.getAttribute('data-discovery');
     this.q = this.getParameterByName('q');
     if (this.q) {
@@ -40,6 +40,12 @@ new Vue({
     },
     fetchDocuments: function () {
       const vm = this;
+
+      console.log(`Search query ${this.q}`);
+      console.log(`API Key ${this.apikey}`);
+      console.log(`API Version ${this.apiversion}`);
+      console.log(`Discovery ${this.discovery}`);
+
       fetch(
           `${this.discovery}?search="${this.q}"&api-version=${this.apiversion}&$count=true`,
           {
