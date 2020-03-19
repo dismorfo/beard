@@ -13,8 +13,8 @@ const {
 // apikey: get('DISCOVERY_APIKEY'),
 // apiversion: get('DISCOVERY_VERSION'),
 copy(
-  resolve(appDir(), 'app/pages/interview/transcripts'),
-  resolve(appBuildDir(), 'search-index-documents'), error => {
+  resolve(appDir(), 'app/localsource/discovery-index-documents'),
+  resolve(appBuildDir(), 'discovery-index-documents'), error => {
     if (error) {
       return console.error(error);
     }

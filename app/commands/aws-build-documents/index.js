@@ -66,38 +66,21 @@ const AwsBuildDocuments = class {
             // See: $ textutil -convert txt *.doc*
             const parseFilename = parse(interview.transcript.filename);
             content += read.text(`${transcriptsDir}/${parseFilename.name}.txt`);
-            // console.log(interview);
           });
-          
           let data = {
-            value: [
-              {
-                '@search.action': 'upload',
-                DocumentId: id,
-                label: document.name,
-                entityPath: `${appUrl()}/interviews/${id}/index.html`,
-                name: document.name,
-                body: document.bio,
-                sort: document.sort.toLowerCase(),
-                content: content
-              }
-            ]
+            type: 'add',
+            id: id,
+            fields: { 
+              identifier: id,
+              url: `${appUrl()}/interviews/${id}/index.html`,
+              label: document.name,
+              description: document.bio,
+              body: document.bio,
+              sort: document.sort.toLowerCase(),
+              content: content
+            }
           };
-          __documents.value.push({
-            '@search.action': "upload",
-            content: content,
-            description: document.bio,
-            identifier: id,
-            label: document.name,
-            url: `${appUrl()}/interviews/${id}/index.html`,
-            name: document.name,
-            sort: document.sort.toLowerCase(),
-            handle: document.handle,
-          });
           await write(`${documentsPath}/${id}.json`, JSON.stringify(data));
-          if (i === 26) {
-            await write(`${documentsPath}/discovery-index-documents.json`, JSON.stringify(__documents));
-          }
         });
       }
     } catch (error) {
