@@ -66,7 +66,9 @@ const AwsBuildDocuments = class {
             // See: $ textutil -convert txt *.doc*
             const parseFilename = parse(interview.transcript.filename);
             content += read.text(`${transcriptsDir}/${parseFilename.name}.txt`);
+            // console.log(interview);
           });
+          
           let data = {
             value: [
               {
@@ -77,7 +79,6 @@ const AwsBuildDocuments = class {
                 name: document.name,
                 body: document.bio,
                 sort: document.sort.toLowerCase(),
-                handle: document.handle,
                 content: content
               }
             ]
