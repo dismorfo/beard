@@ -1,10 +1,25 @@
 const { 
-  get
+  get,
+  copy,
+  appDir,
+  appBuildDir
 } = require('hephaestus');
+
+const {
+  resolve
+} = require('path');
 
 // Azure
 // apikey: get('DISCOVERY_APIKEY'),
 // apiversion: get('DISCOVERY_VERSION'),
+copy(
+  resolve(appDir(), 'app/pages/interview/transcripts'),
+  resolve(appBuildDir(), 'search-index-documents'), error => {
+    if (error) {
+      return console.error(error);
+    }
+  }
+);
 
 module.exports = {
   id: 'search',
