@@ -24,8 +24,8 @@
   },
   "scripts": {
     "forge": "./node_modules/hephaestus-cli/bin/hephaestus-cli fg",
-    "build": "BEARD_PROVIDER=https://sites.dlib.nyu.edu/media DISCOVERY_VERSION=2019-05-06 DISCOVERY_APIKEY=6034DAD74C87480901F555C8616499DF DISCOVERY_ENDPOINT=https://dlts-discovery.search.windows.net/indexes/beard-basic-search/docs ./node_modules/hephaestus-cli/bin/hephaestus-cli forge",
-    "aws": "BEARD_PROVIDER=https://sites.dlib.nyu.edu/media DISCOVERY_VERSION=2019-05-06 DISCOVERY_APIKEY=6034DAD74C87480901F555C8616499DF DISCOVERY_ENDPOINT=https://dlts-discovery.search.windows.net/indexes/beard-basic-search/docs ./node_modules/hephaestus-cli/bin/hephaestus-cli forge",
+    "azure": "CLOUD_PROVIDER=azure BEARD_PROVIDER=https://sites.dlib.nyu.edu/media DISCOVERY_VERSION=2019-05-06 DISCOVERY_APIKEY=6034DAD74C87480901F555C8616499DF DISCOVERY_ENDPOINT=https://dlts-discovery.search.windows.net/indexes/beard-basic-search/docs ./node_modules/hephaestus-cli/bin/hephaestus-cli forge",
+    "aws": "CLOUD_PROVIDER=aws BEARD_PROVIDER=https://sites.dlib.nyu.edu/media DISCOVERY_ENDPOINT=https://o7r5uwe6d7.execute-api.us-east-1.amazonaws.com/search ./node_modules/hephaestus-cli/bin/hephaestus-cli forge",
     "test": "./node_modules/hephaestus-cli/bin/hephaestus-cli forge && ./node_modules/nightwatch/bin/nightwatch --env default"
   },
   "devDependencies": {
