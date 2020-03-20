@@ -46,10 +46,7 @@ const AwsBuildDocuments = class {
       write
     } = require('hephaestus');
     try {
-      let __documents = {
-        value: []
-      };
-
+      let __documents = [];
       const datasource = resolve(appDir(), 'app/localsource/subjects.json');
       if (exists(datasource)) {
         const source = read.json(datasource);
@@ -80,7 +77,11 @@ const AwsBuildDocuments = class {
               content: content
             }
           };
-          await write(`${documentsPath}/${id}.json`, JSON.stringify(data));
+          __documents.push(data);
+          await write(`${documentsPath}/${id}.json`, JSON.stringify([data]));
+          if (i === 26) {
+            await write(`${documentsPath}/discovery-index-documents.json`, JSON.stringify(__documents));
+          }           
         });
       }
     } catch (error) {
