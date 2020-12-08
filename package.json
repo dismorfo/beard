@@ -34,7 +34,7 @@
     "chromedriver": "^2.46.0",
     "env2": "^2.2.2",
     "eslint": "^5.13.0",
-    "fast-csv": "^2.4.1",
+    "fast-csv": "^4.3.6",
     "http-server": "^0.11.1",
     "nightwatch": "^1.0.18",
     "prettier": "1.16.4",
